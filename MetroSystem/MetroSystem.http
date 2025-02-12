@@ -1,0 +1,6 @@
+@MetroSystem_HostAddress = http://localhost:5053
+
+GET {{MetroSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
