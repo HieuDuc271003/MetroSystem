@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\myself\\BE\\MetroSystem\\",
+  "WorkspaceRootPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\properties\\servicedependencies\\metrosystemhcmcity - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\properties\\servicedependencies\\metrosystemhcmcity - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\servicedependencies\\metrosystemhcmcity - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\properties\\publishprofiles\\metrosystemhcmcity - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\properties\\publishprofiles\\metrosystemhcmcity - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\publishprofiles\\metrosystemhcmcity - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,47 +46,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MetroSystem\\appsettings.Development.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.Development.json",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\appsettings.Development.json",
               "RelativeToolTip": "MetroSystem\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -96,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MetroSystem\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\launchSettings.json",
               "RelativeToolTip": "MetroSystem\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -108,9 +80,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "profile.arm.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
               "RelativeDocumentMoniker": "MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
               "RelativeToolTip": "MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -120,9 +92,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "metrosystemhcmcity - Web Deploy.pubxml",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
               "RelativeDocumentMoniker": "MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
               "RelativeToolTip": "MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -132,9 +104,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MetroSystem\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "MetroSystem\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,9 +116,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.json",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
               "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.json",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
               "RelativeToolTip": "MetroSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -156,9 +128,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "MetroSystem\\WeatherForecast.cs",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\WeatherForecast.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\WeatherForecast.cs",
               "RelativeToolTip": "MetroSystem\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -168,9 +140,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Program.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Program.cs",
               "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Program.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Program.cs",
               "RelativeToolTip": "MetroSystem\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,23 +153,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MetroSystem.http",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\MetroSystem.http",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\MetroSystem.http",
               "RelativeDocumentMoniker": "MetroSystem\\MetroSystem.http",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\MetroSystem.http",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\MetroSystem.http",
               "RelativeToolTip": "MetroSystem\\MetroSystem.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2025-02-11T11:04:28.753Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1161,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

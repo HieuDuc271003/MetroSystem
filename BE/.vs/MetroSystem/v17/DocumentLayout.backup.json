@@ -114,8 +114,7 @@
               "RelativeToolTip": "MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-11T11:16:52.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T11:16:52.227Z"
             },
             {
               "$type": "Document",
@@ -139,8 +138,7 @@
               "RelativeToolTip": "MetroSystem\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T11:16:42.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T11:16:42.835Z"
             },
             {
               "$type": "Document",
@@ -152,8 +150,7 @@
               "RelativeToolTip": "MetroSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-11T11:16:40.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T11:16:40.207Z"
             },
             {
               "$type": "Document",
@@ -175,7 +172,7 @@
               "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
               "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Program.cs",
               "RelativeToolTip": "MetroSystem\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T11:04:34.715Z",
               "EditorCaption": ""
@@ -190,8 +187,7 @@
               "RelativeToolTip": "MetroSystem\\MetroSystem.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-11T11:04:28.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T11:04:28.753Z"
             }
           ]
         },
