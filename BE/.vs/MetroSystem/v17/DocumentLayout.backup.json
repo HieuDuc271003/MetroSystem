@@ -1,42 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\myself\\BE\\MetroSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\properties\\servicedependencies\\metrosystemhcmcity - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem.data\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem.data\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem.service\\metrosystem.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\metrosystem.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\metrosystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\properties\\servicedependencies\\metrosystemhcmcity - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\servicedependencies\\metrosystemhcmcity - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\properties\\publishprofiles\\metrosystemhcmcity - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\properties\\publishprofiles\\metrosystemhcmcity - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\publishprofiles\\metrosystemhcmcity - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|c:\\users\\acer\\desktop\\metrosystem\\metrosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\be\\metrosystem\\metrosystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,15 +86,63 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T08:27:37.54Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MetroSystem.Service.csproj",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\MetroSystem.Service.csproj",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj",
+              "RelativeToolTip": "MetroSystem.Service\\MetroSystem.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-15T07:30:06.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\DependencyInjection.cs",
+              "RelativeToolTip": "MetroSystem.Service\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T07:26:34.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\DependencyInjection.cs",
+              "RelativeToolTip": "MetroSystem.Data\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T07:18:17.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MetroSystem\\appsettings.Development.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\appsettings.Development.json",
               "RelativeToolTip": "MetroSystem\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -94,11 +150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MetroSystem\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Properties\\launchSettings.json",
               "RelativeToolTip": "MetroSystem\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -106,23 +162,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "profile.arm.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
               "RelativeDocumentMoniker": "MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
               "RelativeToolTip": "MetroSystem\\Properties\\ServiceDependencies\\metrosystemhcmcity - Web Deploy\\profile.arm.json",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-11T11:16:52.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "metrosystemhcmcity - Web Deploy.pubxml",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
               "RelativeDocumentMoniker": "MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
               "RelativeToolTip": "MetroSystem\\Properties\\PublishProfiles\\metrosystemhcmcity - Web Deploy.pubxml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
@@ -130,64 +186,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "MetroSystem\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T11:16:42.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\appsettings.json",
-              "RelativeToolTip": "MetroSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-11T11:16:40.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\WeatherForecast.cs",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\WeatherForecast.cs",
-              "RelativeToolTip": "MetroSystem\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T11:16:34.979Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Program.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\Program.cs",
-              "RelativeToolTip": "MetroSystem\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T11:04:34.715Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\appsettings.json",
+              "RelativeToolTip": "MetroSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T11:16:40.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Program.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\Program.cs",
+              "RelativeToolTip": "MetroSystem\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T11:04:34.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MetroSystem.http",
-              "DocumentMoniker": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\MetroSystem.http",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\MetroSystem.http",
               "RelativeDocumentMoniker": "MetroSystem\\MetroSystem.http",
-              "ToolTip": "D:\\myself\\BE\\MetroSystem\\MetroSystem\\MetroSystem.http",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\MetroSystem.http",
               "RelativeToolTip": "MetroSystem\\MetroSystem.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2025-02-11T11:04:28.753Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },

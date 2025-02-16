@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.deps.json
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.dll
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.pdb
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Data.dll
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Data.pdb
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.AssemblyInfo.cs
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSys.BD636C29.Up2Date
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.dll
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\refint\MetroSystem.Service.dll
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.pdb
+C:\Users\ACER\Desktop\MetroSystem\MetroSystem.Service\obj\Debug\net8.0\ref\MetroSystem.Service.dll
