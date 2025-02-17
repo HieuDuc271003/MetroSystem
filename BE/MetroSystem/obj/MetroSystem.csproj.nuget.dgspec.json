@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\MetroSystem.csproj": {}
+    "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem\\MetroSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {
+    "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
+        "projectUniqueName": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
         "projectName": "MetroSystem.Data",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
+        "projectPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\obj\\",
+        "outputPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj": {
+    "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj",
+        "projectUniqueName": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj",
         "projectName": "MetroSystem.Service",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj",
+        "projectPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\obj\\",
+        "outputPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj"
+              "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {
+                "projectPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj"
               }
             }
           }
@@ -151,6 +151,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -176,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\MetroSystem.csproj": {
+    "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem\\MetroSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\MetroSystem.csproj",
+        "projectUniqueName": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem\\MetroSystem.csproj",
         "projectName": "MetroSystem",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\MetroSystem.csproj",
+        "projectPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem\\MetroSystem.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem\\obj\\",
+        "outputPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -205,8 +209,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj"
+              "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj": {
+                "projectPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Service\\MetroSystem.Service.csproj"
               }
             }
           }
@@ -227,6 +231,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

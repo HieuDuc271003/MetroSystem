@@ -1,3 +1,7 @@
+using MetroSystem.Data.Interface;
+using MetroSystem.Data.Repositories;
+using MetroSystem.Service.Interface;
+using MetroSystem.Service.Service;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MetroSystem.Data
@@ -6,6 +10,7 @@ namespace MetroSystem.Data
     {
         public static IServiceCollection AddServices(this IServiceCollection service)
         {
+            service.AddScoped<IAuthenticationService, AuthenticationService>();
             return service;
         }
     }

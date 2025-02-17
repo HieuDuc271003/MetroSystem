@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {}
+    "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {
+    "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
+        "projectUniqueName": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
         "projectName": "MetroSystem.Data",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
+        "projectPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\MetroSystem.Data.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\MetroSystem\\MetroSystem.Data\\obj\\",
+        "outputPath": "D:\\myself\\BE\\SWD\\MetroSystem\\MetroSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
