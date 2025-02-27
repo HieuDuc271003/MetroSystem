@@ -1,0 +1,11 @@
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\MetroSystem.exe
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\MetroSystem.dll
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\MetroSystem.deps.json
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\MetroSystem.runtimeconfig.json
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\MetroSystem.pdb
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\myself\BE\MetroSystem\MetroSystem\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

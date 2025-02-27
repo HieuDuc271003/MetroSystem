@@ -1,0 +1,408 @@
+USE [master]
+GO
+/****** Object:  Database [MetroSystem]    Script Date: 2/23/2025 2:47:04 PM ******/
+CREATE DATABASE [MetroSystem]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'MetroSystem', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.QUANGZY\MSSQL\DATA\MetroSystem.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'MetroSystem_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.QUANGZY\MSSQL\DATA\MetroSystem_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [MetroSystem] SET COMPATIBILITY_LEVEL = 160
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [MetroSystem].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [MetroSystem] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [MetroSystem] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [MetroSystem] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [MetroSystem] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [MetroSystem] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [MetroSystem] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [MetroSystem] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [MetroSystem] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [MetroSystem] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [MetroSystem] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [MetroSystem] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [MetroSystem] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [MetroSystem] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [MetroSystem] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [MetroSystem] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [MetroSystem] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [MetroSystem] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [MetroSystem] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [MetroSystem] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [MetroSystem] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [MetroSystem] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [MetroSystem] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [MetroSystem] SET RECOVERY FULL 
+GO
+ALTER DATABASE [MetroSystem] SET  MULTI_USER 
+GO
+ALTER DATABASE [MetroSystem] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [MetroSystem] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [MetroSystem] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [MetroSystem] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [MetroSystem] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [MetroSystem] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'MetroSystem', N'ON'
+GO
+ALTER DATABASE [MetroSystem] SET QUERY_STORE = ON
+GO
+ALTER DATABASE [MetroSystem] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
+USE [MetroSystem]
+GO
+/****** Object:  Table [dbo].[Bookmark]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Bookmark](
+	[BookmarkID] [nvarchar](50) NOT NULL,
+	[UserID] [nvarchar](50) NOT NULL,
+	[LineID] [nvarchar](50) NULL,
+	[StationID] [nvarchar](50) NULL,
+	[Status] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[BookmarkID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[BusLine]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BusLine](
+	[BusLineID] [nvarchar](50) NOT NULL,
+	[BusLineName] [nvarchar](100) NOT NULL,
+	[Route] [nvarchar](255) NOT NULL,
+	[Status] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[BusLineID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[BusSchedule]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BusSchedule](
+	[ScheduleID] [nvarchar](50) NOT NULL,
+	[BusLineID] [nvarchar](50) NOT NULL,
+	[BusStationID] [nvarchar](50) NOT NULL,
+	[ArrivalTime] [time](7) NOT NULL,
+	[DepartureTime] [time](7) NOT NULL,
+	[DayType] [nvarchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ScheduleID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[BusStation]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BusStation](
+	[BusStationID] [nvarchar](50) NOT NULL,
+	[BusStationName] [nvarchar](100) NOT NULL,
+	[Location] [nvarchar](255) NULL,
+	[Status] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[BusStationID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[BusStation_MetroStation]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[BusStation_MetroStation](
+	[ID] [nvarchar](50) NOT NULL,
+	[BusStationID] [nvarchar](50) NOT NULL,
+	[MetroStationID] [nvarchar](50) NOT NULL,
+	[Distance] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Feedback]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Feedback](
+	[FeedbackID] [nvarchar](50) NOT NULL,
+	[UserID] [nvarchar](50) NOT NULL,
+	[LineID] [nvarchar](50) NULL,
+	[Comment] [nvarchar](1000) NULL,
+	[Rating] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[FeedbackID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[History]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[History](
+	[HistoryID] [nvarchar](50) NOT NULL,
+	[UserID] [nvarchar](50) NOT NULL,
+	[Timestamp] [datetime] NULL,
+	[Message] [nvarchar](1000) NULL,
+	[RecommendID] [nvarchar](50) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[HistoryID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Log]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Log](
+	[LogID] [nvarchar](50) NOT NULL,
+	[UserID] [nvarchar](50) NOT NULL,
+	[ScheduleID] [nvarchar](50) NOT NULL,
+	[Location] [nvarchar](255) NULL,
+	[Date] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LogID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MetroLine]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MetroLine](
+	[LineID] [nvarchar](50) NOT NULL,
+	[LineName] [nvarchar](100) NOT NULL,
+	[Distance] [float] NOT NULL,
+	[Status] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LineID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MetroStation]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MetroStation](
+	[StationID] [nvarchar](50) NOT NULL,
+	[StationName] [nvarchar](100) NOT NULL,
+	[LineID] [nvarchar](50) NOT NULL,
+	[Location] [nvarchar](255) NULL,
+	[Status] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[StationID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Role]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Role](
+	[RoleID] [nvarchar](50) NOT NULL,
+	[RoleName] [nvarchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[RoleID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Schedule]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Schedule](
+	[ScheduleID] [nvarchar](50) NOT NULL,
+	[LineID] [nvarchar](50) NOT NULL,
+	[StationID] [nvarchar](50) NOT NULL,
+	[ArrivalTime] [time](7) NOT NULL,
+	[DepartureTime] [time](7) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ScheduleID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[User]    Script Date: 2/23/2025 2:47:04 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[User](
+	[UserID] [nvarchar](50) NOT NULL,
+	[Name] [nvarchar](100) NOT NULL,
+	[Email] [nvarchar](255) NOT NULL,
+	[Password] [nvarchar](max) NULL,
+	[PhoneNumber] [nvarchar](20) NULL,
+	[Status] [bit] NULL,
+	[RoleID] [nvarchar](50) NOT NULL,
+	[FirebaseUid] [varchar](max) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Bookmark] ADD  DEFAULT ((1)) FOR [Status]
+GO
+ALTER TABLE [dbo].[BusLine] ADD  DEFAULT ((1)) FOR [Status]
+GO
+ALTER TABLE [dbo].[BusStation] ADD  DEFAULT ((1)) FOR [Status]
+GO
+ALTER TABLE [dbo].[History] ADD  DEFAULT (getdate()) FOR [Timestamp]
+GO
+ALTER TABLE [dbo].[Log] ADD  DEFAULT (getdate()) FOR [Date]
+GO
+ALTER TABLE [dbo].[MetroLine] ADD  DEFAULT ((1)) FOR [Status]
+GO
+ALTER TABLE [dbo].[MetroStation] ADD  DEFAULT ((1)) FOR [Status]
+GO
+ALTER TABLE [dbo].[User] ADD  DEFAULT ((1)) FOR [Status]
+GO
+ALTER TABLE [dbo].[Bookmark]  WITH CHECK ADD  CONSTRAINT [FK_Bookmark_Line] FOREIGN KEY([LineID])
+REFERENCES [dbo].[MetroLine] ([LineID])
+GO
+ALTER TABLE [dbo].[Bookmark] CHECK CONSTRAINT [FK_Bookmark_Line]
+GO
+ALTER TABLE [dbo].[Bookmark]  WITH CHECK ADD  CONSTRAINT [FK_Bookmark_Station] FOREIGN KEY([StationID])
+REFERENCES [dbo].[MetroStation] ([StationID])
+GO
+ALTER TABLE [dbo].[Bookmark] CHECK CONSTRAINT [FK_Bookmark_Station]
+GO
+ALTER TABLE [dbo].[Bookmark]  WITH CHECK ADD  CONSTRAINT [FK_Bookmark_User] FOREIGN KEY([UserID])
+REFERENCES [dbo].[User] ([UserID])
+GO
+ALTER TABLE [dbo].[Bookmark] CHECK CONSTRAINT [FK_Bookmark_User]
+GO
+ALTER TABLE [dbo].[BusSchedule]  WITH CHECK ADD  CONSTRAINT [FK_BusSchedule_Line] FOREIGN KEY([BusLineID])
+REFERENCES [dbo].[BusLine] ([BusLineID])
+GO
+ALTER TABLE [dbo].[BusSchedule] CHECK CONSTRAINT [FK_BusSchedule_Line]
+GO
+ALTER TABLE [dbo].[BusSchedule]  WITH CHECK ADD  CONSTRAINT [FK_BusSchedule_Station] FOREIGN KEY([BusStationID])
+REFERENCES [dbo].[BusStation] ([BusStationID])
+GO
+ALTER TABLE [dbo].[BusSchedule] CHECK CONSTRAINT [FK_BusSchedule_Station]
+GO
+ALTER TABLE [dbo].[BusStation_MetroStation]  WITH CHECK ADD  CONSTRAINT [FK_BusStation] FOREIGN KEY([BusStationID])
+REFERENCES [dbo].[BusStation] ([BusStationID])
+GO
+ALTER TABLE [dbo].[BusStation_MetroStation] CHECK CONSTRAINT [FK_BusStation]
+GO
+ALTER TABLE [dbo].[BusStation_MetroStation]  WITH CHECK ADD  CONSTRAINT [FK_MetroStation] FOREIGN KEY([MetroStationID])
+REFERENCES [dbo].[MetroStation] ([StationID])
+GO
+ALTER TABLE [dbo].[BusStation_MetroStation] CHECK CONSTRAINT [FK_MetroStation]
+GO
+ALTER TABLE [dbo].[Feedback]  WITH CHECK ADD  CONSTRAINT [FK_Feedback_Line] FOREIGN KEY([LineID])
+REFERENCES [dbo].[MetroLine] ([LineID])
+GO
+ALTER TABLE [dbo].[Feedback] CHECK CONSTRAINT [FK_Feedback_Line]
+GO
+ALTER TABLE [dbo].[Feedback]  WITH CHECK ADD  CONSTRAINT [FK_Feedback_User] FOREIGN KEY([UserID])
+REFERENCES [dbo].[User] ([UserID])
+GO
+ALTER TABLE [dbo].[Feedback] CHECK CONSTRAINT [FK_Feedback_User]
+GO
+ALTER TABLE [dbo].[History]  WITH CHECK ADD  CONSTRAINT [FK_History_User] FOREIGN KEY([UserID])
+REFERENCES [dbo].[User] ([UserID])
+GO
+ALTER TABLE [dbo].[History] CHECK CONSTRAINT [FK_History_User]
+GO
+ALTER TABLE [dbo].[Log]  WITH CHECK ADD  CONSTRAINT [FK_Log_Schedule] FOREIGN KEY([ScheduleID])
+REFERENCES [dbo].[Schedule] ([ScheduleID])
+GO
+ALTER TABLE [dbo].[Log] CHECK CONSTRAINT [FK_Log_Schedule]
+GO
+ALTER TABLE [dbo].[Log]  WITH CHECK ADD  CONSTRAINT [FK_Log_User] FOREIGN KEY([UserID])
+REFERENCES [dbo].[User] ([UserID])
+GO
+ALTER TABLE [dbo].[Log] CHECK CONSTRAINT [FK_Log_User]
+GO
+ALTER TABLE [dbo].[MetroStation]  WITH CHECK ADD  CONSTRAINT [FK_Station_Line] FOREIGN KEY([LineID])
+REFERENCES [dbo].[MetroLine] ([LineID])
+GO
+ALTER TABLE [dbo].[MetroStation] CHECK CONSTRAINT [FK_Station_Line]
+GO
+ALTER TABLE [dbo].[Schedule]  WITH CHECK ADD  CONSTRAINT [FK_Schedule_Line] FOREIGN KEY([LineID])
+REFERENCES [dbo].[MetroLine] ([LineID])
+GO
+ALTER TABLE [dbo].[Schedule] CHECK CONSTRAINT [FK_Schedule_Line]
+GO
+ALTER TABLE [dbo].[Schedule]  WITH CHECK ADD  CONSTRAINT [FK_Schedule_Station] FOREIGN KEY([StationID])
+REFERENCES [dbo].[MetroStation] ([StationID])
+GO
+ALTER TABLE [dbo].[Schedule] CHECK CONSTRAINT [FK_Schedule_Station]
+GO
+ALTER TABLE [dbo].[User]  WITH CHECK ADD  CONSTRAINT [FK_User_Role] FOREIGN KEY([RoleID])
+REFERENCES [dbo].[Role] ([RoleID])
+GO
+ALTER TABLE [dbo].[User] CHECK CONSTRAINT [FK_User_Role]
+GO
+ALTER TABLE [dbo].[BusSchedule]  WITH CHECK ADD CHECK  (([DayType]='Weekend' OR [DayType]='Weekday'))
+GO
+ALTER TABLE [dbo].[Feedback]  WITH CHECK ADD CHECK  (([Rating]>=(1) AND [Rating]<=(5)))
+GO
+USE [master]
+GO
+ALTER DATABASE [MetroSystem] SET  READ_WRITE 
+GO
