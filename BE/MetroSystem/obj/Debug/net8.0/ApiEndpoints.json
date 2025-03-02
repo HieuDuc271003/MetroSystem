@@ -1,15 +1,31 @@
 [
   {
-    "ContainingType": "MetroSystem.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/auth/login",
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "AddMetroLine",
+    "RelativePath": "api/add-new-metro-lines",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loginRequest",
-        "Type": "MetroSystem.Data.Enities.AuthenticationModel",
+        "Name": "requestCreateMetroLine",
+        "Type": "MetroSystem.RequestModel.MetroLineModel.RequestCreateMetroLine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.AdminController",
+    "Method": "SetUserStatus",
+    "RelativePath": "api/admin/Update-User-Status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.Enities.UpdateUserStatusRequest",
         "IsRequired": true
       }
     ],
@@ -17,15 +33,15 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.AuthController",
-    "Method": "Register",
-    "RelativePath": "api/auth/register",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/auth/google-login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registerDto",
-        "Type": "MetroSystem.Data.Enities.RegisterUserDto",
+        "Name": "request",
+        "Type": "MetroSystem.Data.Enities.GoogleLoginRequest",
         "IsRequired": true
       }
     ],

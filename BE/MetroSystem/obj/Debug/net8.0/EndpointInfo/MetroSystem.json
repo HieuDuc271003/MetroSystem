@@ -5,26 +5,26 @@
     "version": "v1"
   },
   "paths": {
-    "/api/auth/login": {
-      "post": {
+    "/api/admin/Update-User-Status": {
+      "put": {
         "tags": [
-          "Auth"
+          "Admin"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AuthenticationModel"
+                "$ref": "#/components/schemas/UpdateUserStatusRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AuthenticationModel"
+                "$ref": "#/components/schemas/UpdateUserStatusRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AuthenticationModel"
+                "$ref": "#/components/schemas/UpdateUserStatusRequest"
               }
             }
           }
@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/auth/register": {
+    "/api/auth/google-login": {
       "post": {
         "tags": [
           "Auth"
@@ -45,17 +45,48 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterUserDto"
+                "$ref": "#/components/schemas/GoogleLoginRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterUserDto"
+                "$ref": "#/components/schemas/GoogleLoginRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterUserDto"
+                "$ref": "#/components/schemas/GoogleLoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/add-new-metro-lines": {
+      "post": {
+        "tags": [
+          "MetroLine"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateMetroLine"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateMetroLine"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateMetroLine"
               }
             }
           }
@@ -70,38 +101,51 @@
   },
   "components": {
     "schemas": {
-      "AuthenticationModel": {
+      "GoogleLoginRequest": {
         "type": "object",
         "properties": {
+          "firebaseUid": {
+            "type": "string",
+            "nullable": true
+          },
           "email": {
             "type": "string",
             "nullable": true
           },
-          "password": {
+          "name": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "RegisterUserDto": {
+      "RequestCreateMetroLine": {
         "type": "object",
         "properties": {
-          "name": {
+          "lineId": {
             "type": "string",
             "nullable": true
           },
+          "lineName": {
+            "type": "string",
+            "nullable": true
+          },
+          "distance": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserStatusRequest": {
+        "type": "object",
+        "properties": {
           "email": {
             "type": "string",
             "nullable": true
           },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "phoneNumber": {
-            "type": "string",
-            "nullable": true
+          "status": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

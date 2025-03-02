@@ -45,3 +45,19 @@ E:\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.dll
 E:\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\refint\MetroSystem.Service.dll
 E:\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.pdb
 E:\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\ref\MetroSystem.Service.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.deps.json
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.pdb
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Data.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Data.pdb
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.csproj.AssemblyReference.cache
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.AssemblyInfoInputs.cache
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.AssemblyInfo.cs
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.csproj.CoreCompileInputs.cache
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.sourcelink.json
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSys.BD636C29.Up2Date
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\refint\MetroSystem.Service.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.pdb
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\ref\MetroSystem.Service.dll
