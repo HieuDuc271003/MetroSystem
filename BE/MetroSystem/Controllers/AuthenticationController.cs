@@ -23,11 +23,16 @@ namespace MetroSystem.Controllers
         {
             try
             {
-                var user = await _authenticationService.AuthenticateWithGoogleAsync(request.FirebaseUid, request.Email, request.Name);
+                if (request == null || string.IsNullOrEmpty(request.FirebaseUid) || string.IsNullOrEmpty(request.Email))
+                {
+                    return BadRequest(new { Message = "Dữ liệu đầu vào không hợp lệ" });
+                }
+
+                var (user, token) = await _authenticationService.AuthenticateWithGoogleAsync(request.FirebaseUid, request.Email, request.Name);
 
                 if (user != null)
                 {
-                    return Ok(new { Message = "Login successful", User = user });
+                    return Ok(new { Message = "Login successful", User = user, Token = token });
                 }
                 else
                 {
@@ -36,7 +41,8 @@ namespace MetroSystem.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { Message = "An error occurred", Error = ex.Message });
+                Console.WriteLine($"Google Login Error: {ex.Message}"); // Log lỗi chi tiết hơn
+                return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
             }
         }
     }
