@@ -41,7 +41,23 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "MetroSystem.Data.Enities.GoogleLoginRequest",
+        "Type": "MetroSystem.Data.Enities.AuthenticationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MetroSystem.Data.Enities.RefreshTokenModel",
         "IsRequired": true
       }
     ],

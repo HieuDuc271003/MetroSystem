@@ -23,6 +23,10 @@ public partial class User
 
     public string FirebaseUid { get; set; }
 
+    public string RefreshToken { get; set; }
+
+    public DateTime RefreshTokenExpiry { get; set; }
+
     public virtual ICollection<Bookmark> Bookmarks { get; set; } = new List<Bookmark>();
 
     public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();

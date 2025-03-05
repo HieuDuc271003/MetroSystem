@@ -12,38 +12,74 @@ namespace MetroSystem.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
+        private readonly ItokenService _tokenService;
 
-        public AuthController(IAuthenticationService authenticationService)
+        public AuthController(IAuthenticationService authenticationService, ItokenService tokenService)
         {
             _authenticationService = authenticationService;
+            _tokenService = tokenService;
         }
 
         [HttpPost("google-login")]
-        public async Task<IActionResult> GoogleLogin([FromBody] GoogleLoginRequest request)
+        public async Task<IActionResult> GoogleLogin([FromBody] AuthenticationModel request)
         {
             try
             {
-                if (request == null || string.IsNullOrEmpty(request.FirebaseUid) || string.IsNullOrEmpty(request.Email))
+                if (request == null || string.IsNullOrEmpty(request.IdToken))
                 {
-                    return BadRequest(new { Message = "Dữ liệu đầu vào không hợp lệ" });
+                    return BadRequest(new { Message = "Thiếu IdToken để xác thực" });
                 }
 
-                var (user, token) = await _authenticationService.AuthenticateWithGoogleAsync(request.FirebaseUid, request.Email, request.Name);
+                // ✅ Xác thực ID Token với Firebase
+                var decodedToken = await FirebaseAuth.DefaultInstance.VerifyIdTokenAsync(request.IdToken);
+                if (decodedToken.Uid != request.FirebaseUid)
+                {
+                    return Unauthorized(new { Message = "Xác thực Firebase thất bại" });
+                }
 
-                if (user != null)
+                // ✅ Đăng nhập hoặc tạo người dùng mới
+                var (user, jwtToken, refreshToken) = await _authenticationService.AuthenticateWithGoogleAsync(
+                    request.FirebaseUid, request.Email, request.Name
+                );
+
+                return Ok(new
                 {
-                    return Ok(new { Message = "Login successful", User = user, Token = token });
-                }
-                else
-                {
-                    return Unauthorized(new { Message = "User authentication failed" });
-                }
+                    Message = "Login successful",
+                    User = new
+                    {
+                        user.UserId,
+                        user.Name,
+                        user.Email,
+                        user.RoleId,
+                        user.FirebaseUid
+                    },
+                    Token = jwtToken,
+                    RefreshToken = refreshToken
+                });
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Google Login Error: {ex.Message}"); // Log lỗi chi tiết hơn
-                return StatusCode(500, new { Message = "Internal Server Error", Error = ex.Message });
+                return StatusCode(500, new { Message = "Lỗi Server", Error = ex.Message });
             }
         }
+
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenModel model)
+        {
+            if (model == null || string.IsNullOrEmpty(model.RefreshToken))
+            {
+                return BadRequest(new { Message = "Dữ liệu đầu vào không hợp lệ" });
+            }
+
+            var newToken = await _tokenService.RefreshTokenAsync(model.RefreshToken);
+            if (newToken == null)
+            {
+                return Unauthorized(new { Message = "Refresh Token không hợp lệ hoặc đã hết hạn" });
+            }
+
+            return Ok(new { Message = "Token mới", Token = newToken });
+        }
+
+    
     }
 }

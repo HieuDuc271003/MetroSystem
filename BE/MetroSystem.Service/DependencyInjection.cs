@@ -13,6 +13,7 @@ namespace MetroSystem.Data
             service.AddScoped<IAuthenticationService, AuthenticationService>();
             service.AddScoped<IAdminService, AdminService>();
             service.AddScoped<IMetroLineService, MetroLineService>();
+            service.AddScoped<ItokenService, TokenService>();
             return service;
         }
     }
