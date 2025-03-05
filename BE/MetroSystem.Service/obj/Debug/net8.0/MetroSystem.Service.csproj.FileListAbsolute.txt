@@ -61,3 +61,19 @@ D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\refint\MetroSystem.Service.dll
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.pdb
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\ref\MetroSystem.Service.dll
+D:\myself\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.deps.json
+D:\myself\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.dll
+D:\myself\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Service.pdb
+D:\myself\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Data.dll
+D:\myself\MetroSystem\BE\MetroSystem.Service\bin\Debug\net8.0\MetroSystem.Data.pdb
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.csproj.AssemblyReference.cache
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.AssemblyInfoInputs.cache
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.AssemblyInfo.cs
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.csproj.CoreCompileInputs.cache
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.sourcelink.json
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSys.BD636C29.Up2Date
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.dll
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\refint\MetroSystem.Service.dll
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\MetroSystem.Service.pdb
+D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Debug\net8.0\ref\MetroSystem.Service.dll

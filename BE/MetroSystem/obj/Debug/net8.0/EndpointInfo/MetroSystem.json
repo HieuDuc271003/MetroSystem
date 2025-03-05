@@ -45,17 +45,48 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/GoogleLoginRequest"
+                "$ref": "#/components/schemas/AuthenticationModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/GoogleLoginRequest"
+                "$ref": "#/components/schemas/AuthenticationModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/GoogleLoginRequest"
+                "$ref": "#/components/schemas/AuthenticationModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/refresh-token": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenModel"
               }
             }
           }
@@ -101,7 +132,7 @@
   },
   "components": {
     "schemas": {
-      "GoogleLoginRequest": {
+      "AuthenticationModel": {
         "type": "object",
         "properties": {
           "firebaseUid": {
@@ -113,6 +144,20 @@
             "nullable": true
           },
           "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "idToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefreshTokenModel": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
             "type": "string",
             "nullable": true
           }

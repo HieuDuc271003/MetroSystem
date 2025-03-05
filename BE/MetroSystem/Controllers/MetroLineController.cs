@@ -34,7 +34,7 @@ namespace MetroSystem.Controllers
         //    return Ok("Metro line added successfully.");
         //}
         [HttpPost]
-        [Authorize(Roles = "Staff")]
+       [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddMetroLine([FromBody] RequestCreateMetroLine requestCreateMetroLine)
         {
             var result = await _metroLineService.AddMetroLineAsync(requestCreateMetroLine);

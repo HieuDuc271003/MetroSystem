@@ -25,10 +25,10 @@ namespace MetroSystem
             var builder = WebApplication.CreateBuilder(args);
 
             var firebaseConfigPath = builder.Configuration["Firebase:ServiceAccountKeyPath"];
-            //FirebaseApp.Create(new AppOptions()
-            //{
-            //    Credential = GoogleCredential.FromFile(firebaseConfigPath)
-            //});
+            FirebaseApp.Create(new AppOptions()
+            {
+                Credential = GoogleCredential.FromFile(firebaseConfigPath)
+            });
 
             builder.Services.AddDbContext<MetroSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

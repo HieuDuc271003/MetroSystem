@@ -21,45 +21,22 @@ namespace MetroSystem.Service.Service
         private readonly IConfiguration _configuration;
         private readonly MetroSystemContext _context;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ItokenService _tokenService;
 
-        public AuthenticationService(IAuthenticationRepositories authenticationRepository, IConfiguration configuration, MetroSystemContext context, IUnitOfWork unitOfWork)
+        public AuthenticationService(IAuthenticationRepositories authenticationRepository, IConfiguration configuration, MetroSystemContext context, IUnitOfWork unitOfWork, ItokenService tokenservice
+            )
         {
             _authenticationRepository = authenticationRepository;
             _configuration = configuration;
             _context = context;
             _unitOfWork = unitOfWork;
+            _tokenService = tokenservice;
         }
 
-        public async Task<User> AuthenticateWithGoogleAsync(string firebaseUid, string email, string name)
+        public async Task<(User, string, string)> AuthenticateWithGoogleAsync(string firebaseUid, string email, string name)
         {
-            //var user = await _context.Users.FirstOrDefaultAsync(u => u.FirebaseUid == firebaseUid || u.Email == email);
-
-            //if (user == null)
-            //{
-            //    user = new User
-            //    {
-            //        FirebaseUid = firebaseUid,
-            //        UserId = Guid.NewGuid().ToString(),
-            //        Name = name,
-            //        Email = email,
-            //        RoleId = "R2",
-            //        Password = "",
-            //    };
-
-            //    _context.Users.Add(user);
-            //    await _context.SaveChangesAsync();
-            //}
-            //else
-            //{
-            //    if (string.IsNullOrEmpty(user.FirebaseUid))
-            //    {
-            //        user.FirebaseUid = firebaseUid;
-            //        await _context.SaveChangesAsync();
-            //    }
-            //}
-
             var user = await _unitOfWork.Authentication.GetByFirebaseUidAsync(firebaseUid)
-                      ?? await _unitOfWork.Authentication.GetByEmailAsync(email);
+                   ?? await _unitOfWork.Authentication.GetByEmailAsync(email);
 
             if (user == null)
             {
@@ -70,7 +47,9 @@ namespace MetroSystem.Service.Service
                     Name = name,
                     Email = email,
                     RoleId = "R2",
-                    Password = "",
+                    Password = "", // Không cần mật khẩu khi dùng Google login
+                    RefreshToken = "", // Tránh NULL gây lỗi
+                    RefreshTokenExpiry = DateTime.UtcNow.AddDays(7) // Đặt giá trị mặc định
                 };
 
                 await _unitOfWork.Authentication.AddAsync(user);
@@ -82,29 +61,16 @@ namespace MetroSystem.Service.Service
                 await _unitOfWork.SaveChangesAsync();
             }
 
-            return user;
-        }
-        public string GenerateJwtToken(User user)
-        {
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Name, user.Name),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.NameIdentifier, user.UserId)
-            };
+            var jwtToken = _tokenService.GenerateJwtToken(user);
+            var refreshToken = _tokenService.GenerateRefreshToken();
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:SecretKey"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7);
 
-            var token = new JwtSecurityToken(
-                issuer: _configuration["JwtSettings:Issuer"],
-                audience: _configuration["JwtSettings:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddDays(1),
-                signingCredentials: creds
-            );
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            return (user, jwtToken, refreshToken);
         }
     }
 }

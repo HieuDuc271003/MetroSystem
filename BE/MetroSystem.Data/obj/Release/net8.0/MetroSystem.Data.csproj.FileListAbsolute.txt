@@ -1,0 +1,15 @@
+D:\myself\MetroSystem\BE\MetroSystem.Data\bin\Release\net8.0\MetroSystem.Data.deps.json
+D:\myself\MetroSystem\BE\MetroSystem.Data\bin\Release\net8.0\MetroSystem.Data.runtimeconfig.json
+D:\myself\MetroSystem\BE\MetroSystem.Data\bin\Release\net8.0\MetroSystem.Data.dll
+D:\myself\MetroSystem\BE\MetroSystem.Data\bin\Release\net8.0\MetroSystem.Data.pdb
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.csproj.AssemblyReference.cache
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.AssemblyInfoInputs.cache
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.AssemblyInfo.cs
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.csproj.CoreCompileInputs.cache
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.sourcelink.json
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.dll
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\refint\MetroSystem.Data.dll
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.pdb
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\MetroSystem.Data.genruntimeconfig.cache
+D:\myself\MetroSystem\BE\MetroSystem.Data\obj\Release\net8.0\ref\MetroSystem.Data.dll
