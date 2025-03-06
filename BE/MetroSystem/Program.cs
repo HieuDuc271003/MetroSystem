@@ -16,6 +16,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Builder.Extensions;
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
+using System.Text.Json.Serialization;
 namespace MetroSystem
 {
     public class Program
@@ -93,6 +94,13 @@ namespace MetroSystem
             });
 
             // Cấu hình JWT
+            builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
 
 
 

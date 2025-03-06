@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace MetroSystem.Data.Models;
 
@@ -39,9 +40,21 @@ public partial class MetroSystemContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-     => optionsBuilder.UseSqlServer("Server=DESKTOP-IQK16CS\\QUANGZY;Database=MetroSystem;User Id=sa;Password=12345;TrustServerCertificate=True;");
+//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+//        => optionsBuilder.UseSqlServer(getConnectString());
+
+
+    //private string getConnectString()
+    //{
+    //    IConfiguration config = new ConfigurationBuilder()
+    //        .SetBasePath(Directory.GetCurrentDirectory()) // Sửa lỗi chỗ này
+    //        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    //        .Build();
+
+    //    var strConn = config.GetConnectionString("DefaultConnection");
+    //    return strConn;
+    //}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

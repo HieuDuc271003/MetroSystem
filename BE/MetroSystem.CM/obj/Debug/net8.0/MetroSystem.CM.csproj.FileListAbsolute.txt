@@ -1,0 +1,12 @@
+D:\myself\MetroSystem\BE\MetroSystem.CM\bin\Debug\net8.0\MetroSystem.CM.deps.json
+D:\myself\MetroSystem\BE\MetroSystem.CM\bin\Debug\net8.0\MetroSystem.CM.dll
+D:\myself\MetroSystem\BE\MetroSystem.CM\bin\Debug\net8.0\MetroSystem.CM.pdb
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.GeneratedMSBuildEditorConfig.editorconfig
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.AssemblyInfoInputs.cache
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.AssemblyInfo.cs
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.csproj.CoreCompileInputs.cache
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.sourcelink.json
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.dll
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\refint\MetroSystem.CM.dll
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.pdb
+D:\myself\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\ref\MetroSystem.CM.dll
