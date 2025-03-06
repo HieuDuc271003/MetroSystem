@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
+<<<<<<< Updated upstream
   <parameter name="IIS Web Application Name" description="" value="metrosystemhcmcity" tags="IisApp">
+=======
+  <parameter name="IIS Web Application Name" description="" value="Metroldirection" tags="IisApp">
+>>>>>>> Stashed changes
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\myself\\MetroSystem\\BE\\MetroSystem\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

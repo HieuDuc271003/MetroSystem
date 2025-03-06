@@ -6,6 +6,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
+<<<<<<< Updated upstream
     <EncryptedPassword />
+=======
+    <History>True|2025-03-06T08:08:53.5298086Z||;True|2025-03-06T14:48:04.2094686+07:00||;True|2025-03-06T14:44:49.7293609+07:00||;True|2025-03-06T14:32:53.1820510+07:00||;True|2025-03-06T14:26:25.0467346+07:00||;True|2025-03-06T14:21:21.3903379+07:00||;True|2025-03-06T13:44:30.0460313+07:00||;True|2025-03-06T13:39:48.4440992+07:00||;</History>
+    <LastFailureDetails />
+>>>>>>> Stashed changes
   </PropertyGroup>
 </Project>

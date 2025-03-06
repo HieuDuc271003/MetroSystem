@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "P5UnNkCaml0=",
+=======
+  "dgSpecHash": "ZTh88C6tR5g=",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj",
   "expectedPackageFiles": [
