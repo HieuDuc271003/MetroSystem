@@ -2,10 +2,10 @@
 {
     public class RequestCreateMetroLine
     {
-        public string LineId { get; set; }
+        public required string LineId { get; set; }
 
-        public string LineName { get; set; }
+        public required string LineName { get; set; }
 
-        public double Distance { get; set; }
+        public required double Distance { get; set; }
     }
 }

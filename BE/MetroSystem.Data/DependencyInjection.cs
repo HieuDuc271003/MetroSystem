@@ -11,6 +11,7 @@ namespace MetroSystem.Data
             service.AddScoped<IAuthenticationRepositories, AuthenticationRepositorises>();
             service.AddScoped<IAdminRepositories, AdminRepositories>();
             service.AddScoped<IMetroLineRepository, MetroLineRepository>();
+            service.AddScoped<IBusLineRepository, BusLineRepository>();
             service.AddScoped<IUnitOfWork, UnitOfWork>();
             return service;
         }

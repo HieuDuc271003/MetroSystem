@@ -18,6 +18,7 @@ namespace MetroSystem.Data.Interface
         IAuthenticationRepositories Authentication { get; }
         IAdminRepositories Admin { get; }
         IMetroLineRepository MetroLine { get; } // ✨ Thêm mới repository quản lý chuyến tàu
+        IBusLineRepository BusLine { get; } // ✨ Thêm mới repository quản lý chuyến xe buýt
 
         Task<int> SaveChangesAsync();
     }

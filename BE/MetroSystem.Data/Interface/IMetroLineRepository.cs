@@ -11,5 +11,8 @@ namespace MetroSystem.Data.Interface
     public interface IMetroLineRepository
     {
         Task AddMetroLineAsync(MetroLine metroLine);
+        Task<MetroLine> GetMetroLineByIdAsync(string lineId);
+        Task<IEnumerable<MetroLine>> GetAllMetroLinesAsync(); // Thêm phương thức lấy tất cả tuyến metro
+        Task<MetroLine?> GetMetroLineByNameAsync(string lineName);
     }
 }

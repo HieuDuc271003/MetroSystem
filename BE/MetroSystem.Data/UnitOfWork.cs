@@ -1,5 +1,6 @@
 ﻿using MetroSystem.Data.Interface;
 using MetroSystem.Data.Models;
+using MetroSystem.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,13 +39,16 @@ namespace MetroSystem.Data
         public IAuthenticationRepositories Authentication { get; }
         public IAdminRepositories Admin { get; }
         public IMetroLineRepository MetroLine { get; }
+        public IBusLineRepository BusLine { get; }
 
-        public UnitOfWork(MetroSystemContext context, IAuthenticationRepositories authenticationRepositories, IAdminRepositories adminRepositories, IMetroLineRepository metroLineRepository)
+
+        public UnitOfWork(MetroSystemContext context, IAuthenticationRepositories authenticationRepositories, IAdminRepositories adminRepositories, IMetroLineRepository metroLineRepository, IBusLineRepository busLineRepository)
         {
             _context = context;
             Authentication = authenticationRepositories;
             Admin = adminRepositories;
             MetroLine = metroLineRepository;
+            BusLine = busLineRepository;
         }
 
         public async Task<int> SaveChangesAsync()

@@ -7,6 +7,7 @@
 using MetroSystem.Data.Enities;
 using MetroSystem.Data.Models;
 using MetroSystem.RequestModel.MetroLineModel;
+using MetroSystem.Data.RequestModel.MetroLineModel;
 using MetroSystem.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -41,5 +42,42 @@ namespace MetroSystem.Controllers
             if (!result) return BadRequest("Failed to add metro line.");
             return Ok("Metro line added successfully.");
         }
+
+        [HttpPut("update-status/{lineId}")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> UpdateMetroLineStatus(string lineId, [FromBody] bool status)
+        {
+            var result = await _metroLineService.UpdateMetroLineStatusAsync(lineId, status);
+            if (!result) return NotFound("Metro line not found.");
+            return Ok("Metro line status updated successfully.");
+        }
+
+        [HttpPut("update-line")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> UpdateMetroLineDetails([FromBody] RequestUpdateMetroLine requestUpdateMetroLine)
+        {
+            var result = await _metroLineService.UpdateMetroLineDetailsAsync(requestUpdateMetroLine);
+            if (!result) return NotFound("Metro line not found or update failed.");
+            return Ok("Metro line details updated successfully.");
+        }
+
+        [HttpGet("get-all")]
+        //[Authorize(Roles = "R3")]
+        public async Task<IActionResult> GetAllMetroLines()
+        {
+            var metroLines = await _metroLineService.GetAllMetroLinesAsync();
+            return Ok(metroLines);
+        }
+
+        [HttpGet("get-by-name/{lineName}")]
+        //[Authorize(Roles = "R3")]
+        public async Task<IActionResult> GetMetroLineByName(string lineName)
+        {
+            var metroLine = await _metroLineService.GetMetroLineByNameAsync(lineName);
+            if (metroLine == null) return NotFound("Metro line not found.");
+            return Ok(metroLine);
+        }
+
+
     }
 }

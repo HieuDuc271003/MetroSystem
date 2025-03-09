@@ -23,5 +23,18 @@ namespace MetroSystem.Data.Repositories
         {
             await _context.MetroLines.AddAsync(metroLine);
         }
+        public async Task<MetroLine> GetMetroLineByIdAsync(string lineId)
+        {
+            return await _context.MetroLines.FirstOrDefaultAsync(m => m.LineId == lineId);
+        }
+        public async Task<IEnumerable<MetroLine>> GetAllMetroLinesAsync()
+        {
+            return await _context.MetroLines.ToListAsync();
+        }
+
+        public async Task<MetroLine?> GetMetroLineByNameAsync(string lineName)
+        {
+            return await _context.MetroLines.FirstOrDefaultAsync(m => m.LineName == lineName);
+        }
     }
 }

@@ -1,159 +1,165 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\myself\\MetroSystem\\BE\\",
+  "WorkspaceRootPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\enities\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\models\\metrosystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\models\\metrosystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
->>>>>>> Stashed changes
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< Updated upstream
-=======
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\enities\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\enities\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\interface\\iauthenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\interface\\iauthenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-=======
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\interface\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\interface\\imetrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\imetrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\repositories\\authenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\authenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\enities\\tokenblacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\tokenblacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\properties\\publishprofiles\\metroldirection - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\publishprofiles\\metroldirection - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\properties\\servicedependencies\\metroldirection - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\servicedependencies\\metroldirection - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\repositories\\adminrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\adminrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\myself\\metrosystem\\be\\metrosystem.service\\service\\metrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\metrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\controllers\\metrolinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\metrolinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\myself\\metrosystem\\be\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-=======
->>>>>>> Stashed changes
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\requestmodel\\metrolinemodel\\responsemetrolinemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\requestmodel\\metrolinemodel\\responsemetrolinemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\requestmodel\\metrolinemodel\\requestcreatemetroline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\requestmodel\\buslinemodel\\responsebuslinemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\requestmodel\\buslinemodel\\responsebuslinemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\requestmodel\\metrolinemodel\\requestupdatemetroline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\requestmodel\\metrolinemodel\\requestupdatemetroline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\requestmodel\\buslinemodel\\requestupdatebusline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\requestmodel\\buslinemodel\\requestupdatebusline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\requestmodel\\buslinemodel\\requestcreatebusline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\requestmodel\\buslinemodel\\requestcreatebusline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\requestmodel\\metrolinemodel\\requestcreatemetroline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\requestmodel\\metrolinemodel\\requestcreatemetroline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\service\\metrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\metrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\repositories\\metrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\metrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\controllers\\metrolinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\metrolinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\repositories\\buslinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\buslinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\interface\\ibuslinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\interface\\ibuslinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\interface\\imetrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\interface\\imetrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\myself\\metrosystem\\be\\metrosystem.data\\metrosystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\controllers\\buslinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\buslinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\service\\buslineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\buslineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\interface\\ibuslineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\ibuslineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\interface\\imetrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\imetrolineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\interface\\imetrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\interface\\imetrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\repositories\\metrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\metrolinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\interface\\iauthenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\interface\\iauthenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\repositories\\authenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\authenticationrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\metrosystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\metrosystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-=======
->>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\enities\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\enities\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\refreshtokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\interface\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\interface\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\enities\\tokenblacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\enities\\tokenblacklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\properties\\publishprofiles\\metroldirection - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\publishprofiles\\metroldirection - web deploy.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem\\properties\\servicedependencies\\metroldirection - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\properties\\servicedependencies\\metroldirection - web deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.data\\repositories\\adminrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\repositories\\adminrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -163,772 +169,514 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 10,
-=======
           "SelectedChildIndex": 11,
->>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< Updated upstream
-              "Title": "AuthenticationModel.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:21:17.527Z"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABwAAAAAAAAAA==",
+              "Title": "ResponseMetroLineModel.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T04:49:05.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "MetroSystem\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:18:02.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
-=======
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "MetroSystem\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T07:50:00.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MetroSystemContext.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Models\\MetroSystemContext.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Models\\MetroSystemContext.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Models\\MetroSystemContext.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Models\\MetroSystemContext.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAASwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T06:57:46.024Z",
+              "WhenOpened": "2025-03-09T07:44:30.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
-              "RelativeToolTip": "MetroSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T04:52:49.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABwAAAAAAAAAA==",
+              "Title": "ResponseBusLineModel.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\ResponseBusLineModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusLineModel\\ResponseBusLineModel.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\ResponseBusLineModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusLineModel\\ResponseBusLineModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T04:49:05.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Program.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Program.cs*",
-              "RelativeToolTip": "MetroSystem\\Program.cs*",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T06:03:05.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\AuthenticationService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:35:25.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "MetroSystem\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAIBJwDkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:18:02.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthenticationModel.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:21:17.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\TokenService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\TokenService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\TokenService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA6wGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:12:24.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RefreshTokenModel.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:34:56.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IAuthenticationRepositories.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:18:11.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\DependencyInjection.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\DependencyInjection.cs",
-              "RelativeToolTip": "MetroSystem.Service\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:35:12.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ItokenService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\ItokenService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\ItokenService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\ItokenService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\ItokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:15:27.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Models\\User.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Models\\User.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Models\\User.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:22:37.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAdminService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IAdminService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAdminService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T04:49:02.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IMetroLineService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:49:08.306Z",
+              "WhenOpened": "2025-03-09T07:43:55.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AdminService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\AdminService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AdminService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\AdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Title": "BusLineService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\BusLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusLineService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\BusLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\BusLineService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:35:27.549Z",
+              "WhenOpened": "2025-03-09T06:48:48.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthenticationRepositories.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:19:13.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 4,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\TokenService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\TokenService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\TokenService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwGUAAAAAAAAAAAAAAA==",
-=======
               "DocumentIndex": 18,
-              "Title": "TokenBlacklist.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Title": "IBusLineService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:59:43.628Z",
+              "WhenOpened": "2025-03-09T06:48:12.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Metroldirection - Web Deploy.pubxml",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "RelativeDocumentMoniker": "MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "RelativeToolTip": "MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-03-05T06:43:34.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "profile.arm.json",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "RelativeDocumentMoniker": "MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "RelativeToolTip": "MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "ViewState": "AgIAACAAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T06:44:04.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AdminRepositories.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RequestUpdateBusLine.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:37:52.895Z",
+              "WhenOpened": "2025-03-09T06:47:53.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MetroLineService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\MetroLineService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\MetroLineService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIBQwCcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RequestCreateBusLine.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:51:01.23Z",
+              "WhenOpened": "2025-03-09T06:46:58.354Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BusLineRepository.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\BusLineRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\BusLineRepository.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\BusLineRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\BusLineRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:46:18.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBusLineRepository.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IBusLineRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IBusLineRepository.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IBusLineRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IBusLineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:45:59.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BusLineController.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\BusLineController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\BusLineController.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\BusLineController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\BusLineController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:42:42.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestUpdateMetroLine.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T06:32:06.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAB4WAAAAAAAAAAAQwC0WAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-09T05:29:44.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthenticationModel.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IAuthenticationService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAuthenticationService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.628Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "MetroLineController.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\MetroLineController.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
-              "RelativeToolTip": "MetroSystem\\Controllers\\MetroLineController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCIAAAALAAAAAAAAAA==",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:57:47.374Z",
+              "WhenOpened": "2025-03-09T05:26:35.631Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\DependencyInjection.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\DependencyInjection.cs",
-              "RelativeToolTip": "MetroSystem.Data\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:12:24.054Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 5,
-              "Title": "RefreshTokenModel.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:34:56.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthenticationRepositories.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:18:11.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\DependencyInjection.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\DependencyInjection.cs",
-              "RelativeToolTip": "MetroSystem.Service\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
-=======
-              "DocumentIndex": 25,
-              "Title": "RequestCreateMetroLine.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T07:26:40.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Program.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Program.cs",
-              "RelativeToolTip": "MetroSystem\\Program.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAIAwwGcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T06:03:05.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ItokenService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\ItokenService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\ItokenService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\ItokenService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\ItokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:15:27.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Models\\User.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Models\\User.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Models\\User.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T07:22:37.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAdminService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IAdminService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAdminService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T04:49:02.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IMetroLineService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:49:08.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AdminService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\AdminService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AdminService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\AdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:35:27.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthenticationRepositories.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA6wCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T05:19:13.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TokenBlacklist.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Enities\\TokenBlacklist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T06:59:43.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Metroldirection - Web Deploy.pubxml",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "RelativeDocumentMoniker": "MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "RelativeToolTip": "MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-03-05T06:43:34.593Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "profile.arm.json",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "RelativeDocumentMoniker": "MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "RelativeToolTip": "MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T06:44:04.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdminRepositories.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\AuthenticationService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\AuthenticationService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:37:52.895Z"
+              "WhenOpened": "2025-03-09T05:26:35.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MetroLineService.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\MetroLineService.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
-              "RelativeToolTip": "MetroSystem.Service\\Service\\MetroLineService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 32,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\TokenService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\TokenService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\TokenService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:51:01.23Z"
+              "WhenOpened": "2025-03-09T05:26:35.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MetroLineController.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
-              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\MetroLineController.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
-              "RelativeToolTip": "MetroSystem\\Controllers\\MetroLineController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCIAAAALAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "RefreshTokenModel.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:57:47.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
-              "RelativeToolTip": "MetroSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T04:52:49.179Z"
+              "WhenOpened": "2025-03-09T05:26:35.638Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\DependencyInjection.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\DependencyInjection.cs",
-              "RelativeToolTip": "MetroSystem.Data\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "IAuthenticationRepositories.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IAuthenticationRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:34:59.571Z"
+              "WhenOpened": "2025-03-09T05:26:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\DependencyInjection.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\DependencyInjection.cs",
+              "RelativeToolTip": "MetroSystem.Service\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Program.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Program.cs",
+              "RelativeToolTip": "MetroSystem\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.644Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "MetroSystem.Data.csproj",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\MetroSystem.Data.csproj",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
-              "RelativeToolTip": "MetroSystem.Data\\MetroSystem.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-02T07:11:04.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RequestCreateMetroLine.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Title": "ItokenService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\ItokenService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\ItokenService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\ItokenService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\ItokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T07:26:40.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-=======
-              "DocumentIndex": 27,
->>>>>>> Stashed changes
-              "Title": "MetroLineRepository.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2025-03-02T05:41:31.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-=======
-              "WhenOpened": "2025-03-02T05:41:31.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T05:26:35.646Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
->>>>>>> Stashed changes
-              "Title": "IMetroLineRepository.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Models\\User.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Models\\User.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Models\\User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwBkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2025-03-02T05:38:46.618Z"
+              "WhenOpened": "2025-03-09T05:26:35.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-=======
-              "WhenOpened": "2025-03-02T05:38:46.618Z",
+              "DocumentIndex": 34,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAdminService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IAdminService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IAdminService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMetroLineService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
->>>>>>> Stashed changes
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IUnitOfWork.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs",
-              "RelativeToolTip": "MetroSystem.Data\\Interface\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AdminService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\AdminService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\AdminService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2025-02-27T06:36:00.562Z"
+              "WhenOpened": "2025-03-09T05:26:35.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthenticationRepositories.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TokenBlacklist.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\TokenBlacklist.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\TokenBlacklist.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Enities\\TokenBlacklist.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\TokenBlacklist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Metroldirection - Web Deploy.pubxml",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
+              "RelativeDocumentMoniker": "MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
+              "RelativeToolTip": "MetroSystem\\Properties\\PublishProfiles\\Metroldirection - Web Deploy.pubxml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-09T05:26:35.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "profile.arm.json",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
+              "RelativeDocumentMoniker": "MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
+              "RelativeToolTip": "MetroSystem\\Properties\\ServiceDependencies\\Metroldirection - Web Deploy\\profile.arm.json",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T05:26:35.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdminRepositories.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MetroLineService.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\MetroLineService.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\MetroLineService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwEcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MetroLineController.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\MetroLineController.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\MetroLineController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\appsettings.json",
+              "RelativeToolTip": "MetroSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T05:26:35.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\DependencyInjection.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\DependencyInjection.cs",
+              "RelativeToolTip": "MetroSystem.Data\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MetroSystem.Data.csproj",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\MetroSystem.Data.csproj",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
+              "RelativeToolTip": "MetroSystem.Data\\MetroSystem.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-09T05:26:35.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestCreateMetroLine.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MetroLineRepository.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMetroLineRepository.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:26:35.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-=======
-              "WhenOpened": "2025-02-27T06:36:00.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
->>>>>>> Stashed changes
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\UnitOfWork.cs",
-              "ToolTip": "D:\\myself\\MetroSystem\\BE\\MetroSystem.Data\\UnitOfWork.cs",
+              "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\UnitOfWork.cs",
               "RelativeToolTip": "MetroSystem.Data\\UnitOfWork.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T06:34:43.996Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1161,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1161,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-03-09T05:26:35.749Z"
             }
           ]
         }
