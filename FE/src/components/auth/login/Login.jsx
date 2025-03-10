@@ -41,10 +41,12 @@ export default function Login() {
 
       // Lưu token vào localStorage để sử dụng cho API khác
       localStorage.setItem("token", data.token);
+      localStorage.setItem("refreshToken", data.refreshToken);
 
       setUser(result.user);
       console.log("Đăng nhập thành công:", data);
     } catch (error) {
+      alert("Đăng nhập thất bại: " + error.message); // ✅ Thông báo lỗi
       console.error("Lỗi đăng nhập Google:", error);
     } finally {
       setLoading(false);
@@ -63,11 +65,11 @@ export default function Login() {
         </h2>
         {user ? (
           <div className="text-center">
-            {/* <img
+            {<img
               src={user.photoURL}
               alt="User Avatar"
               className="w-16 h-16 rounded-full mx-auto mb-2"
-            /> */}
+            />}
             <p className="text-black">{user.email}</p>
           </div>
         ) : (
