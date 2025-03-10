@@ -1,5 +1,6 @@
 using MetroSystem.Data.Interface;
 using MetroSystem.Data.Repositories;
+using MetroSystem.Service.Interface;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MetroSystem.Data
@@ -13,6 +14,8 @@ namespace MetroSystem.Data
             service.AddScoped<IMetroLineRepository, MetroLineRepository>();
             service.AddScoped<IBusLineRepository, BusLineRepository>();
             service.AddScoped<IUnitOfWork, UnitOfWork>();
+            service.AddScoped<IMetroStationRepository, MetroStationRepository>();
+            service.AddScoped<IFeedbackRepository, FeedbackRepository>();
             return service;
         }
     }

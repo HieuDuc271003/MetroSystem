@@ -1,22 +1,16 @@
 ﻿using MetroSystem.Data;
 using MetroSystem.Data.Models;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using System;
 using System.Text;
-using MetroSystem.Service.Interface;
-using MetroSystem.Service.Service;
 using MetroSystem.Data.Interface;
 using MetroSystem.Data.Repositories;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Builder.Extensions;
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using System.Text.Json.Serialization;
+using MetroSystem.Service.Service;
 namespace MetroSystem
 {
     public class Program
@@ -53,7 +47,7 @@ namespace MetroSystem
                         ValidateAudience = false
                     };
                 });
-
+          
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowFrontend",
