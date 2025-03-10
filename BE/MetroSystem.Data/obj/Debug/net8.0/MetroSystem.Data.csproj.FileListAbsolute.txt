@@ -72,3 +72,18 @@ D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\r
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.pdb
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.genruntimeconfig.cache
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\ref\MetroSystem.Data.dll
+D:\New folder\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.deps.json
+D:\New folder\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.runtimeconfig.json
+D:\New folder\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.dll
+D:\New folder\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.pdb
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.csproj.AssemblyReference.cache
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.AssemblyInfoInputs.cache
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.AssemblyInfo.cs
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.csproj.CoreCompileInputs.cache
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.sourcelink.json
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.dll
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\refint\MetroSystem.Data.dll
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.pdb
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.genruntimeconfig.cache
+D:\New folder\BE\MetroSystem.Data\obj\Debug\net8.0\ref\MetroSystem.Data.dll

@@ -16,6 +16,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "GetAllMetroLines",
+    "RelativePath": "api/add-new-metro-lines/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "GetMetroLineByName",
+    "RelativePath": "api/add-new-metro-lines/get-by-name/{lineName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lineName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "UpdateMetroLineDetails",
+    "RelativePath": "api/add-new-metro-lines/update-line",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestUpdateMetroLine",
+        "Type": "MetroSystem.Data.RequestModel.MetroLineModel.RequestUpdateMetroLine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "UpdateMetroLineStatus",
+    "RelativePath": "api/add-new-metro-lines/update-status/{lineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lineId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MetroSystem.Controllers.AdminController",
     "Method": "SetUserStatus",
     "RelativePath": "api/admin/Update-User-Status",
@@ -58,6 +121,164 @@
       {
         "Name": "model",
         "Type": "MetroSystem.Data.Enities.RefreshTokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusLineController",
+    "Method": "CreateBusLine",
+    "RelativePath": "api/bus-lines/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestCreateBusLine",
+        "Type": "MetroSystem.Data.RequestModel.BusLineModel.RequestCreateBusLine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusLineController",
+    "Method": "GetAllBusLines",
+    "RelativePath": "api/bus-lines/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusLineController",
+    "Method": "GetBusLineByName",
+    "RelativePath": "api/bus-lines/get-by-name/{busLineName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busLineName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusLineController",
+    "Method": "UpdateBusLineDetails",
+    "RelativePath": "api/bus-lines/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestUpdateBusLine",
+        "Type": "MetroSystem.Data.RequestModel.BusLineModel.RequestUpdateBusLine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusLineController",
+    "Method": "UpdateBusLineStatus",
+    "RelativePath": "api/bus-lines/update-status/{busLineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busLineId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.FeedbackController",
+    "Method": "CreateFeedback",
+    "RelativePath": "api/feedback/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbackDto",
+        "Type": "MetroSystem.Data.Enities.FeedBackMod.FeedbackDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "GetAllStations",
+    "RelativePath": "api/MetroStation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "GetStationByName",
+    "RelativePath": "api/MetroStation/by-name/{stationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "CreateStation",
+    "RelativePath": "api/MetroStation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.Enities.NewFolder.MetroStationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "UpdateStation",
+    "RelativePath": "api/MetroStation/update/{stationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.Enities.MetroStationMod.UpdateMetroStationDto",
         "IsRequired": true
       }
     ],

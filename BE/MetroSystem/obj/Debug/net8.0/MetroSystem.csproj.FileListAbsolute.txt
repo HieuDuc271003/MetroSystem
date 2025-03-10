@@ -1,429 +1,113 @@
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\appsettings.json
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.deps.json
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.runtimeconfig.json
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.dll
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.pdb
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\myself\BE\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.AssemblyReference.cache
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfoInputs.cache
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfo.cs
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.CoreCompileInputs.cache
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cs
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cache
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\scopedcss\bundle\MetroSystem.styles.css
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.build.json
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.development.json
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssets.props
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.MetroSystem.props
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MetroSystem.props
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MetroSystem.props
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.pack.json
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSys.75FA7365.Up2Date
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.dll
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
-D:\myself\BE\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.AssemblyReference.cache
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfoInputs.cache
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfo.cs
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.CoreCompileInputs.cache
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\appsettings.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.deps.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.runtimeconfig.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.pdb
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.dll
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.pdb
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.pdb
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\scopedcss\bundle\MetroSystem.styles.css
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.MetroSystem.props
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MetroSystem.props
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MetroSystem.props
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSys.75FA7365.Up2Date
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
-C:\Users\ACER\Desktop\MetroSystem\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\appsettings.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.deps.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.runtimeconfig.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.pdb
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Azure.Core.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Azure.Identity.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Memory.Data.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.pdb
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.pdb
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.AssemblyReference.cache
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfoInputs.cache
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfo.cs
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.CoreCompileInputs.cache
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cs
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cache
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\scopedcss\bundle\MetroSystem.styles.css
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.build.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.development.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssets.props
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.MetroSystem.props
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MetroSystem.props
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MetroSystem.props
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.pack.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSys.75FA7365.Up2Date
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\obj\Debug\net8.0\MetroSystem.sourcelink.json
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\BCrypt.Net-Next.dll
-D:\myself\BE\SWD\MetroSystem\MetroSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\appsettings.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.deps.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.runtimeconfig.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.pdb
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Azure.Core.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Azure.Identity.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\BCrypt.Net-Next.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\FirebaseAdmin.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Api.Gax.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.Auth.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.Core.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.CodeDom.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Management.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Memory.Data.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.pdb
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.pdb
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.AssemblyReference.cache
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfoInputs.cache
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfo.cs
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.CoreCompileInputs.cache
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cs
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cache
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.sourcelink.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\scopedcss\bundle\MetroSystem.styles.css
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.build.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.development.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.MetroSystem.props
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MetroSystem.props
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MetroSystem.props
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSys.75FA7365.Up2Date
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
-<<<<<<< Updated upstream
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\appsettings.json
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
-=======
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\serviceAccount.json
->>>>>>> Stashed changes
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.deps.json
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.runtimeconfig.json
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.pdb
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Azure.Core.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Azure.Identity.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\BCrypt.Net-Next.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\EPPlus.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\EPPlus.Interfaces.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\EPPlus.System.Drawing.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\FirebaseAdmin.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Api.Gax.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.Auth.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.Core.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.CodeDom.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Management.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Memory.Data.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Formats.Asn1.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Text.Json.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.dll
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.pdb
-D:\myself\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.pdb
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.AssemblyReference.cache
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfoInputs.cache
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfo.cs
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.CoreCompileInputs.cache
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cs
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cache
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.sourcelink.json
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\scopedcss\bundle\MetroSystem.styles.css
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.build.json
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.development.json
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssets.props
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.MetroSystem.props
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MetroSystem.props
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MetroSystem.props
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.pack.json
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSys.75FA7365.Up2Date
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.dll
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
-D:\myself\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\serviceAccount.json
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\EPPlus.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\EPPlus.Interfaces.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\EPPlus.System.Drawing.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Formats.Asn1.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\System.Text.Json.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\serviceAccount.json
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\appsettings.json
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.deps.json
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.runtimeconfig.json
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.pdb
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Azure.Core.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Azure.Identity.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\EPPlus.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\FirebaseAdmin.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Google.Api.Gax.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.Auth.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Google.Apis.Core.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.CodeDom.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Management.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Memory.Data.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Text.Encoding.CodePages.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Text.Json.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Text.Encoding.CodePages.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.dll
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Service.pdb
+D:\New folder\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.Data.pdb
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.AssemblyReference.cache
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfoInputs.cache
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.AssemblyInfo.cs
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.csproj.CoreCompileInputs.cache
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.sourcelink.json
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\scopedcss\bundle\MetroSystem.styles.css
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.development.json
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.MetroSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.MetroSystem.props
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MetroSystem.props
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MetroSystem.props
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.pack.json
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSys.75FA7365.Up2Date
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.dll
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
+D:\New folder\BE\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
