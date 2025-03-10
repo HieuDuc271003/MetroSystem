@@ -15,6 +15,8 @@ namespace MetroSystem.Data
             service.AddScoped<IMetroLineService, MetroLineService>();
             service.AddScoped<IBusLineService, BusLineService>();
             service.AddScoped<ItokenService, TokenService>();
+            service.AddScoped<IFeedbackService, FeedbackService>();
+            service.AddScoped<IMetroStationService, MetroStationService>();
             return service;
         }
     }
