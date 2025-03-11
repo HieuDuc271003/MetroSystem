@@ -127,6 +127,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MetroSystem.Controllers.BookmarkController",
+    "Method": "AddBookmark",
+    "RelativePath": "api/bookmark/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookmarkDto",
+        "Type": "MetroSystem.Data.Enities.BookMarkMod.BookmarkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BookmarkController",
+    "Method": "GetBookmarks",
+    "RelativePath": "api/bookmark/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "CreateBusLine",
     "RelativePath": "api/bus-lines/create",
@@ -207,6 +233,16 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.FeedbackController",
+    "Method": "GetAllFeedbacks",
+    "RelativePath": "api/feedback/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.FeedbackController",
     "Method": "CreateFeedback",
     "RelativePath": "api/feedback/create",
     "HttpMethod": "POST",
@@ -219,6 +255,37 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.FeedbackController",
+    "Method": "UpdateFeedback",
+    "RelativePath": "api/feedback/update/{feedbackId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbackId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "feedbackDto",
+        "Type": "MetroSystem.Data.Enities.FeedBackMod.FeedbackDTOUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.FeedbackController",
+    "Method": "GetFeedbacksByUserId",
+    "RelativePath": "api/feedback/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

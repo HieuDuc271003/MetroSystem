@@ -14,3 +14,19 @@ D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Serv
 D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Release\net8.0\refint\MetroSystem.Service.dll
 D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.pdb
 D:\myself\MetroSystem\BE\MetroSystem.Service\obj\Release\net8.0\ref\MetroSystem.Service.dll
+D:\New folder\BE\MetroSystem.Service\bin\Release\net8.0\MetroSystem.Service.deps.json
+D:\New folder\BE\MetroSystem.Service\bin\Release\net8.0\MetroSystem.Service.dll
+D:\New folder\BE\MetroSystem.Service\bin\Release\net8.0\MetroSystem.Service.pdb
+D:\New folder\BE\MetroSystem.Service\bin\Release\net8.0\MetroSystem.Data.dll
+D:\New folder\BE\MetroSystem.Service\bin\Release\net8.0\MetroSystem.Data.pdb
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.csproj.AssemblyReference.cache
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.AssemblyInfoInputs.cache
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.AssemblyInfo.cs
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.csproj.CoreCompileInputs.cache
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.sourcelink.json
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSys.BD636C29.Up2Date
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.dll
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\refint\MetroSystem.Service.dll
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\MetroSystem.Service.pdb
+D:\New folder\BE\MetroSystem.Service\obj\Release\net8.0\ref\MetroSystem.Service.dll

@@ -47,6 +47,45 @@ namespace MetroSystem.Controllers
                 feedback.Rating
             });
         }
+
+        [HttpGet("all")]
+        [Authorize]
+        public async Task<IActionResult> GetAllFeedbacks()
+        {
+            var feedbacks = await _feedbackService.GetAllFeedbacksAsync();
+            return Ok(feedbacks);
+        }
+
+        [HttpGet("user")]
+        [Authorize]
+        public async Task<IActionResult> GetFeedbacksByUserId()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized(new { message = "User is not authenticated." });
+
+            var feedbacks = await _feedbackService.GetFeedbacksByUserIdAsync(userId);
+            return Ok(feedbacks);
+        }
+
+        [HttpPut("update/{feedbackId}")]
+        [Authorize]
+        public async Task<IActionResult> UpdateFeedback(string feedbackId, [FromBody] FeedbackDTOUpdate feedbackDto)
+        {
+            if (feedbackDto == null)
+            {
+                return BadRequest(new { message = "Invalid feedback data." });
+            }
+
+            var success = await _feedbackService.UpdateFeedbackAsync(feedbackId, feedbackDto);
+            if (success == null)
+            {
+                return NotFound(new { message = "Feedback not found or failed to update." });
+            }
+
+            return Ok(new { message = "Feedback updated successfully." });
+        }
+
     }
 
 }

@@ -11,5 +11,11 @@ namespace MetroSystem.Service.Interface
     public interface IFeedbackService
     {
         Task<Feedback> CreateFeedbackAsync(FeedbackDto feedbackDto, string userId);
+        Task<IEnumerable<Feedback>> GetAllFeedbacksAsync();
+        Task<IEnumerable<Feedback>> GetFeedbacksByUserIdAsync(string userId);
+
+        Task<Feedback> UpdateFeedbackAsync(string feedbackId, FeedbackDTOUpdate feedbackDto);
+
+
     }
 }
