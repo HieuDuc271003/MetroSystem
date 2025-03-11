@@ -35,6 +35,31 @@ namespace MetroSystem.Service.Service
 
             return success ? newFeedback : null;
         }
+
+        public async Task<IEnumerable<Feedback>> GetAllFeedbacksAsync()
+        {
+            return await _feedbackRepository.GetAllAsync();
+        }
+
+        public async Task<IEnumerable<Feedback>> GetFeedbacksByUserIdAsync(string userId)
+        {
+            return await _feedbackRepository.GetByUserIdAsync(userId);
+        }
+
+        public async Task<Feedback> UpdateFeedbackAsync(string feedbackId, FeedbackDTOUpdate feedbackDto)
+        {
+            var existingFeedback = await _feedbackRepository.GetByIdAsync(feedbackId);
+            if (existingFeedback == null)
+            {
+                throw new Exception($"Feedback with ID {feedbackId} not found.");
+            }
+
+            existingFeedback.Comment = feedbackDto.Comment;
+            existingFeedback.Rating = feedbackDto.Rating;
+
+            var success = await _feedbackRepository.SaveChangesAsync();
+            return success ? existingFeedback : null;
+        }
     }
 
 }

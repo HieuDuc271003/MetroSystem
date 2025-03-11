@@ -13,11 +13,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
-<<<<<<< Updated upstream
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
-=======
           "Microsoft.Extensions.Configuration": "8.0.0"
->>>>>>> Stashed changes
         },
         "runtime": {
           "MetroSystem.Data.dll": {}
@@ -437,11 +433,7 @@
       "Microsoft.Extensions.Caching.Memory/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
-<<<<<<< Updated upstream
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
-=======
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
->>>>>>> Stashed changes
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Microsoft.Extensions.Options": "8.0.0",
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -453,8 +445,6 @@
           }
         }
       },
-<<<<<<< Updated upstream
-=======
       "Microsoft.Extensions.Configuration/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -467,7 +457,6 @@
           }
         }
       },
->>>>>>> Stashed changes
       "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -481,11 +470,7 @@
       },
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "dependencies": {
-<<<<<<< Updated upstream
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
-=======
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
->>>>>>> Stashed changes
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
@@ -494,19 +479,11 @@
           }
         }
       },
-<<<<<<< Updated upstream
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.2": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-=======
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
->>>>>>> Stashed changes
           }
         }
       },
@@ -537,11 +514,7 @@
       },
       "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
         "dependencies": {
-<<<<<<< Updated upstream
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
-=======
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
->>>>>>> Stashed changes
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -552,11 +525,7 @@
       },
       "Microsoft.Extensions.Options/8.0.0": {
         "dependencies": {
-<<<<<<< Updated upstream
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
-=======
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
->>>>>>> Stashed changes
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "runtime": {
@@ -1121,8 +1090,6 @@
       "path": "microsoft.extensions.caching.memory/8.0.0",
       "hashPath": "microsoft.extensions.caching.memory.8.0.0.nupkg.sha512"
     },
-<<<<<<< Updated upstream
-=======
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1130,7 +1097,6 @@
       "path": "microsoft.extensions.configuration/8.0.0",
       "hashPath": "microsoft.extensions.configuration.8.0.0.nupkg.sha512"
     },
->>>>>>> Stashed changes
     "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1145,21 +1111,12 @@
       "path": "microsoft.extensions.dependencyinjection/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512"
     },
-<<<<<<< Updated upstream
-    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MNe7GSTBf3jQx5vYrXF0NZvn6l7hUKF6J54ENfAgCO8y6xjN1XUmKKWG464LP2ye6QqDiA1dkaWEZBYnhoZzjg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.2",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
-=======
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
->>>>>>> Stashed changes
     },
     "Microsoft.Extensions.DependencyModel/8.0.1": {
       "type": "package",

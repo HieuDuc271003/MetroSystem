@@ -1,0 +1,60 @@
+﻿using MetroSystem.Data.Enities.BookMarkMod;
+using MetroSystem.Service.Interface;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+
+namespace MetroSystem.Controllers
+{
+    [ApiController]
+    [Route("api/bookmark")]
+    public class BookmarkController : ControllerBase
+    {
+        private readonly IBookmarkService _bookmarkService;
+
+        public BookmarkController(IBookmarkService bookmarkService)
+        {
+            _bookmarkService = bookmarkService;
+        }
+
+        [HttpPost("add")]
+        [Authorize]
+        public async Task<IActionResult> AddBookmark([FromBody] BookmarkDto bookmarkDto)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new { message = "User is not authenticated." });
+            }
+
+            try
+            {
+                var success = await _bookmarkService.AddBookmarkAsync(userId, bookmarkDto.StationId, bookmarkDto.LineId);
+                if (!success)
+                {
+                    return BadRequest(new { message = "Failed to add bookmark." });
+                }
+
+                return Ok(new { message = "Bookmark added successfully." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpGet("get")]
+        [Authorize]
+        public async Task<IActionResult> GetBookmarks()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new { message = "User is not authenticated." });
+            }
+
+            var bookmarks = await _bookmarkService.GetBookmarksByUserIdAsync(userId);
+            return Ok(bookmarks);
+        }
+    }
+}
