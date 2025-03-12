@@ -13,6 +13,8 @@ namespace MetroSystem.Data
             service.AddScoped<IAdminRepositories, AdminRepositories>();
             service.AddScoped<IMetroLineRepository, MetroLineRepository>();
             service.AddScoped<IBusLineRepository, BusLineRepository>();
+            service.AddScoped<IBusScheduleRepository, BusScheduleRepository>();
+            service.AddScoped<IBusStationRepository, BusStationRepository>();
             service.AddScoped<IUnitOfWork, UnitOfWork>();
             service.AddScoped<IMetroStationRepository, MetroStationRepository>();
             service.AddScoped<IFeedbackRepository, FeedbackRepository>();
