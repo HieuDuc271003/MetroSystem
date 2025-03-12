@@ -17,6 +17,7 @@ namespace MetroSystem.Data
             service.AddScoped<IMetroStationRepository, MetroStationRepository>();
             service.AddScoped<IFeedbackRepository, FeedbackRepository>();
             service.AddScoped<IBookmarkRepository, BookmarkRepository>();   
+            service.AddScoped<IScheduleRepository, ScheduleRepository>();
             return service;
         }
     }

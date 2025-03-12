@@ -16,6 +16,8 @@ public partial class MetroStation
     public string Location { get; set; }
 
     public bool? Status { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get; set; }
 
     public virtual ICollection<Bookmark> Bookmarks { get; set; } = new List<Bookmark>();
 

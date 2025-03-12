@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity.Data;
 using MetroSystem.Data.Enities;
 using FirebaseAdmin.Auth;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace MetroSystem.Controllers
 {
@@ -80,6 +82,25 @@ namespace MetroSystem.Controllers
             return Ok(new { Message = "Token mới", Token = newToken });
         }
 
-    
+        [HttpPost("logout")]
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new { Message = "Không xác định được người dùng." });
+            }
+
+            var result = await _authenticationService.LogoutAsync(userId);
+            if (!result)
+            {
+                return BadRequest(new { Message = "Đăng xuất thất bại." });
+            }
+
+            return Ok(new { Message = "Đăng xuất thành công." });
+        }
+
+
     }
 }

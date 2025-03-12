@@ -13,9 +13,12 @@ namespace MetroSystem.Service.Service
     public class MetroStationService : IMetroStationService
     {
         private readonly IMetroStationRepository _metroStationRepository;
-        public MetroStationService(IMetroStationRepository metroStationRepository)
+        private readonly IGeocodingService _geocodingService;
+
+        public MetroStationService(IMetroStationRepository metroStationRepository, IGeocodingService geocodingService)
         {
             _metroStationRepository = metroStationRepository;
+            _geocodingService = geocodingService;   
         }
 
         public async Task<IEnumerable<MetroStationResponseDto>> GetAllStationsAsync()
@@ -103,6 +106,63 @@ namespace MetroSystem.Service.Service
                 Location = station.Location,
                 Status = (bool)station.Status
             });
+        }
+
+        public async Task<List<MetroStationDistanceDto>> GetNearestStationsAsync(string address, int limit = 10)
+        {
+            var (userLat, userLng) = await _geocodingService.GetCoordinatesAsync(address);
+            Console.WriteLine($"User Location: Lat={userLat}, Lng={userLng}");
+
+            var stations = await _metroStationRepository.GetAllAsync();
+
+            var nearestStations = stations
+                .Select(station =>
+                {
+                    double distance = CalculateDistance(userLat, userLng, station.Latitude, station.Longitude);
+                    Console.WriteLine($"Distance from {address} to {station.StationName}: {distance} km");
+
+                    return new
+                    {
+                        Station = station,
+                        Distance = distance
+                    };
+                })
+                .OrderBy(s => s.Distance)
+                .Take(limit)
+                .Select(s => new MetroStationDistanceDto
+                {
+                    StationName = s.Station.StationName,
+                    Latitude = s.Station.Latitude,
+                    Longitude = s.Station.Longitude,
+                    Distance = s.Distance
+                })
+                .ToList();
+
+            return nearestStations;
+        }
+
+        private double CalculateDistance(double lat1, double lon1, double lat2, double lon2)
+        {
+            Console.WriteLine($"Calculating Distance: From ({lat1}, {lon1}) To ({lat2}, {lon2})");
+
+            const double R = 6371; // Bán kính Trái Đất (km)
+            double dLat = DegreesToRadians(lat2 - lat1);
+            double dLon = DegreesToRadians(lon2 - lon1);
+
+            double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
+                       Math.Cos(DegreesToRadians(lat1)) * Math.Cos(DegreesToRadians(lat2)) *
+                       Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+
+            double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+            double distance = R * c;
+
+            Console.WriteLine($"Calculated Distance: {distance} km");
+            return distance;
+        }
+
+        private double DegreesToRadians(double degrees)
+        {
+            return degrees * (Math.PI / 180);
         }
     }
 }

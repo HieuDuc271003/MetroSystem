@@ -72,5 +72,22 @@ namespace MetroSystem.Service.Service
 
             return (user, jwtToken, refreshToken);
         }
+
+        public async Task<bool> LogoutAsync(string userId)
+        {
+            var user = await _unitOfWork.Authentication.GetByUserIdAsync(userId);
+            if (user == null)
+            {
+                return false;
+            }
+
+            user.RefreshToken = null;
+            user.RefreshTokenExpiry = DateTime.UtcNow;
+
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+
+            return true;
+        }
     }
 }

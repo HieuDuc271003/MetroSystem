@@ -45,7 +45,7 @@ namespace MetroSystem.Data.Repositories
 
         public async Task DeleteAsync(Bookmark bookmark)
         {
-            await _context.Bookmarks.AddAsync(bookmark);
+             _context.Bookmarks.Remove(bookmark);
         }
     }
 }

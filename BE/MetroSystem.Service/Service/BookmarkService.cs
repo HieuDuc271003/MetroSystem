@@ -44,5 +44,16 @@ namespace MetroSystem.Service.Service
         {
             return await _bookmarkRepository.GetByUserIdAsync(userId);
         }
+
+        public async Task<bool> DeleteBookmarkAsync(string userId, string stationId)
+        {
+            var bookmark = await _bookmarkRepository.GetByUserAndStationAsync(userId, stationId);
+            if(bookmark == null)
+            {
+                throw new Exception("can't found");
+            }
+            await _bookmarkRepository.DeleteAsync(bookmark);
+            return await _bookmarkRepository.SaveChangesAsync();
+        }
     }
 }

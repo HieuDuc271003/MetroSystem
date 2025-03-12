@@ -14,6 +14,7 @@ namespace MetroSystem.Service.Interface
     public interface IAuthenticationService
     {
         Task<(User, string, string)> AuthenticateWithGoogleAsync(string firebaseUid, string email, string name);
+        Task<bool> LogoutAsync(string userId);
     }
 }
  

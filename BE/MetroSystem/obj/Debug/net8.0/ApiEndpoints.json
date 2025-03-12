@@ -50,6 +50,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "lineId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "requestUpdateMetroLine",
         "Type": "MetroSystem.Data.RequestModel.MetroLineModel.RequestUpdateMetroLine",
         "IsRequired": true
@@ -112,6 +117,16 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.AuthController",
     "Method": "RefreshToken",
     "RelativePath": "api/auth/refresh-token",
     "HttpMethod": "POST",
@@ -144,6 +159,22 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.BookmarkController",
+    "Method": "DeleteBookmark",
+    "RelativePath": "api/bookmark/delete/{stationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BookmarkController",
     "Method": "GetBookmarks",
     "RelativePath": "api/bookmark/get",
     "HttpMethod": "GET",
@@ -154,7 +185,7 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
-    "Method": "CreateBusLine",
+    "Method": "AddBusLine",
     "RelativePath": "api/bus-lines/create",
     "HttpMethod": "POST",
     "IsController": true,
@@ -202,6 +233,11 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "busLineId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
       {
         "Name": "requestUpdateBusLine",
         "Type": "MetroSystem.Data.RequestModel.BusLineModel.RequestUpdateBusLine",
@@ -332,6 +368,22 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "GetNearestStationsByAddress",
+    "RelativePath": "api/MetroStation/nearest-by-address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
     "Method": "UpdateStation",
     "RelativePath": "api/MetroStation/update/{stationId}",
     "HttpMethod": "PUT",
@@ -346,6 +398,59 @@
       {
         "Name": "request",
         "Type": "MetroSystem.Data.Enities.MetroStationMod.UpdateMetroStationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "GetSchedulesByStationName",
+    "RelativePath": "api/schedules/by-station/{stationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "AddSchedule",
+    "RelativePath": "api/schedules/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.ScheduleModel.RequestCreateSchedule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "UpdateSchedule",
+    "RelativePath": "api/schedules/update/{scheduleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.ScheduleModel.RequestUpdateSchedule",
         "IsRequired": true
       }
     ],
