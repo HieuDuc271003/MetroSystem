@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetroSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13ee0efcd3d180dd699f9669a8fcc1a138babaec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3bb15002893fbe4a21532525a68d22dfe95ad20")]
 [assembly: System.Reflection.AssemblyProductAttribute("MetroSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetroSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
