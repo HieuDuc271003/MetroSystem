@@ -9,9 +9,9 @@ namespace MetroSystem.Service.Interface
 {
     public interface IBusLineService
     {
-        Task<bool> CreateBusLineAsync(RequestCreateBusLine requestCreateBusLine);
+        Task<bool> AddBusLineAsync(RequestCreateBusLine requestCreateBusLine);
         Task<bool> UpdateBusLineStatusAsync(string busLineId, bool status);
-        Task<bool> UpdateBusLineDetailsAsync(RequestUpdateBusLine requestUpdateBusLine);
+        Task<bool> UpdateBusLineDetailsAsync(string busLineId, RequestUpdateBusLine requestUpdateBusLine);
         Task<IEnumerable<ResponseBusLineModel>> GetAllBusLinesAsync();
         Task<ResponseBusLineModel?> GetBusLineByNameAsync(string busLineName);
 

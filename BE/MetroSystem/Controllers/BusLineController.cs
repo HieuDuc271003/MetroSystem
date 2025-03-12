@@ -18,9 +18,9 @@ namespace MetroSystem.Controllers
 
         [HttpPost("create")]
         [Authorize(Roles = "R3")]
-        public async Task<IActionResult> CreateBusLine([FromBody] RequestCreateBusLine requestCreateBusLine)
+        public async Task<IActionResult> AddBusLine([FromBody] RequestCreateBusLine requestCreateBusLine)
         {
-            var result = await _busLineService.CreateBusLineAsync(requestCreateBusLine);
+            var result = await _busLineService.AddBusLineAsync(requestCreateBusLine);
             if (!result) return BadRequest("Failed to create Bus Line.");
             return Ok("Bus Line created successfully.");
         }
@@ -36,9 +36,9 @@ namespace MetroSystem.Controllers
 
         [HttpPut("update")]
         [Authorize(Roles = "R3")]
-        public async Task<IActionResult> UpdateBusLineDetails([FromBody] RequestUpdateBusLine requestUpdateBusLine)
+        public async Task<IActionResult> UpdateBusLineDetails(string busLineId, [FromBody] RequestUpdateBusLine requestUpdateBusLine)
         {
-            var result = await _busLineService.UpdateBusLineDetailsAsync(requestUpdateBusLine);
+            var result = await _busLineService.UpdateBusLineDetailsAsync(busLineId, requestUpdateBusLine);
             if (!result) return NotFound("Bus Line not found or update failed.");
             return Ok("Bus Line details updated successfully.");
         }

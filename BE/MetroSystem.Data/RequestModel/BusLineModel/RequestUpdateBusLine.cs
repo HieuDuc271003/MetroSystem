@@ -8,8 +8,7 @@ namespace MetroSystem.Data.RequestModel.BusLineModel
 {
     public class RequestUpdateBusLine
     {
-        public required string BusLineId { get; set; }
-        public string BusLineName { get; set; }
+        public string BusLineName { get; set; } = null!;
         public string? Route { get; set; }
     }
 }

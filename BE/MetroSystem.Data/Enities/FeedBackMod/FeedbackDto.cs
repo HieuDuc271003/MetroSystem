@@ -8,8 +8,8 @@ namespace MetroSystem.Data.Enities.FeedBackMod
 {
     public class FeedbackDto
     {
-        public string LineId { get; set; }
-        public string Comment { get; set; }
+        public string LineId { get; set; } = null!;
+        public string Comment { get; set; } = null!;
         public int? Rating { get; set; }
     }
 

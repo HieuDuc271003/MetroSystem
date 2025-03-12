@@ -8,8 +8,8 @@ namespace MetroSystem.Data.Enities.MetroStationMod
 {
     public class UpdateMetroStationDto
     {
-        public string StationName { get; set; }
-        public string LineId { get; set; }
+        public string StationName { get; set; } = null!;
+        public string LineId { get; set; } = null!;
         public bool? Status { get; set; }
     }
 }

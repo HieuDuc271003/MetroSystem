@@ -27,7 +27,7 @@ namespace MetroSystem.Service.Service
         {
             var metroLine = new MetroLine
             {
-                LineId = requestCreateMetroLine.LineId,
+                LineId = Guid.NewGuid().ToString(),
                 LineName = requestCreateMetroLine.LineName,
                 Distance = requestCreateMetroLine.Distance,
                 Status = true 
@@ -49,9 +49,9 @@ namespace MetroSystem.Service.Service
             return true;
         }
 
-        public async Task<bool> UpdateMetroLineDetailsAsync(RequestUpdateMetroLine requestUpdateMetroLine)
+        public async Task<bool> UpdateMetroLineDetailsAsync(string lineId, RequestUpdateMetroLine requestUpdateMetroLine)
         {
-            var metroLine = await _unitOfWork.MetroLine.GetMetroLineByIdAsync(requestUpdateMetroLine.LineId);
+            var metroLine = await _unitOfWork.MetroLine.GetMetroLineByIdAsync(lineId);
             if (metroLine == null) return false;
 
             if (!string.IsNullOrEmpty(requestUpdateMetroLine.LineName))

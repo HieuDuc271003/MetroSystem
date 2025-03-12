@@ -15,11 +15,11 @@ namespace MetroSystem.Service.Service
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<bool> CreateBusLineAsync(RequestCreateBusLine requestCreateBusLine)
+        public async Task<bool> AddBusLineAsync(RequestCreateBusLine requestCreateBusLine)
         {
             var newBusLine = new BusLine
             {
-                BusLineId = requestCreateBusLine.BusLineId,
+                BusLineId = Guid.NewGuid().ToString(),
                 BusLineName = requestCreateBusLine.BusLineName,
                 Route = requestCreateBusLine.Route,
                 Status = true
@@ -40,9 +40,9 @@ namespace MetroSystem.Service.Service
             return true;
         }
 
-        public async Task<bool> UpdateBusLineDetailsAsync(RequestUpdateBusLine requestUpdateBusLine)
+        public async Task<bool> UpdateBusLineDetailsAsync(string busLineId, RequestUpdateBusLine requestUpdateBusLine)
         {
-            var busLine = await _unitOfWork.BusLine.GetBusLineByIdAsync(requestUpdateBusLine.BusLineId);
+            var busLine = await _unitOfWork.BusLine.GetBusLineByIdAsync(busLineId);
             if (busLine == null) return false;
 
             if (!string.IsNullOrEmpty(requestUpdateBusLine.BusLineName))

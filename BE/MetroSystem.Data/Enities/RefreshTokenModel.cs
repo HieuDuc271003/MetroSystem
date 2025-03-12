@@ -8,6 +8,6 @@ namespace MetroSystem.Data.Enities
 {
     public class RefreshTokenModel
     {
-        public string RefreshToken { get; set; }
+        public string RefreshToken { get; set; } = null!;
     }
 }

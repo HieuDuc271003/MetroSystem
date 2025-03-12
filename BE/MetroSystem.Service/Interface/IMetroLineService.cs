@@ -14,7 +14,7 @@ namespace MetroSystem.Service.Interface
     {
         Task<bool> AddMetroLineAsync(RequestCreateMetroLine requestCreateMetroLine);
         Task<bool> UpdateMetroLineStatusAsync(string lineId, bool status);
-        Task<bool> UpdateMetroLineDetailsAsync(RequestUpdateMetroLine requestUpdateMetroLine);
+        Task<bool> UpdateMetroLineDetailsAsync(string lineId, RequestUpdateMetroLine requestUpdateMetroLine);
         Task<IEnumerable<ResponseMetroLineModel>> GetAllMetroLinesAsync();
         Task<ResponseMetroLineModel?> GetMetroLineByNameAsync(string lineName);
 

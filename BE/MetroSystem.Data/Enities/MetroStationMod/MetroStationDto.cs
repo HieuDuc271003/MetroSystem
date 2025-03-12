@@ -8,9 +8,9 @@ namespace MetroSystem.Data.Enities.NewFolder
 {
     public class MetroStationDto
     {
-        public string StationName { get; set; }
-        public string LineId { get; set; }
-        public string Location { get; set; }
+        public string StationName { get; set; } = null!;
+        public string LineId { get; set; } = null!;
+        public string Location { get; set; } = null!;
         public bool Status { get; set; }
     }
 

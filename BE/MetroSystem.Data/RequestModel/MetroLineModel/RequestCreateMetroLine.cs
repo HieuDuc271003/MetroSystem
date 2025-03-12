@@ -2,7 +2,6 @@
 {
     public class RequestCreateMetroLine
     {
-        public required string LineId { get; set; }
 
         public required string LineName { get; set; }
 

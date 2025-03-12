@@ -54,9 +54,9 @@ namespace MetroSystem.Controllers
 
         [HttpPut("update-line")]
         [Authorize(Roles = "R3")]
-        public async Task<IActionResult> UpdateMetroLineDetails([FromBody] RequestUpdateMetroLine requestUpdateMetroLine)
+        public async Task<IActionResult> UpdateMetroLineDetails(string lineId, [FromBody] RequestUpdateMetroLine requestUpdateMetroLine)
         {
-            var result = await _metroLineService.UpdateMetroLineDetailsAsync(requestUpdateMetroLine);
+            var result = await _metroLineService.UpdateMetroLineDetailsAsync(lineId, requestUpdateMetroLine);
             if (!result) return NotFound("Metro line not found or update failed.");
             return Ok("Metro line details updated successfully.");
         }

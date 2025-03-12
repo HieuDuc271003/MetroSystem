@@ -8,8 +8,7 @@ namespace MetroSystem.Data.RequestModel.MetroLineModel
 {
     public class RequestUpdateMetroLine
     {
-        public required string LineId { get; set; }
-        public string LineName { get; set; } 
+        public string LineName { get; set; } = null!;
         public double? Distance { get; set; } 
     }
 }
