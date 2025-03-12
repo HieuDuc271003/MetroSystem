@@ -38,5 +38,11 @@ namespace MetroSystem.Data.Repositories
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<User> GetByUserIdAsync(string userId)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.UserId == userId);
+        }
     }
 }

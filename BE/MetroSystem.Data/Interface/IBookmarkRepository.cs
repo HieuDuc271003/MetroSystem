@@ -13,5 +13,7 @@ namespace MetroSystem.Data.Interface
         Task<bool> SaveChangesAsync();
         Task<Bookmark> GetByUserAndStationAsync(string userId, string stationId);
         Task<List<Bookmark>> GetByUserIdAsync(string userId);
+
+        Task DeleteAsync(Bookmark bookmark);
     }
 }

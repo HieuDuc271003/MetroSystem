@@ -100,8 +100,7 @@ namespace MetroSystem
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddScoped<IMetroLineRepository, MetroLineRepository>();
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); // Đảm bảo có đăng ký UnitOfWork
+         //   builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); // Đảm bảo có đăng ký UnitOfWork
 
             var app = builder.Build();
             // Configure the HTTP request pipeline.

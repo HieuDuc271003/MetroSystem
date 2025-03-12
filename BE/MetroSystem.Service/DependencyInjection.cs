@@ -18,6 +18,8 @@ namespace MetroSystem.Data
             service.AddScoped<IFeedbackService, FeedbackService>();
             service.AddScoped<IMetroStationService, MetroStationService>();
             service.AddScoped<IBookmarkService, BookmarkService>();
+            service.AddScoped<IScheduleService, ScheduleService>();
+            service.AddHttpClient<IGeocodingService, GeocodingService>();
             return service;
         }
     }

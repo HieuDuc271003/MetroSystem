@@ -98,6 +98,18 @@
         }
       }
     },
+    "/api/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/bookmark/add": {
       "post": {
         "tags": [
@@ -133,6 +145,28 @@
       "get": {
         "tags": [
           "Bookmark"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/bookmark/delete/{stationId}": {
+      "delete": {
+        "tags": [
+          "Bookmark"
+        ],
+        "parameters": [
+          {
+            "name": "stationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -217,6 +251,15 @@
       "put": {
         "tags": [
           "BusLine"
+        ],
+        "parameters": [
+          {
+            "name": "busLineId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -451,6 +494,15 @@
         "tags": [
           "MetroLine"
         ],
+        "parameters": [
+          {
+            "name": "lineId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -616,6 +668,121 @@
           }
         }
       }
+    },
+    "/api/MetroStation/nearest-by-address": {
+      "get": {
+        "tags": [
+          "MetroStation"
+        ],
+        "parameters": [
+          {
+            "name": "address",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/schedules/create": {
+      "post": {
+        "tags": [
+          "Schedule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateSchedule"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateSchedule"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateSchedule"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/schedules/update/{scheduleId}": {
+      "put": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "scheduleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateSchedule"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateSchedule"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateSchedule"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/schedules/by-station/{stationName}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "stationName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -723,16 +890,11 @@
       },
       "RequestCreateBusLine": {
         "required": [
-          "busLineId",
           "busLineName",
           "route"
         ],
         "type": "object",
         "properties": {
-          "busLineId": {
-            "type": "string",
-            "nullable": true
-          },
           "busLineName": {
             "type": "string",
             "nullable": true
@@ -747,15 +909,10 @@
       "RequestCreateMetroLine": {
         "required": [
           "distance",
-          "lineId",
           "lineName"
         ],
         "type": "object",
         "properties": {
-          "lineId": {
-            "type": "string",
-            "nullable": true
-          },
           "lineName": {
             "type": "string",
             "nullable": true
@@ -767,16 +924,31 @@
         },
         "additionalProperties": false
       },
-      "RequestUpdateBusLine": {
-        "required": [
-          "busLineId"
-        ],
+      "RequestCreateSchedule": {
         "type": "object",
         "properties": {
-          "busLineId": {
+          "lineId": {
             "type": "string",
             "nullable": true
           },
+          "stationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "arrivalTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "departureTime": {
+            "type": "string",
+            "format": "time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestUpdateBusLine": {
+        "type": "object",
+        "properties": {
           "busLineName": {
             "type": "string",
             "nullable": true
@@ -789,15 +961,8 @@
         "additionalProperties": false
       },
       "RequestUpdateMetroLine": {
-        "required": [
-          "lineId"
-        ],
         "type": "object",
         "properties": {
-          "lineId": {
-            "type": "string",
-            "nullable": true
-          },
           "lineName": {
             "type": "string",
             "nullable": true
@@ -806,6 +971,28 @@
             "type": "number",
             "format": "double",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestUpdateSchedule": {
+        "type": "object",
+        "properties": {
+          "lineId": {
+            "type": "string",
+            "nullable": true
+          },
+          "stationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "arrivalTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "departureTime": {
+            "type": "string",
+            "format": "time"
           }
         },
         "additionalProperties": false

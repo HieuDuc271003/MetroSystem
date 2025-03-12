@@ -2,6 +2,7 @@
 using MetroSystem.Data.Enities.NewFolder;
 using MetroSystem.Data.Models;
 using MetroSystem.Service.Interface;
+using MetroSystem.Service.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -62,5 +63,18 @@ namespace MetroSystem.Controllers
             return Ok(result.Station);
         }
 
+        //[HttpGet("nearest")]
+        //public async Task<IActionResult> GetNearestStations([FromQuery] double latitude, [FromQuery] double longitude)
+        //{
+        //    var stations = await _metroStationService.GetNearestStationsAsync(latitude, longitude);
+        //    return Ok(stations);
+        //}
+
+        [HttpGet("nearest-by-address")]
+        public async Task<IActionResult> GetNearestStationsByAddress([FromQuery] string address)
+        {
+            var stations = await _metroStationService.GetNearestStationsAsync(address);
+            return Ok(stations);
+        }
     }
 }

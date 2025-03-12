@@ -42,5 +42,10 @@ namespace MetroSystem.Data.Repositories
                 .Include(b => b.Line)
                 .ToListAsync();
         }
+
+        public async Task DeleteAsync(Bookmark bookmark)
+        {
+             _context.Bookmarks.Remove(bookmark);
+        }
     }
 }

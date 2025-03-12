@@ -56,5 +56,32 @@ namespace MetroSystem.Controllers
             var bookmarks = await _bookmarkService.GetBookmarksByUserIdAsync(userId);
             return Ok(bookmarks);
         }
+
+
+        [HttpDelete("delete/{stationId}")]
+        [Authorize]
+        public async Task<IActionResult> DeleteBookmark(string stationId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized(new { message = "User is not authenticated." });
+            }
+
+            try
+            {
+                var success = await _bookmarkService.DeleteBookmarkAsync(userId, stationId);
+                if (!success)
+                {
+                    return BadRequest(new { message = "Failed to delete bookmark." });
+                }
+
+                return Ok(new { message = "Bookmark deleted successfully." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
     }
 }

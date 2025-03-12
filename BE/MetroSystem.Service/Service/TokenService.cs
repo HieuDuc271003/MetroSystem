@@ -79,7 +79,7 @@ namespace MetroSystem.Service.Service
         {
             // Tìm user có RefreshToken tương ứng
             var user = _context.Users.FirstOrDefault(u => u.RefreshToken == refreshToken);
-            if (user == null || user.RefreshTokenExpiry < DateTime.UtcNow)
+            if (user == null || user.RefreshTokenExpiry < DateTime.UtcNow || string.IsNullOrEmpty(user.RefreshToken))
             {
                 return null; // Token không hợp lệ hoặc đã hết hạn
             }

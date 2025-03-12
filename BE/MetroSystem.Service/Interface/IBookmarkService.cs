@@ -11,5 +11,7 @@ namespace MetroSystem.Service.Interface
     {
         Task<bool> AddBookmarkAsync(string userId, string stationId, string lineId);
         Task<List<Bookmark>> GetBookmarksByUserIdAsync(string userId);
+
+        Task<bool> DeleteBookmarkAsync(string userId, string stationId);
     }
 }

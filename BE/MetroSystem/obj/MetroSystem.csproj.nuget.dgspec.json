@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj": {}
+    "D:\\New folder\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj": {}
   },
   "projects": {
-    "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj": {
+    "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
+        "projectUniqueName": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
         "projectName": "MetroSystem.Data",
-        "projectPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\obj\\",
+        "projectPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ACER\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -77,6 +78,10 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -95,24 +100,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj": {
+    "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj",
+        "projectUniqueName": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj",
         "projectName": "MetroSystem.Service",
-        "projectPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\obj\\",
+        "projectPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,14 +126,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ACER\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj": {
-                "projectPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj"
+              "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj": {
+                "projectPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj"
               }
             }
           }
@@ -141,9 +147,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -164,6 +170,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -182,24 +192,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj": {
+    "D:\\New folder\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj",
+        "projectUniqueName": "D:\\New folder\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj",
         "projectName": "MetroSystem",
-        "projectPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\obj\\",
+        "projectPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem\\MetroSystem.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -208,14 +218,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ACER\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj": {
-                "projectPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj"
+              "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj": {
+                "projectPath": "D:\\New folder\\MetroSystem\\BE\\MetroSystem.Service\\MetroSystem.Service.csproj"
               }
             }
           }
@@ -228,9 +239,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -239,6 +250,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -264,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

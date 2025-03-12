@@ -307,7 +307,13 @@ public partial class MetroSystemContext : DbContext
                 .IsRequired()
                 .HasMaxLength(100);
             entity.Property(e => e.Status).HasDefaultValue(true);
+            entity.Property(e => e.Latitude)
+      .HasColumnType("FLOAT")
+      .HasColumnName("Latitude");
 
+            entity.Property(e => e.Longitude)
+                .HasColumnType("FLOAT")
+                .HasColumnName("Longitude");
             entity.HasOne(d => d.Line).WithMany(p => p.MetroStations)
                 .HasForeignKey(d => d.LineId)
                 .OnDelete(DeleteBehavior.ClientSetNull)

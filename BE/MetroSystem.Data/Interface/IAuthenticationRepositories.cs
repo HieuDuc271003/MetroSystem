@@ -13,5 +13,7 @@ namespace MetroSystem.Data.Interface
         Task<User> GetByEmailAsync(string email);
 
         Task AddAsync(User user);
+
+        Task<User> GetByUserIdAsync(string userId);
     }
 }
