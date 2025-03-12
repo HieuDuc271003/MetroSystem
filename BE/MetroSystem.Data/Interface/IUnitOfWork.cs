@@ -20,6 +20,8 @@ namespace MetroSystem.Data.Interface
         IMetroLineRepository MetroLine { get; } // ✨ Thêm mới repository quản lý chuyến tàu
         IBusLineRepository BusLine { get; } // ✨ Thêm mới repository quản lý chuyến xe buýt
         IScheduleRepository Schedule { get; }
+        IBusScheduleRepository BusSchedule { get; }
+        IBusStationRepository BusStation { get; }
 
         Task<int> SaveChangesAsync();
     }

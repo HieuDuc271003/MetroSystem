@@ -41,9 +41,11 @@ namespace MetroSystem.Data
         public IMetroLineRepository MetroLine { get; }
         public IBusLineRepository BusLine { get; }
         public IScheduleRepository Schedule { get; }
+        public IBusScheduleRepository BusSchedule { get; }
+        public IBusStationRepository BusStation { get; }
 
 
-        public UnitOfWork(MetroSystemContext context, IAuthenticationRepositories authenticationRepositories, IAdminRepositories adminRepositories, IMetroLineRepository metroLineRepository, IBusLineRepository busLineRepository, IScheduleRepository scheduleRepository)
+        public UnitOfWork(MetroSystemContext context, IAuthenticationRepositories authenticationRepositories, IAdminRepositories adminRepositories, IMetroLineRepository metroLineRepository, IBusLineRepository busLineRepository, IScheduleRepository scheduleRepository, IBusScheduleRepository busScheduleRepository, IBusStationRepository busStationRepository)
         {
             _context = context;
             Authentication = authenticationRepositories;
@@ -51,6 +53,8 @@ namespace MetroSystem.Data
             MetroLine = metroLineRepository;
             BusLine = busLineRepository;
             Schedule = scheduleRepository;
+            BusSchedule = busScheduleRepository;
+            BusStation = busStationRepository;
         }
 
         public async Task<int> SaveChangesAsync()
