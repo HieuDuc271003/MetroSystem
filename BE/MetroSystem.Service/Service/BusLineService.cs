@@ -1,5 +1,6 @@
 ﻿using MetroSystem.Data.Interface;
 using MetroSystem.Data.Models;
+using MetroSystem.Data.Repositories;
 using MetroSystem.Data.RequestModel.BusLineModel;
 using MetroSystem.Service.Interface;
 using System.Threading.Tasks;
@@ -79,6 +80,10 @@ namespace MetroSystem.Service.Service
                 Route = busLine.Route,
                 Status = busLine.Status
             };
+        }
+        public async Task<bool> DeleteBusLineByIdAsync(string busLineId)
+        {
+            return await _unitOfWork.BusLine.DeleteBusLineByIdAsync(busLineId);
         }
     }
 }

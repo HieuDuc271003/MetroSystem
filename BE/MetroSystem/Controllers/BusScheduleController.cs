@@ -3,6 +3,7 @@ using MetroSystem.Data.RequestModel.BusScheduleModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using MetroSystem.Service.Service;
 
 namespace MetroSystem.Controllers
 {
@@ -67,6 +68,16 @@ namespace MetroSystem.Controllers
                 return NotFound("No bus schedules found for the given station.");
             }
             return Ok(schedules);
+        }
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> DeleteBusLineSchedule(string id)
+        {
+            var result = await _busScheduleService.DeleteBusLineScheduleByIdAsync(id);
+            if (!result) return NotFound(new { message = "Bus line schedule not found!" });
+
+            return Ok(new { message = "Delete successfull!" });
         }
     }
 }

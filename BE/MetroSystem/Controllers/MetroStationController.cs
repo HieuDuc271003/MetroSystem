@@ -38,6 +38,7 @@ namespace MetroSystem.Controllers
         }
 
         [HttpPost("create")]
+        [Authorize(Roles = "R3")]
         public async Task<IActionResult> CreateStation([FromBody] MetroStationDto request)
         {
             var result = await _metroStationService.CreateStationAsync(request);
@@ -51,6 +52,7 @@ namespace MetroSystem.Controllers
         }
 
         [HttpPut("update/{stationId}")]
+        [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateStation(string stationId, [FromBody] UpdateMetroStationDto request)
         {
             var result = await _metroStationService.UpdateStationAsync(stationId, request);
@@ -75,6 +77,16 @@ namespace MetroSystem.Controllers
         {
             var stations = await _metroStationService.GetNearestStationsAsync(address);
             return Ok(stations);
+        }
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> DeleteMetroStation(string id)
+        {
+            var result = await _metroStationService.DeleteMetroStationByIdAsync(id);
+            if (!result) return NotFound(new { message = "Metro station not found!" });
+
+            return Ok(new { message = "Delete successfull!" });
         }
     }
 }

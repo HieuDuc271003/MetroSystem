@@ -19,6 +19,7 @@ namespace MetroSystem.Service.Interface
         Task<(bool IsSuccess, string Message, MetroStationResponseDto Station)> UpdateStationAsync(string stationId, UpdateMetroStationDto request);
 
         Task<List<MetroStationDistanceDto>> GetNearestStationsAsync(string address, int limit = 10);
+        Task<bool> DeleteMetroStationByIdAsync(string StationId);
     }
 
 }

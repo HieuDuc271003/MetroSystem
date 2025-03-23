@@ -71,5 +71,13 @@ namespace MetroSystem.Service.Service
                 DayType = s.DayType
             }).ToList();
         }
+
+        public async Task<bool> DeleteBusLineScheduleByIdAsync(string ScheduleId)
+        {
+            return await _unitOfWork.BusSchedule.DeleteBusLineScheduleByIdAsync(ScheduleId);
+        }
+
+
+
     }
 }

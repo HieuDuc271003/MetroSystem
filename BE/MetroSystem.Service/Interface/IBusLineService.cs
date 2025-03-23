@@ -14,6 +14,7 @@ namespace MetroSystem.Service.Interface
         Task<bool> UpdateBusLineDetailsAsync(string busLineId, RequestUpdateBusLine requestUpdateBusLine);
         Task<IEnumerable<ResponseBusLineModel>> GetAllBusLinesAsync();
         Task<ResponseBusLineModel?> GetBusLineByNameAsync(string busLineName);
+        Task<bool> DeleteBusLineByIdAsync(string busLineId);
 
     }
 }

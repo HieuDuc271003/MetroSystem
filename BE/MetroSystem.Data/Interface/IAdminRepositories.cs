@@ -1,8 +1,5 @@
 ﻿using MetroSystem.Data.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MetroSystem.Data.Interface
@@ -11,5 +8,6 @@ namespace MetroSystem.Data.Interface
     {
         Task UpdateStatusAsync(string email, bool status);
         Task<User> GetEmailIdAsync(string email);
+        Task<List<User>> GetAllUsersAsync(); 
     }
 }

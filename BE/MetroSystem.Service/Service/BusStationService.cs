@@ -1,4 +1,5 @@
-﻿using MetroSystem.Data.Interface;
+﻿using MetroSystem.Data;
+using MetroSystem.Data.Interface;
 using MetroSystem.Data.Models;
 using MetroSystem.Data.RequestModel.BusStationModel;
 using MetroSystem.Service.Interface;
@@ -30,6 +31,15 @@ namespace MetroSystem.Service.Service
             return await _busStationRepository.AddBusStationAsync(newStation);
         }
 
+        public async Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status)
+        {
+            var existingStation = await _busStationRepository.GetBusStationByIdAsync(busStationId);
+            if (existingStation == null) return false;
+
+            existingStation.Status = status;
+            return await _busStationRepository.UpdateBusStationAsync(existingStation);
+        }
+
         public async Task<bool> UpdateBusStationAsync(string busStationId, RequestUpdateBusStation request)
         {
             var existingStation = await _busStationRepository.GetBusStationByIdAsync(busStationId);
@@ -53,6 +63,11 @@ namespace MetroSystem.Service.Service
                 Location = s.Location,
                 Status = s.Status
             }).ToList();
+        }
+
+        public async Task<bool> DeleteBusStationByIdAsync(string BusStationId)
+        {
+            return await _busStationRepository.DeleteBusStationByIdAsync(BusStationId);
         }
     }
 }
