@@ -9,5 +9,6 @@ namespace MetroSystem.Data.Interface
         Task<BusLine> GetBusLineByIdAsync(string busLineId);
         Task<IEnumerable<BusLine>> GetAllBusLinesAsync();
         Task<BusLine?> GetBusLineByNameAsync(string busLineName);
+        Task<bool> DeleteBusLineByIdAsync(string busLineId);
     }
 }

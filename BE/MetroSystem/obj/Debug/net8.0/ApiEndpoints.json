@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "DeleteMetroLine",
+    "RelativePath": "api/add-new-metro-lines/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
     "Method": "GetAllMetroLines",
     "RelativePath": "api/add-new-metro-lines/get-all",
     "HttpMethod": "GET",
@@ -81,6 +97,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.AdminController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/admin/get-all-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -185,6 +211,22 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
+    "Method": "DeleteBusLine",
+    "RelativePath": "api/bus-lines/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "AddBusLine",
     "RelativePath": "api/bus-lines/create",
     "HttpMethod": "POST",
@@ -268,6 +310,165 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MetroSystem.Controllers.BusScheduleController",
+    "Method": "DeleteBusLineSchedule",
+    "RelativePath": "api/BusSchedule/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusScheduleController",
+    "Method": "AddBusSchedule",
+    "RelativePath": "api/BusSchedule/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.BusScheduleModel.RequestCreateBusSchedule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusScheduleController",
+    "Method": "GetBusSchedulesByStationName",
+    "RelativePath": "api/BusSchedule/station/{stationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusScheduleController",
+    "Method": "UpdateBusSchedule",
+    "RelativePath": "api/BusSchedule/update/{scheduleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.BusScheduleModel.RequestUpdateBusSchedule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusStationController",
+    "Method": "DeleteBusStation",
+    "RelativePath": "api/BusStation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusStationController",
+    "Method": "AddBusStation",
+    "RelativePath": "api/BusStation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.BusStationModel.RequestCreateBusStation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusStationController",
+    "Method": "GetBusStationByName",
+    "RelativePath": "api/BusStation/get/{busStationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busStationName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusStationController",
+    "Method": "UpdateBusStationStatus",
+    "RelativePath": "api/BusStation/update-status/{busStationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busStationId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newStatus",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.BusStationController",
+    "Method": "UpdateBusStation",
+    "RelativePath": "api/BusStation/update/{busStationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busStationId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.BusStationModel.RequestUpdateBusStation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MetroSystem.Controllers.FeedbackController",
     "Method": "GetAllFeedbacks",
     "RelativePath": "api/feedback/all",
@@ -322,6 +523,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "DeleteMetroStation",
+    "RelativePath": "api/MetroStation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -398,6 +615,22 @@
       {
         "Name": "request",
         "Type": "MetroSystem.Data.Enities.MetroStationMod.UpdateMetroStationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "DeleteSchedule",
+    "RelativePath": "api/schedules/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

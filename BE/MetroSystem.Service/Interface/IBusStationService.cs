@@ -11,6 +11,8 @@ namespace MetroSystem.Service.Interface
     {
         Task<bool> AddBusStationAsync(RequestCreateBusStation request);
         Task<bool> UpdateBusStationAsync(string busStationId, RequestUpdateBusStation request);
+        Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status);
         Task<List<ResponseBusStationModel>> GetBusStationsByStationNameAsync(string stationName);
+        Task<bool> DeleteBusStationByIdAsync(string BusStationId);
     }
 }

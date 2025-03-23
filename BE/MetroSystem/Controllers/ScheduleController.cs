@@ -1,5 +1,6 @@
 ﻿using MetroSystem.Data.RequestModel.ScheduleModel;
 using MetroSystem.Service.Interface;
+using MetroSystem.Service.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -68,6 +69,16 @@ namespace MetroSystem.Controllers
             }
 
             return Ok(schedules);
+        }
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> DeleteSchedule(string id)
+        {
+            var result = await _scheduleService.DeleteScheduleByIdAsync(id);
+            if (!result) return NotFound(new { message = "Schedule not found!" });
+
+            return Ok(new { message = "Delete successfull!" });
         }
 
     }

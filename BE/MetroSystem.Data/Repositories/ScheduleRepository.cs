@@ -38,5 +38,15 @@ namespace MetroSystem.Data.Repositories
                 .Where(s => s.Station.StationName == stationName)
                 .ToListAsync();
         }
+
+        public async Task<bool> DeleteScheduleByIdAsync(string ScheduleId)
+        {
+            var schedule = await _context.Schedules.FindAsync(ScheduleId);
+            if (schedule == null) return false;
+
+            _context.Schedules.Remove(schedule);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }

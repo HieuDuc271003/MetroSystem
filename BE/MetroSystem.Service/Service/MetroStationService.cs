@@ -164,5 +164,10 @@ namespace MetroSystem.Service.Service
         {
             return degrees * (Math.PI / 180);
         }
+
+        public async Task<bool> DeleteMetroStationByIdAsync(string StationId)
+        {
+            return await _metroStationRepository.DeleteMetroStationByIdAsync(StationId);
+        }
     }
 }

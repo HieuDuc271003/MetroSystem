@@ -44,5 +44,14 @@ namespace MetroSystem.Data.Repositories
         {
             return await _context.MetroStations.FindAsync(stationId);
         }
+        public async Task<bool> DeleteMetroStationByIdAsync(string StationId)
+        {
+            var metroStation = await _context.MetroStations.FindAsync(StationId);
+            if (metroStation == null) return false;
+
+            _context.MetroStations.Remove(metroStation);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }

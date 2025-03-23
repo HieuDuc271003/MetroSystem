@@ -11,6 +11,7 @@ using MetroSystem.Data.Models;
 using MetroSystem.RequestModel.MetroLineModel;
 using MetroSystem.Data.RequestModel.MetroLineModel;
 using Microsoft.EntityFrameworkCore;
+using MetroSystem.Data.Repositories;
 
 namespace MetroSystem.Service.Service
 {
@@ -89,6 +90,11 @@ namespace MetroSystem.Service.Service
                 Distance = metroLine.Distance,
                 Status = metroLine.Status
             };
+        }
+
+        public async Task<bool> DeleteMetroLineByIdAsync(string LineId)
+        {
+            return await _unitOfWork.MetroLine.DeleteMetroLineByIdAsync(LineId);
         }
 
     }

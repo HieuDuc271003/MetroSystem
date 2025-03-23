@@ -12,6 +12,7 @@ using MetroSystem.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using MetroSystem.Service.Service;
 
 namespace MetroSystem.Controllers
 {
@@ -76,6 +77,16 @@ namespace MetroSystem.Controllers
             var metroLine = await _metroLineService.GetMetroLineByNameAsync(lineName);
             if (metroLine == null) return NotFound("Metro line not found.");
             return Ok(metroLine);
+        }
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> DeleteMetroLine(string id)
+        {
+            var result = await _metroLineService.DeleteMetroLineByIdAsync(id);
+            if (!result) return NotFound(new { message = "Metro Line not found!" });
+
+            return Ok(new { message = "Delete successfull!" });
         }
 
 

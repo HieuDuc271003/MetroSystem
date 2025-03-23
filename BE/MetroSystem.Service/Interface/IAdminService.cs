@@ -1,13 +1,12 @@
-﻿using System;
+﻿using MetroSystem.Data.RequestModel.ResponseUserModel;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MetroSystem.Service.Interface
 {
     public interface IAdminService
     {
-        Task<bool> SetUserStatusAsync(string userId, bool status);
+        Task<bool> SetUserStatusAsync(string email, bool status);
+        Task<List<ResponseUserModel>> GetAllUsersAsync(); 
     }
 }

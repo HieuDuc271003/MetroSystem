@@ -36,6 +36,18 @@
         }
       }
     },
+    "/api/admin/get-all-users": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/auth/google-login": {
       "post": {
         "tags": [
@@ -321,6 +333,301 @@
         }
       }
     },
+    "/api/bus-lines/{id}": {
+      "delete": {
+        "tags": [
+          "BusLine"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusSchedule/create": {
+      "post": {
+        "tags": [
+          "BusSchedule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateBusSchedule"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateBusSchedule"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateBusSchedule"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusSchedule/update/{scheduleId}": {
+      "put": {
+        "tags": [
+          "BusSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "scheduleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateBusSchedule"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateBusSchedule"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateBusSchedule"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusSchedule/station/{stationName}": {
+      "get": {
+        "tags": [
+          "BusSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "stationName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusSchedule/{id}": {
+      "delete": {
+        "tags": [
+          "BusSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusStation/create": {
+      "post": {
+        "tags": [
+          "BusStation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateBusStation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateBusStation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateBusStation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusStation/update-status/{busStationId}": {
+      "put": {
+        "tags": [
+          "BusStation"
+        ],
+        "parameters": [
+          {
+            "name": "busStationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "boolean"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusStation/update/{busStationId}": {
+      "put": {
+        "tags": [
+          "BusStation"
+        ],
+        "parameters": [
+          {
+            "name": "busStationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateBusStation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateBusStation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestUpdateBusStation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusStation/get/{busStationName}": {
+      "get": {
+        "tags": [
+          "BusStation"
+        ],
+        "parameters": [
+          {
+            "name": "busStationName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BusStation/{id}": {
+      "delete": {
+        "tags": [
+          "BusStation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/feedback/create": {
       "post": {
         "tags": [
@@ -563,6 +870,28 @@
         }
       }
     },
+    "/api/add-new-metro-lines/{id}": {
+      "delete": {
+        "tags": [
+          "MetroLine"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MetroStation/all": {
       "get": {
         "tags": [
@@ -690,6 +1019,28 @@
         }
       }
     },
+    "/api/MetroStation/{id}": {
+      "delete": {
+        "tags": [
+          "MetroStation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/schedules/create": {
       "post": {
         "tags": [
@@ -770,6 +1121,28 @@
         "parameters": [
           {
             "name": "stationName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/schedules/{id}": {
+      "delete": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
             "in": "path",
             "required": true,
             "schema": {
@@ -906,6 +1279,46 @@
         },
         "additionalProperties": false
       },
+      "RequestCreateBusSchedule": {
+        "type": "object",
+        "properties": {
+          "busLineId": {
+            "type": "string",
+            "nullable": true
+          },
+          "busStationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "arrivalTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "departureTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "dayType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestCreateBusStation": {
+        "type": "object",
+        "properties": {
+          "busStationName": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "RequestCreateMetroLine": {
         "required": [
           "distance",
@@ -955,6 +1368,50 @@
           },
           "route": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestUpdateBusSchedule": {
+        "type": "object",
+        "properties": {
+          "busLineId": {
+            "type": "string",
+            "nullable": true
+          },
+          "busStationId": {
+            "type": "string",
+            "nullable": true
+          },
+          "arrivalTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "departureTime": {
+            "type": "string",
+            "format": "time"
+          },
+          "dayType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestUpdateBusStation": {
+        "type": "object",
+        "properties": {
+          "busStationName": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "boolean",
             "nullable": true
           }
         },

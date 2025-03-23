@@ -58,5 +58,15 @@ namespace MetroSystem.Controllers
 
             return Ok(busLine);
         }
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> DeleteBusLine(string id)
+        {
+            var result = await _busLineService.DeleteBusLineByIdAsync(id);
+            if (!result) return NotFound(new { message = "Bus line not found!" });
+
+            return Ok(new { message = "Delete successfull!" });
+        }
     }
 }

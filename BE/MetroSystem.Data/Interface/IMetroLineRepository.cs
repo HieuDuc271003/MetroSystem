@@ -14,5 +14,6 @@ namespace MetroSystem.Data.Interface
         Task<MetroLine> GetMetroLineByIdAsync(string lineId);
         Task<IEnumerable<MetroLine>> GetAllMetroLinesAsync(); // Thêm phương thức lấy tất cả tuyến metro
         Task<MetroLine?> GetMetroLineByNameAsync(string lineName);
+        Task<bool> DeleteMetroLineByIdAsync(string LineId);
     }
 }

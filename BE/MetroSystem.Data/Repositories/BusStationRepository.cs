@@ -28,8 +28,18 @@ namespace MetroSystem.Data.Repositories
             return await _context.BusStations.FindAsync(stationId);
         }
 
+        public async Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status)
+        {
+            var station = await _context.BusStations.FindAsync(busStationId);
+            if (station == null) return false;
+
+            station.Status = status;
+            return await _context.SaveChangesAsync() > 0;
+        }
+
         public async Task<bool> UpdateBusStationAsync(BusStation busStation)
         {
+
             _context.BusStations.Update(busStation);
             return await _context.SaveChangesAsync() > 0;
         }
@@ -39,6 +49,15 @@ namespace MetroSystem.Data.Repositories
             return await _context.BusStations
                 .Where(bs => bs.BusStationName == stationName)
                 .ToListAsync();
+        }
+        public async Task<bool> DeleteBusStationByIdAsync(string BusStationId)
+        {
+            var busStation = await _context.BusStations.FindAsync(BusStationId);
+            if (busStation == null) return false;
+
+            _context.BusStations.Remove(busStation);
+            await _context.SaveChangesAsync();
+            return true;
         }
 
     }

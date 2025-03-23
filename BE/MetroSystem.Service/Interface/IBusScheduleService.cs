@@ -12,5 +12,6 @@ namespace MetroSystem.Service.Interface
         Task<bool> AddBusScheduleAsync(RequestCreateBusSchedule request);
         Task<bool> UpdateBusScheduleAsync(string busScheduleId, RequestUpdateBusSchedule request);
         Task<List<ResponseBusScheduleModel>> GetBusSchedulesByStationNameAsync(string stationName);
+        Task<bool> DeleteBusLineScheduleByIdAsync(string ScheduleId);
     }
 }

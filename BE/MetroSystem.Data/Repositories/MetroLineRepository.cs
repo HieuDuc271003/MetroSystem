@@ -36,5 +36,14 @@ namespace MetroSystem.Data.Repositories
         {
             return await _context.MetroLines.FirstOrDefaultAsync(m => m.LineName == lineName);
         }
+        public async Task<bool> DeleteMetroLineByIdAsync(string LineId)
+        {
+            var metroLine = await _context.MetroLines.FindAsync(LineId);
+            if (metroLine == null) return false;
+
+            _context.MetroLines.Remove(metroLine);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }
