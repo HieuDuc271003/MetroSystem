@@ -18,7 +18,8 @@ namespace MetroSystem.Controllers
             _busScheduleService = busScheduleService;
         }
 
-        [HttpPost("create")]
+        //[HttpPost("create")]
+        [HttpPost]
         [Authorize(Roles = "R3")]
 
         public async Task<IActionResult> AddBusSchedule([FromBody] RequestCreateBusSchedule request)
@@ -36,7 +37,8 @@ namespace MetroSystem.Controllers
             return StatusCode(500, "Failed to create bus schedule.");
         }
 
-        [HttpPut("update/{scheduleId}")]
+        //[HttpPut("update/{scheduleId}")]
+        [HttpPut("{scheduleId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusSchedule(string scheduleId, [FromBody] RequestUpdateBusSchedule request)
         {

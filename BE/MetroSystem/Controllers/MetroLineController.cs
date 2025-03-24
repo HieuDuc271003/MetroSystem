@@ -44,7 +44,8 @@ namespace MetroSystem.Controllers
             return Ok("Metro line added successfully.");
         }
 
-        [HttpPut("update-status/{lineId}")]
+        //[HttpPut("update-status/{lineId}")]
+        [HttpPut("{lineId}/status")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateMetroLineStatus(string lineId, [FromBody] bool status)
         {
@@ -53,7 +54,8 @@ namespace MetroSystem.Controllers
             return Ok("Metro line status updated successfully.");
         }
 
-        [HttpPut("update-line")]
+        //[HttpPut("update-line")]
+        [HttpPut("{lineId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateMetroLineDetails(string lineId, [FromBody] RequestUpdateMetroLine requestUpdateMetroLine)
         {

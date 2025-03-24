@@ -54,7 +54,8 @@ namespace MetroSystem.Controllers
             _adminService = adminService;
         }
 
-        [HttpPut("Update-User-Status")]
+        //[HttpPut("Update-User-Status")]
+        [HttpPut("users/{email}/status")]
         [Authorize(Roles = "R2")]
         public async Task<IActionResult> SetUserStatus([FromBody] UpdateUserStatusRequest request)
         {
@@ -68,7 +69,7 @@ namespace MetroSystem.Controllers
         }
 
         // API lấy danh sách tất cả người dùng (Chỉ Admin mới truy cập được)
-        [HttpGet("get-all-users")]
+        [HttpGet("users")]
         [Authorize(Roles = "R2")]
         public async Task<IActionResult> GetAllUsers()
         {

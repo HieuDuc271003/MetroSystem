@@ -17,7 +17,8 @@ namespace MetroSystem.Controllers
             _feedbackService = feedbackService;
         }
 
-        [HttpPost("create")]
+        //[HttpPost("create")]
+        [HttpPost]
         [Authorize] // Cần xác thực
         public async Task<IActionResult> CreateFeedback([FromBody] FeedbackDto feedbackDto)
         {
@@ -48,7 +49,8 @@ namespace MetroSystem.Controllers
             });
         }
 
-        [HttpGet("all")]
+        //[HttpGet("all")]
+        [HttpGet]
         [Authorize]
         public async Task<IActionResult> GetAllFeedbacks()
         {
@@ -68,7 +70,8 @@ namespace MetroSystem.Controllers
             return Ok(feedbacks);
         }
 
-        [HttpPut("update/{feedbackId}")]
+        //[HttpPut("update/{feedbackId}")]
+        [HttpPut("{feedbackId}")]
         [Authorize]
         public async Task<IActionResult> UpdateFeedback(string feedbackId, [FromBody] FeedbackDTOUpdate feedbackDto)
         {

@@ -37,7 +37,8 @@ namespace MetroSystem.Controllers
             return Ok(result.Station);
         }
 
-        [HttpPost("create")]
+        //[HttpPost("create")]
+        [HttpPost]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> CreateStation([FromBody] MetroStationDto request)
         {
@@ -51,7 +52,7 @@ namespace MetroSystem.Controllers
             return Ok(result.Station);
         }
 
-        [HttpPut("update/{stationId}")]
+        [HttpPut("{stationId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateStation(string stationId, [FromBody] UpdateMetroStationDto request)
         {

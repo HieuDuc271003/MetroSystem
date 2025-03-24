@@ -5,10 +5,20 @@
     "version": "v1"
   },
   "paths": {
-    "/api/admin/Update-User-Status": {
+    "/api/admin/users/{email}/status": {
       "put": {
         "tags": [
           "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -36,7 +46,7 @@
         }
       }
     },
-    "/api/admin/get-all-users": {
+    "/api/admin/users": {
       "get": {
         "tags": [
           "Admin"
@@ -48,7 +58,7 @@
         }
       }
     },
-    "/api/auth/google-login": {
+    "/api/auth/login/google": {
       "post": {
         "tags": [
           "Auth"
@@ -79,7 +89,7 @@
         }
       }
     },
-    "/api/auth/refresh-token": {
+    "/api/auth/token/refresh": {
       "post": {
         "tags": [
           "Auth"
@@ -122,7 +132,7 @@
         }
       }
     },
-    "/api/bookmark/add": {
+    "/api/bookmark": {
       "post": {
         "tags": [
           "Bookmark"
@@ -153,7 +163,7 @@
         }
       }
     },
-    "/api/bookmark/get": {
+    "/api/bookmark/bookmarks": {
       "get": {
         "tags": [
           "Bookmark"
@@ -165,7 +175,7 @@
         }
       }
     },
-    "/api/bookmark/delete/{stationId}": {
+    "/api/bookmark/{stationId}": {
       "delete": {
         "tags": [
           "Bookmark"
@@ -187,7 +197,7 @@
         }
       }
     },
-    "/api/bus-lines/create": {
+    "/api/bus-lines": {
       "post": {
         "tags": [
           "BusLine"
@@ -216,9 +226,19 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "BusLine"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
-    "/api/bus-lines/update-status/{busLineId}": {
+    "/api/bus-lines/{busLineId}/status": {
       "put": {
         "tags": [
           "BusLine"
@@ -259,7 +279,7 @@
         }
       }
     },
-    "/api/bus-lines/update": {
+    "/api/bus-lines/{busLineId}": {
       "put": {
         "tags": [
           "BusLine"
@@ -267,7 +287,8 @@
         "parameters": [
           {
             "name": "busLineId",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -299,19 +320,7 @@
         }
       }
     },
-    "/api/bus-lines/get-all": {
-      "get": {
-        "tags": [
-          "BusLine"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/bus-lines/get-by-name/{busLineName}": {
+    "/api/bus-lines/{busLineName}": {
       "get": {
         "tags": [
           "BusLine"
@@ -333,7 +342,7 @@
         }
       }
     },
-    "/api/bus-lines/{id}": {
+    "/api/bus-lines/{buslineId}": {
       "delete": {
         "tags": [
           "BusLine"
@@ -341,6 +350,13 @@
         "parameters": [
           {
             "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "buslineId",
             "in": "path",
             "required": true,
             "schema": {
@@ -355,7 +371,7 @@
         }
       }
     },
-    "/api/BusSchedule/create": {
+    "/api/BusSchedule": {
       "post": {
         "tags": [
           "BusSchedule"
@@ -386,7 +402,7 @@
         }
       }
     },
-    "/api/BusSchedule/update/{scheduleId}": {
+    "/api/BusSchedule/{scheduleId}": {
       "put": {
         "tags": [
           "BusSchedule"
@@ -471,7 +487,7 @@
         }
       }
     },
-    "/api/BusStation/create": {
+    "/api/BusStation": {
       "post": {
         "tags": [
           "BusStation"
@@ -502,7 +518,7 @@
         }
       }
     },
-    "/api/BusStation/update-status/{busStationId}": {
+    "/api/BusStation/{busStationId}/status": {
       "put": {
         "tags": [
           "BusStation"
@@ -543,7 +559,7 @@
         }
       }
     },
-    "/api/BusStation/update/{busStationId}": {
+    "/api/BusStation/{busStationId}": {
       "put": {
         "tags": [
           "BusStation"
@@ -584,7 +600,7 @@
         }
       }
     },
-    "/api/BusStation/get/{busStationName}": {
+    "/api/BusStation/{busStationName}": {
       "get": {
         "tags": [
           "BusStation"
@@ -628,7 +644,7 @@
         }
       }
     },
-    "/api/feedback/create": {
+    "/api/feedback": {
       "post": {
         "tags": [
           "Feedback"
@@ -657,9 +673,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/feedback/all": {
+      },
       "get": {
         "tags": [
           "Feedback"
@@ -683,7 +697,7 @@
         }
       }
     },
-    "/api/feedback/update/{feedbackId}": {
+    "/api/feedback/{feedbackId}": {
       "put": {
         "tags": [
           "Feedback"
@@ -755,7 +769,7 @@
         }
       }
     },
-    "/api/add-new-metro-lines/update-status/{lineId}": {
+    "/api/add-new-metro-lines/{lineId}/status": {
       "put": {
         "tags": [
           "MetroLine"
@@ -796,7 +810,7 @@
         }
       }
     },
-    "/api/add-new-metro-lines/update-line": {
+    "/api/add-new-metro-lines/{lineId}": {
       "put": {
         "tags": [
           "MetroLine"
@@ -804,7 +818,8 @@
         "parameters": [
           {
             "name": "lineId",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
             }
@@ -926,7 +941,7 @@
         }
       }
     },
-    "/api/MetroStation/create": {
+    "/api/MetroStation": {
       "post": {
         "tags": [
           "MetroStation"
@@ -957,7 +972,7 @@
         }
       }
     },
-    "/api/MetroStation/update/{stationId}": {
+    "/api/MetroStation/{stationId}": {
       "put": {
         "tags": [
           "MetroStation"
@@ -1041,7 +1056,7 @@
         }
       }
     },
-    "/api/schedules/create": {
+    "/api/schedules": {
       "post": {
         "tags": [
           "Schedule"
@@ -1072,7 +1087,7 @@
         }
       }
     },
-    "/api/schedules/update/{scheduleId}": {
+    "/api/schedules/{scheduleId}": {
       "put": {
         "tags": [
           "Schedule"
