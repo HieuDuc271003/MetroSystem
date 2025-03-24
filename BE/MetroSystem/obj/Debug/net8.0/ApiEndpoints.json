@@ -243,7 +243,7 @@
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "DeleteBusLine",
-    "RelativePath": "api/bus-lines/{buslineId}",
+    "RelativePath": "api/bus-lines",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -252,11 +252,6 @@
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "buslineId",
-        "Type": "",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []

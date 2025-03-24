@@ -56,7 +56,7 @@ namespace MetroSystem.Controllers
 
         //[HttpPut("Update-User-Status")]
         [HttpPut("users/{email}/status")]
-        [Authorize(Roles = "R2")]
+        [Authorize(Roles = "R4")]
         public async Task<IActionResult> SetUserStatus([FromBody] UpdateUserStatusRequest request)
         {
             var result = await _adminService.SetUserStatusAsync(request.Email, request.Status);
@@ -68,9 +68,8 @@ namespace MetroSystem.Controllers
             return Ok(new { Message = "Cập nhật trạng thái thành công" });
         }
 
-        // API lấy danh sách tất cả người dùng (Chỉ Admin mới truy cập được)
         [HttpGet("users")]
-        [Authorize(Roles = "R2")]
+        [Authorize(Roles = "R4")]
         public async Task<IActionResult> GetAllUsers()
         {
             var users = await _adminService.GetAllUsersAsync();
