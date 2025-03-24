@@ -22,7 +22,8 @@ namespace MetroSystem.Controllers
             _tokenService = tokenService;
         }
 
-        [HttpPost("google-login")]
+        //[HttpPost("google-login")]
+        [HttpPost("login/google")]
         public async Task<IActionResult> GoogleLogin([FromBody] AuthenticationModel request)
         {
             try
@@ -65,7 +66,8 @@ namespace MetroSystem.Controllers
             }
         }
 
-        [HttpPost("refresh-token")]
+        //[HttpPost("refresh-token")]
+        [HttpPost("token/refresh")]
         public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenModel model)
         {
             if (model == null || string.IsNullOrEmpty(model.RefreshToken))

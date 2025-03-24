@@ -18,7 +18,7 @@ namespace MetroSystem.Controllers
             _scheduleService = scheduleService;
         }
 
-        [HttpPost("create")]
+        [HttpPost]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddSchedule([FromBody] RequestCreateSchedule request)
         {
@@ -36,7 +36,7 @@ namespace MetroSystem.Controllers
             return Ok("Schedule created successfully.");
         }
 
-        [HttpPut("update/{scheduleId}")]
+        [HttpPut("{scheduleId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateSchedule(string scheduleId, [FromBody] RequestUpdateSchedule request)
         {

@@ -17,7 +17,8 @@ namespace MetroSystem.Controllers
             _bookmarkService = bookmarkService;
         }
 
-        [HttpPost("add")]
+        //[HttpPost("add")]
+        [HttpPost]
         [Authorize]
         public async Task<IActionResult> AddBookmark([FromBody] BookmarkDto bookmarkDto)
         {
@@ -43,7 +44,8 @@ namespace MetroSystem.Controllers
             }
         }
 
-        [HttpGet("get")]
+        //[HttpGet("get")]
+        [HttpGet("bookmarks")]
         [Authorize]
         public async Task<IActionResult> GetBookmarks()
         {
@@ -58,7 +60,8 @@ namespace MetroSystem.Controllers
         }
 
 
-        [HttpDelete("delete/{stationId}")]
+        //[HttpDelete("delete/{stationId}")]
+        [HttpDelete("{stationId}")]
         [Authorize]
         public async Task<IActionResult> DeleteBookmark(string stationId)
         {

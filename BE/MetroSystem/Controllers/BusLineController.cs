@@ -16,7 +16,8 @@ namespace MetroSystem.Controllers
             _busLineService = busLineService;
         }
 
-        [HttpPost("create")]
+        //[HttpPost("create")]
+        [HttpPost]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddBusLine([FromBody] RequestCreateBusLine requestCreateBusLine)
         {
@@ -25,7 +26,8 @@ namespace MetroSystem.Controllers
             return Ok("Bus Line created successfully.");
         }
 
-        [HttpPut("update-status/{busLineId}")]
+        //[HttpPut("update-status/{busLineId}")]
+        [HttpPut("{busLineId}/status")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusLineStatus(string busLineId, [FromBody] bool status)
         {
@@ -34,7 +36,8 @@ namespace MetroSystem.Controllers
             return Ok("Bus Line status updated successfully.");
         }
 
-        [HttpPut("update")]
+        //[HttpPut("update")]
+        [HttpPut("{busLineId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusLineDetails(string busLineId, [FromBody] RequestUpdateBusLine requestUpdateBusLine)
         {
@@ -43,14 +46,16 @@ namespace MetroSystem.Controllers
             return Ok("Bus Line details updated successfully.");
         }
 
-        [HttpGet("get-all")]
+        //[HttpGet("get-all")]
+        [HttpGet]
         public async Task<IActionResult> GetAllBusLines()
         {
             var busLines = await _busLineService.GetAllBusLinesAsync();
             return Ok(busLines);
         }
 
-        [HttpGet("get-by-name/{busLineName}")]
+        //[HttpGet("get-by-name/{busLineName}")]
+        [HttpGet("{busLineName}")]
         public async Task<IActionResult> GetBusLineByName(string busLineName)
         {
             var busLine = await _busLineService.GetBusLineByNameAsync(busLineName);
@@ -59,7 +64,7 @@ namespace MetroSystem.Controllers
             return Ok(busLine);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{buslineId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> DeleteBusLine(string id)
         {

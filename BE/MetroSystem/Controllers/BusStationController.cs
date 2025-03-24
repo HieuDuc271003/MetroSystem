@@ -17,7 +17,8 @@ namespace MetroSystem.Controllers
             _busStationService = busStationService;
         }
 
-        [HttpPost("create")]
+        //[HttpPost("create")]
+        [HttpPost]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddBusStation([FromBody] RequestCreateBusStation request)
         {
@@ -34,7 +35,8 @@ namespace MetroSystem.Controllers
             return StatusCode(500, "Failed to add bus station.");
         }
 
-        [HttpPut("update-status/{busStationId}")]
+        //[HttpPut("update-status/{busStationId}")]
+        [HttpPut("{busStationId}/status")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusStationStatus(string busStationId, [FromBody] bool newStatus)
         {
@@ -47,7 +49,8 @@ namespace MetroSystem.Controllers
         }
 
 
-        [HttpPut("update/{busStationId}")]
+        //[HttpPut("update/{busStationId}")]
+        [HttpPut("{busStationId}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusStation(string busStationId, [FromBody] RequestUpdateBusStation request)
         {
@@ -64,7 +67,7 @@ namespace MetroSystem.Controllers
             return StatusCode(500, "Failed to update bus station.");
         }
 
-        [HttpGet("get/{busStationName}")]
+        [HttpGet("{busStationName}")]
         public async Task<IActionResult> GetBusStationByName(string busStationName)
         {
             if (string.IsNullOrEmpty(busStationName))
