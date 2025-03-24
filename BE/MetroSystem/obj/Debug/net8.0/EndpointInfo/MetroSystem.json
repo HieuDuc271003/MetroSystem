@@ -236,6 +236,25 @@
             "description": "OK"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "BusLine"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/bus-lines/{busLineId}/status": {
@@ -328,35 +347,6 @@
         "parameters": [
           {
             "name": "busLineName",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/bus-lines/{buslineId}": {
-      "delete": {
-        "tags": [
-          "BusLine"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "buslineId",
             "in": "path",
             "required": true,
             "schema": {
