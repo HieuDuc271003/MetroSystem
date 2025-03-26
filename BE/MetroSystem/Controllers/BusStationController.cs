@@ -1,6 +1,9 @@
 ﻿using MetroSystem.Data.RequestModel.BusStationModel;
 using MetroSystem.Service.Interface;
+<<<<<<< HEAD
 using MetroSystem.Service.Service;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,8 +20,12 @@ namespace MetroSystem.Controllers
             _busStationService = busStationService;
         }
 
+<<<<<<< HEAD
         //[HttpPost("create")]
         [HttpPost]
+=======
+        [HttpPost("create")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddBusStation([FromBody] RequestCreateBusStation request)
         {
@@ -35,6 +42,7 @@ namespace MetroSystem.Controllers
             return StatusCode(500, "Failed to add bus station.");
         }
 
+<<<<<<< HEAD
         //[HttpPut("update-status/{busStationId}")]
         [HttpPut("{busStationId}/status")]
         [Authorize(Roles = "R3")]
@@ -51,6 +59,9 @@ namespace MetroSystem.Controllers
 
         //[HttpPut("update/{busStationId}")]
         [HttpPut("{busStationId}")]
+=======
+        [HttpPut("update/{busStationId}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusStation(string busStationId, [FromBody] RequestUpdateBusStation request)
         {
@@ -67,7 +78,11 @@ namespace MetroSystem.Controllers
             return StatusCode(500, "Failed to update bus station.");
         }
 
+<<<<<<< HEAD
         [HttpGet("{busStationName}")]
+=======
+        [HttpGet("get/{busStationName}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> GetBusStationByName(string busStationName)
         {
             if (string.IsNullOrEmpty(busStationName))
@@ -82,6 +97,7 @@ namespace MetroSystem.Controllers
             }
             return Ok(station);
         }
+<<<<<<< HEAD
 
         [HttpDelete("{id}")]
         [Authorize(Roles = "R3")]
@@ -92,5 +108,7 @@ namespace MetroSystem.Controllers
 
             return Ok(new { message = "Delete successfull!" });
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

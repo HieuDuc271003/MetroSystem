@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\",
   "Documents": [
     {
@@ -145,6 +146,225 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|d:\\cac ki hoc\\spring25\\swd392\\metrosystem\\be\\metrosystem.service\\service\\buslineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2C2D0E4-5871-4ED0-AA12-EB4A910DDFAE}|MetroSystem.Service\\MetroSystem.Service.csproj|solutionrelative:metrosystem.service\\service\\buslineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "E:\\SWD\\MetroSystem-main\\BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusStationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Service\\BusStationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|E:\\SWD\\MetroSystem-main\\BE\\metrosystem.data\\metrosystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C0FD149-B25E-4D89-AD0D-64286C04D10C}|MetroSystem.Data\\MetroSystem.Data.csproj|solutionrelative:metrosystem.data\\metrosystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|E:\\SWD\\MetroSystem-main\\BE\\metrosystem\\metrosystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27799BC0-5343-45C7-B77A-F8DECE35740A}|MetroSystem\\MetroSystem.csproj|solutionrelative:metrosystem\\metrosystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Service\\BusScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusStationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Interface\\IBusStationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Interface\\IBusScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\ResponseBusStationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusStationModel\\ResponseBusStationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\RequestUpdateBusStation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusStationModel\\RequestUpdateBusStation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\RequestCreateBusStation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusStationModel\\RequestCreateBusStation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\ResponseBusScheduleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusScheduleModel\\ResponseBusScheduleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestUpdateBusSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestUpdateBusSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestCreateBusSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestCreateBusSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\BusStationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Repositories\\BusStationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\BusScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Repositories\\BusScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IBusStationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Interface\\IBusStationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IBusScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Interface\\IBusScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusStationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Controllers\\BusStationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Controllers\\BusScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\ResponseScheduleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\ScheduleModel\\ResponseScheduleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Repositories\\AdminRepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\RegisterUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\RegisterUserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\RefreshTokenModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\UpdateMetroStationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\MetroStationMod\\UpdateMetroStationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\FeedBackMod\\FeedbackDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\FeedBackMod\\FeedbackDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\AuthenticationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\UpdateUserStatusRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Enities\\UpdateUserStatusRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\ScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Service\\ScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Interface\\IScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestUpdateSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestUpdateSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestCreateSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestCreateSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\ScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Repositories\\ScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Interface\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\Interface\\IScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\ScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Controllers\\ScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusLineController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Controllers\\BusLineController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Interface\\IBusLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Interface\\IMetroLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Service\\BusLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\Service\\MetroLineService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Service\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem.Data\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\MetroLineController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Controllers\\MetroLineController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MetroSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
   ],
   "DocumentGroupContainers": [
@@ -154,7 +374,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 36,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> e644d97 (Adjust the Admin Pages)
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,6 +386,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "FeedbackController.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\FeedbackController.cs",
@@ -207,10 +432,35 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAvwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:19:27.923Z"
+=======
+              "DocumentIndex": 0,
+              "Title": "BusStationService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusStationService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusStationService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusStationService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\BusStationService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:02:53.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusScheduleService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusScheduleService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusScheduleService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusScheduleService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\BusScheduleService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:02:42.39Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+<<<<<<< HEAD
               "Title": "MetroStationController.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\MetroStationController.cs",
               "RelativeDocumentMoniker": "MetroSystem\\Controllers\\MetroStationController.cs",
@@ -219,10 +469,105 @@
               "ViewState": "AgIAAEkAAAAAAAAAAAAcwDYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:13:06.485Z"
+=======
+              "Title": "IBusStationService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusStationService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusStationService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusStationService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IBusStationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:01:56.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBusScheduleService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusScheduleService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusScheduleService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusScheduleService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IBusScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:01:40.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseBusStationModel.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\ResponseBusStationModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusStationModel\\ResponseBusStationModel.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\ResponseBusStationModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusStationModel\\ResponseBusStationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:58:11.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestUpdateBusStation.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\RequestUpdateBusStation.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusStationModel\\RequestUpdateBusStation.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\RequestUpdateBusStation.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusStationModel\\RequestUpdateBusStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:58:00.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestCreateBusStation.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\RequestCreateBusStation.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusStationModel\\RequestCreateBusStation.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusStationModel\\RequestCreateBusStation.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusStationModel\\RequestCreateBusStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:57:48.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResponseBusScheduleModel.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\ResponseBusScheduleModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusScheduleModel\\ResponseBusScheduleModel.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\ResponseBusScheduleModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusScheduleModel\\ResponseBusScheduleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:56:52.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestUpdateBusSchedule.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestUpdateBusSchedule.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestUpdateBusSchedule.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestUpdateBusSchedule.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestUpdateBusSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:56:35.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RequestCreateBusSchedule.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestCreateBusSchedule.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestCreateBusSchedule.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestCreateBusSchedule.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusScheduleModel\\RequestCreateBusSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:56:22.292Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+<<<<<<< HEAD
               "Title": "IBusLineRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IBusLineRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IBusLineRepository.cs",
@@ -231,10 +576,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:12:14.275Z"
+=======
+              "Title": "BusStationRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\BusStationRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\BusStationRepository.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\BusStationRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\BusStationRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:54:51.302Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+<<<<<<< HEAD
               "Title": "IBusScheduleRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IBusScheduleRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IBusScheduleRepository.cs",
@@ -243,11 +599,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:12:09.45Z"
+=======
+              "Title": "BusScheduleRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\BusScheduleRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\BusScheduleRepository.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\BusScheduleRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\BusScheduleRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:54:37.866Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "IBusStationRepository.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IBusStationRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IBusStationRepository.cs",
               "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IBusStationRepository.cs",
@@ -255,10 +622,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:12:02.157Z"
+=======
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IBusStationRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IBusStationRepository.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IBusStationRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IBusStationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:53:14.694Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+<<<<<<< HEAD
               "Title": "IMetroLineRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IMetroLineRepository.cs",
@@ -267,10 +644,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:11:56.813Z"
+=======
+              "Title": "IBusScheduleRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IBusScheduleRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IBusScheduleRepository.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IBusScheduleRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IBusScheduleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:52:58.948Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+<<<<<<< HEAD
               "Title": "IMetroStationRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IMetroStationRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IMetroStationRepository.cs",
@@ -279,10 +667,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:11:51.588Z"
+=======
+              "Title": "BusStationController.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusStationController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\BusStationController.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusStationController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\BusStationController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:51:54.1Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+<<<<<<< HEAD
               "Title": "IScheduleRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Interface\\IScheduleRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IScheduleRepository.cs",
@@ -291,10 +690,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:11:46.085Z"
+=======
+              "Title": "BusScheduleController.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusScheduleController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\BusScheduleController.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusScheduleController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\BusScheduleController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:51:32.68Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+<<<<<<< HEAD
               "Title": "BusLineRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\BusLineRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\BusLineRepository.cs",
@@ -303,10 +713,21 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAwwCgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:11:16.266Z"
+=======
+              "Title": "ResponseScheduleModel.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\ResponseScheduleModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\ScheduleModel\\ResponseScheduleModel.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\ResponseScheduleModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\ScheduleModel\\ResponseScheduleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:03:18.153Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+<<<<<<< HEAD
               "Title": "BusScheduleRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\BusScheduleRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\BusScheduleRepository.cs",
@@ -315,10 +736,21 @@
               "ViewState": "AgIAACgAAAAAAAAAAAAcwC8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:11:09.301Z"
+=======
+              "Title": "ResponseMetroLineModel.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\ResponseMetroLineModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:19:42.621Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+<<<<<<< HEAD
               "Title": "BusStationRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\BusStationRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\BusStationRepository.cs",
@@ -327,10 +759,21 @@
               "ViewState": "AgIAACYAAAAAAAAAAAAIwDQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:10:58.72Z"
+=======
+              "Title": "AuthenticationRepositories.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AuthenticationRepositories.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:19:14.993Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+<<<<<<< HEAD
               "Title": "MetroLineRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\MetroLineRepository.cs",
@@ -339,10 +782,21 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAwwCYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:10:51.853Z"
+=======
+              "Title": "AdminRepositories.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\AdminRepositories.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:48.855Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+<<<<<<< HEAD
               "Title": "MetroStationRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\MetroStationRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\MetroStationRepository.cs",
@@ -351,10 +805,21 @@
               "ViewState": "AgIAACUAAAAAAAAAAAA0wC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:10:43.148Z"
+=======
+              "Title": "RegisterUserDto.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\RegisterUserDto.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\RegisterUserDto.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\RegisterUserDto.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\RegisterUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:40.731Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
+<<<<<<< HEAD
               "Title": "ScheduleRepository.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Data\\Repositories\\ScheduleRepository.cs",
               "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\ScheduleRepository.cs",
@@ -363,10 +828,21 @@
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:10:25.199Z"
+=======
+              "Title": "RefreshTokenModel.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\RefreshTokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:36.233Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+<<<<<<< HEAD
               "Title": "IScheduleService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IScheduleService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IScheduleService.cs",
@@ -375,10 +851,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:49.323Z"
+=======
+              "Title": "UpdateMetroStationDto.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\UpdateMetroStationDto.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\MetroStationMod\\UpdateMetroStationDto.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\UpdateMetroStationDto.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\MetroStationMod\\UpdateMetroStationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:30.183Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+<<<<<<< HEAD
               "Title": "IMetroStationService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroStationService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IMetroStationService.cs",
@@ -387,10 +874,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:42.778Z"
+=======
+              "Title": "MetroStationResponseDto.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationResponseDto.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationResponseDto.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationResponseDto.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:22.326Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
+<<<<<<< HEAD
               "Title": "IMetroLineService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
@@ -399,10 +897,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:34.081Z"
+=======
+              "Title": "MetroStationDto.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationDto.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationDto.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationDto.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\MetroStationMod\\MetroStationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:15.658Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
+<<<<<<< HEAD
               "Title": "IBusStationService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IBusStationService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusStationService.cs",
@@ -411,10 +920,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:28.271Z"
+=======
+              "Title": "FeedbackDto.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\FeedBackMod\\FeedbackDto.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\FeedBackMod\\FeedbackDto.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\FeedBackMod\\FeedbackDto.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\FeedBackMod\\FeedbackDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:18:08.989Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
+<<<<<<< HEAD
               "Title": "IBusScheduleService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IBusScheduleService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusScheduleService.cs",
@@ -423,10 +943,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:22.655Z"
+=======
+              "Title": "AuthenticationModel.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\AuthenticationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:16:46.01Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
+<<<<<<< HEAD
               "Title": "IBusLineService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Interface\\IBusLineService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusLineService.cs",
@@ -435,11 +966,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:15.782Z"
+=======
+              "Title": "UpdateUserStatusRequest.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\UpdateUserStatusRequest.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Enities\\UpdateUserStatusRequest.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Enities\\UpdateUserStatusRequest.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Enities\\UpdateUserStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:15:52.375Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "ScheduleService.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\ScheduleService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\ScheduleService.cs",
               "ToolTip": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\ScheduleService.cs",
@@ -447,10 +989,20 @@
               "ViewState": "AgIAADIAAAAAAAAAAAAIwD4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:09:06.945Z"
+=======
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\ScheduleService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\ScheduleService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\ScheduleService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwDIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:15:11.559Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
+<<<<<<< HEAD
               "Title": "MetroStationService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroStationService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\MetroStationService.cs",
@@ -459,10 +1011,21 @@
               "ViewState": "AgIAAJgAAAAAAAAAAAAuwKcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:08:59.798Z"
+=======
+              "Title": "IScheduleService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IScheduleService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IScheduleService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IScheduleService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:14:24.396Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
+<<<<<<< HEAD
               "Title": "MetroLineService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\MetroLineService.cs",
@@ -471,10 +1034,21 @@
               "ViewState": "AgIAAEkAAAAAAAAAAAAcwF4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:08:52.232Z"
+=======
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\UnitOfWork.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\UnitOfWork.cs",
+              "RelativeToolTip": "MetroSystem.Data\\UnitOfWork.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:13:08.852Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
+<<<<<<< HEAD
               "Title": "BusStationService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\BusStationService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusStationService.cs",
@@ -483,10 +1057,21 @@
               "ViewState": "AgIAAEAAAAAAAAAAAAAcwEMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:08:33.808Z"
+=======
+              "Title": "RequestUpdateSchedule.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestUpdateSchedule.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestUpdateSchedule.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestUpdateSchedule.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestUpdateSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:12:10.932Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
+<<<<<<< HEAD
               "Title": "BusScheduleService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\BusScheduleService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusScheduleService.cs",
@@ -495,10 +1080,21 @@
               "ViewState": "AgIAAEAAAAAAAAAAAAAqwEoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:08:24.049Z"
+=======
+              "Title": "RequestCreateSchedule.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestCreateSchedule.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestCreateSchedule.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestCreateSchedule.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\ScheduleModel\\RequestCreateSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:11:57.977Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
+<<<<<<< HEAD
               "Title": "BusLineService.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem.Service\\Service\\BusLineService.cs",
               "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusLineService.cs",
@@ -568,10 +1164,165 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T18:03:56.817Z",
               "EditorCaption": ""
+=======
+              "Title": "ScheduleRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\ScheduleRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Repositories\\ScheduleRepository.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Repositories\\ScheduleRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Repositories\\ScheduleRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:10:55.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:10:17.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IScheduleRepository.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IScheduleRepository.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\Interface\\IScheduleRepository.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\Interface\\IScheduleRepository.cs",
+              "RelativeToolTip": "MetroSystem.Data\\Interface\\IScheduleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:09:51.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\ScheduleController.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:08:57.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BusLineController.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusLineController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\BusLineController.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\BusLineController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\BusLineController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwBgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:06:35.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBusLineService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IBusLineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:04:48.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RequestUpdateBusLine.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestUpdateBusLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:02:15.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IMetroLineService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Interface\\IMetroLineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:53:18.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RequestUpdateMetroLine.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestUpdateMetroLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:51:19.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BusLineService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\BusLineService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\BusLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\BusLineService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:47:53.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RequestCreateBusLine.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\BusLineModel\\RequestCreateBusLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:47:45.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MetroLineService.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\Service\\MetroLineService.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\Service\\MetroLineService.cs",
+              "RelativeToolTip": "MetroSystem.Service\\Service\\MetroLineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:45:32.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RequestCreateMetroLine.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "RelativeToolTip": "MetroSystem.Data\\RequestModel\\MetroLineModel\\RequestCreateMetroLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:42:38.388Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\Cac Ki Hoc\\Spring25\\SWD392\\MetroSystem\\BE\\MetroSystem\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MetroSystem\\Controllers\\AdminController.cs",
@@ -594,6 +1345,100 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-23T17:22:57.725Z",
               "EditorCaption": ""
+=======
+              "Title": "MetroSystem.Data.csproj",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\MetroSystem.Data.csproj",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\MetroSystem.Data.csproj",
+              "RelativeToolTip": "MetroSystem.Data\\MetroSystem.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T08:49:25.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MetroSystem.csproj",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\MetroSystem.csproj",
+              "RelativeDocumentMoniker": "MetroSystem\\MetroSystem.csproj",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\MetroSystem.csproj",
+              "RelativeToolTip": "MetroSystem\\MetroSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T08:47:33.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "MetroSystem\\appsettings.json",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\appsettings.json",
+              "RelativeToolTip": "MetroSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T08:43:05.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Service\\DependencyInjection.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Service\\DependencyInjection.cs",
+              "RelativeToolTip": "MetroSystem.Service\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:32:54.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MetroSystem.Data\\DependencyInjection.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem.Data\\DependencyInjection.cs",
+              "RelativeToolTip": "MetroSystem.Data\\DependencyInjection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:30:57.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MetroLineController.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\MetroLineController.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\MetroLineController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\MetroLineController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA1wDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:29:19.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MetroSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:28:58.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Program.cs",
+              "RelativeDocumentMoniker": "MetroSystem\\Program.cs",
+              "ToolTip": "E:\\SWD\\MetroSystem-main\\BE\\MetroSystem\\Program.cs",
+              "RelativeToolTip": "MetroSystem\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:28:34.298Z"
+>>>>>>> e644d97 (Adjust the Admin Pages)
             }
           ]
         }

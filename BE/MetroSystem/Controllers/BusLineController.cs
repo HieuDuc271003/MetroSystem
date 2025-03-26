@@ -16,8 +16,12 @@ namespace MetroSystem.Controllers
             _busLineService = busLineService;
         }
 
+<<<<<<< HEAD
         //[HttpPost("create")]
         [HttpPost]
+=======
+        [HttpPost("create")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddBusLine([FromBody] RequestCreateBusLine requestCreateBusLine)
         {
@@ -26,8 +30,12 @@ namespace MetroSystem.Controllers
             return Ok("Bus Line created successfully.");
         }
 
+<<<<<<< HEAD
         //[HttpPut("update-status/{busLineId}")]
         [HttpPut("{busLineId}/status")]
+=======
+        [HttpPut("update-status/{busLineId}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusLineStatus(string busLineId, [FromBody] bool status)
         {
@@ -36,8 +44,12 @@ namespace MetroSystem.Controllers
             return Ok("Bus Line status updated successfully.");
         }
 
+<<<<<<< HEAD
         //[HttpPut("update")]
         [HttpPut("{busLineId}")]
+=======
+        [HttpPut("update")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusLineDetails(string busLineId, [FromBody] RequestUpdateBusLine requestUpdateBusLine)
         {
@@ -46,16 +58,24 @@ namespace MetroSystem.Controllers
             return Ok("Bus Line details updated successfully.");
         }
 
+<<<<<<< HEAD
         //[HttpGet("get-all")]
         [HttpGet]
+=======
+        [HttpGet("get-all")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> GetAllBusLines()
         {
             var busLines = await _busLineService.GetAllBusLinesAsync();
             return Ok(busLines);
         }
 
+<<<<<<< HEAD
         //[HttpGet("get-by-name/{busLineName}")]
         [HttpGet("{busLineName}")]
+=======
+        [HttpGet("get-by-name/{busLineName}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> GetBusLineByName(string busLineName)
         {
             var busLine = await _busLineService.GetBusLineByNameAsync(busLineName);
@@ -63,6 +83,7 @@ namespace MetroSystem.Controllers
 
             return Ok(busLine);
         }
+<<<<<<< HEAD
 
         //[HttpDelete("{buslineId}")]
         [HttpDelete]
@@ -74,5 +95,7 @@ namespace MetroSystem.Controllers
 
             return Ok(new { message = "Delete successfull!" });
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

@@ -37,9 +37,13 @@ namespace MetroSystem.Controllers
             return Ok(result.Station);
         }
 
+<<<<<<< HEAD
         //[HttpPost("create")]
         [HttpPost]
         [Authorize(Roles = "R3")]
+=======
+        [HttpPost("create")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> CreateStation([FromBody] MetroStationDto request)
         {
             var result = await _metroStationService.CreateStationAsync(request);
@@ -52,8 +56,12 @@ namespace MetroSystem.Controllers
             return Ok(result.Station);
         }
 
+<<<<<<< HEAD
         [HttpPut("{stationId}")]
         [Authorize(Roles = "R3")]
+=======
+        [HttpPut("update/{stationId}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> UpdateStation(string stationId, [FromBody] UpdateMetroStationDto request)
         {
             var result = await _metroStationService.UpdateStationAsync(stationId, request);
@@ -79,6 +87,7 @@ namespace MetroSystem.Controllers
             var stations = await _metroStationService.GetNearestStationsAsync(address);
             return Ok(stations);
         }
+<<<<<<< HEAD
 
         [HttpDelete("{id}")]
         [Authorize(Roles = "R3")]
@@ -89,5 +98,7 @@ namespace MetroSystem.Controllers
 
             return Ok(new { message = "Delete successfull!" });
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

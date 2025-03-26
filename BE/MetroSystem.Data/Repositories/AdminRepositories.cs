@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿//using MetroSystem.Data.Interface;
 //using MetroSystem.Data.Models;
 //using Microsoft.EntityFrameworkCore;
@@ -42,12 +43,25 @@ using MetroSystem.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
+=======
+﻿using MetroSystem.Data.Interface;
+using MetroSystem.Data.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+>>>>>>> e644d97 (Adjust the Admin Pages)
 using System.Threading.Tasks;
 
 namespace MetroSystem.Data.Repositories
 {
     public class AdminRepositories : IAdminRepositories
     {
+<<<<<<< HEAD
+=======
+
+>>>>>>> e644d97 (Adjust the Admin Pages)
         private readonly MetroSystemContext _context;
 
         public AdminRepositories(MetroSystemContext context)
@@ -60,7 +74,11 @@ namespace MetroSystem.Data.Repositories
             var user = await GetEmailIdAsync(email);
             if (user != null)
             {
+<<<<<<< HEAD
                 user.Status = status;
+=======
+                user.Status = status ? true : false; // Khi True thì status = 1, khi False thì status = 2
+>>>>>>> e644d97 (Adjust the Admin Pages)
                 await _context.SaveChangesAsync();
             }
         }
@@ -69,6 +87,7 @@ namespace MetroSystem.Data.Repositories
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
+<<<<<<< HEAD
        
         public async Task<List<User>> GetAllUsersAsync()
         {
@@ -77,3 +96,8 @@ namespace MetroSystem.Data.Repositories
     }
 }
 
+=======
+
+    }
+}
+>>>>>>> e644d97 (Adjust the Admin Pages)

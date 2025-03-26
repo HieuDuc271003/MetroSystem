@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿//using MetroSystem.Data.Enities;
 //using MetroSystem.Service.Interface;
 //using Microsoft.AspNetCore.Authorization;
@@ -40,11 +41,21 @@ using MetroSystem.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+=======
+﻿using MetroSystem.Data.Enities;
+using MetroSystem.Service.Interface;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+>>>>>>> e644d97 (Adjust the Admin Pages)
 
 namespace MetroSystem.Controllers
 {
     [ApiController]
     [Route("api/admin")]
+<<<<<<< HEAD
+=======
+   // [Authorize(Roles = "Admin")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
     public class AdminController : Controller
     {
         private readonly IAdminService _adminService;
@@ -54,9 +65,14 @@ namespace MetroSystem.Controllers
             _adminService = adminService;
         }
 
+<<<<<<< HEAD
         //[HttpPut("Update-User-Status")]
         [HttpPut("users/{email}/status")]
         [Authorize(Roles = "R4")]
+=======
+
+        [HttpPut("Update-User-Status")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> SetUserStatus([FromBody] UpdateUserStatusRequest request)
         {
             var result = await _adminService.SetUserStatusAsync(request.Email, request.Status);
@@ -67,6 +83,7 @@ namespace MetroSystem.Controllers
 
             return Ok(new { Message = "Cập nhật trạng thái thành công" });
         }
+<<<<<<< HEAD
 
         [HttpGet("users")]
         [Authorize(Roles = "R4")]
@@ -75,5 +92,7 @@ namespace MetroSystem.Controllers
             var users = await _adminService.GetAllUsersAsync();
             return Ok(users);
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

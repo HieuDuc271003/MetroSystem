@@ -1,6 +1,9 @@
 ﻿using MetroSystem.Data.Interface;
 using MetroSystem.Data.Models;
+<<<<<<< HEAD
 using MetroSystem.Data.Repositories;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 using MetroSystem.Data.RequestModel.ScheduleModel;
 using MetroSystem.Service.Interface;
 using System;
@@ -59,10 +62,13 @@ namespace MetroSystem.Service.Service
                 DepartureTime = s.DepartureTime
             }).ToList();
         }
+<<<<<<< HEAD
 
         public async Task<bool> DeleteScheduleByIdAsync(string ScheduleId)
         {
             return await _scheduleRepository.DeleteScheduleByIdAsync(ScheduleId);
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

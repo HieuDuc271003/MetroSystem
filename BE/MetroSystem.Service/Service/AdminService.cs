@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿//using MetroSystem.Data.Interface;
 //using MetroSystem.Service.Interface;
 //using Microsoft.Extensions.Configuration;
@@ -45,6 +46,15 @@ using MetroSystem.Service.Interface;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Linq;
+=======
+﻿using MetroSystem.Data.Interface;
+using MetroSystem.Service.Interface;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+>>>>>>> e644d97 (Adjust the Admin Pages)
 using System.Threading.Tasks;
 
 namespace MetroSystem.Service.Service
@@ -62,11 +72,16 @@ namespace MetroSystem.Service.Service
             _unitOfWork = unitOfWork;
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<bool> SetUserStatusAsync(string email, bool status)
         {
             var user = await _unitOfWork.Admin.GetEmailIdAsync(email);
             if (user == null)
             {
+<<<<<<< HEAD
                 return false;
             }
 
@@ -96,3 +111,15 @@ namespace MetroSystem.Service.Service
     }
 }
 
+=======
+                return false; // User không tồn tại
+            }
+
+            await _unitOfWork.Admin.UpdateStatusAsync(email, status);
+            await _unitOfWork.SaveChangesAsync(); // Lưu thay đổi vào DB
+
+            return true;
+        }
+    }
+}
+>>>>>>> e644d97 (Adjust the Admin Pages)

@@ -336,4 +336,7 @@ D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
 D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
 D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
 D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
+<<<<<<< HEAD
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\serviceAccount.json
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)

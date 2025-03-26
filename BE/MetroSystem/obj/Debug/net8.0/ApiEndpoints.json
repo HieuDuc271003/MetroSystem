@@ -17,6 +17,7 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroLineController",
+<<<<<<< HEAD
     "Method": "DeleteMetroLine",
     "RelativePath": "api/add-new-metro-lines/{id}",
     "HttpMethod": "DELETE",
@@ -75,6 +76,8 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroLineController",
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "Method": "GetAllMetroLines",
     "RelativePath": "api/add-new-metro-lines/get-all",
     "HttpMethod": "GET",
@@ -100,6 +103,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "MetroSystem.Controllers.AdminController",
     "Method": "GetAllUsers",
     "RelativePath": "api/admin/users",
@@ -107,12 +111,57 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+=======
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "UpdateMetroLineDetails",
+    "RelativePath": "api/add-new-metro-lines/update-line",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lineId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "requestUpdateMetroLine",
+        "Type": "MetroSystem.Data.RequestModel.MetroLineModel.RequestUpdateMetroLine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroLineController",
+    "Method": "UpdateMetroLineStatus",
+    "RelativePath": "api/add-new-metro-lines/update-status/{lineId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lineId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "ReturnTypes": []
   },
   {
     "ContainingType": "MetroSystem.Controllers.AdminController",
     "Method": "SetUserStatus",
+<<<<<<< HEAD
     "RelativePath": "api/admin/users/{email}/status",
+=======
+    "RelativePath": "api/admin/Update-User-Status",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -121,11 +170,14 @@
         "Name": "request",
         "Type": "MetroSystem.Data.Enities.UpdateUserStatusRequest",
         "IsRequired": true
+<<<<<<< HEAD
       },
       {
         "Name": "email",
         "Type": "",
         "IsRequired": true
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
       }
     ],
     "ReturnTypes": []
@@ -133,7 +185,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.AuthController",
     "Method": "GoogleLogin",
+<<<<<<< HEAD
     "RelativePath": "api/auth/login/google",
+=======
+    "RelativePath": "api/auth/google-login",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -159,7 +215,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.AuthController",
     "Method": "RefreshToken",
+<<<<<<< HEAD
     "RelativePath": "api/auth/token/refresh",
+=======
+    "RelativePath": "api/auth/refresh-token",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -175,7 +235,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BookmarkController",
     "Method": "AddBookmark",
+<<<<<<< HEAD
     "RelativePath": "api/bookmark",
+=======
+    "RelativePath": "api/bookmark/add",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -191,7 +255,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BookmarkController",
     "Method": "DeleteBookmark",
+<<<<<<< HEAD
     "RelativePath": "api/bookmark/{stationId}",
+=======
+    "RelativePath": "api/bookmark/delete/{stationId}",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -207,7 +275,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BookmarkController",
     "Method": "GetBookmarks",
+<<<<<<< HEAD
     "RelativePath": "api/bookmark/bookmarks",
+=======
+    "RelativePath": "api/bookmark/get",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -217,7 +289,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "AddBusLine",
+<<<<<<< HEAD
     "RelativePath": "api/bus-lines",
+=======
+    "RelativePath": "api/bus-lines/create",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -233,7 +309,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "GetAllBusLines",
+<<<<<<< HEAD
     "RelativePath": "api/bus-lines",
+=======
+    "RelativePath": "api/bus-lines/get-all",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -242,16 +322,28 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
+<<<<<<< HEAD
     "Method": "DeleteBusLine",
     "RelativePath": "api/bus-lines",
     "HttpMethod": "DELETE",
+=======
+    "Method": "GetBusLineByName",
+    "RelativePath": "api/bus-lines/get-by-name/{busLineName}",
+    "HttpMethod": "GET",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
+=======
+        "Name": "busLineName",
+        "Type": "System.String",
+        "IsRequired": true
+>>>>>>> e644d97 (Adjust the Admin Pages)
       }
     ],
     "ReturnTypes": []
@@ -259,7 +351,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "UpdateBusLineDetails",
+<<<<<<< HEAD
     "RelativePath": "api/bus-lines/{busLineId}",
+=======
+    "RelativePath": "api/bus-lines/update",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -267,7 +363,11 @@
       {
         "Name": "busLineId",
         "Type": "System.String",
+<<<<<<< HEAD
         "IsRequired": true
+=======
+        "IsRequired": false
+>>>>>>> e644d97 (Adjust the Admin Pages)
       },
       {
         "Name": "requestUpdateBusLine",
@@ -280,7 +380,11 @@
   {
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "UpdateBusLineStatus",
+<<<<<<< HEAD
     "RelativePath": "api/bus-lines/{busLineId}/status",
+=======
+    "RelativePath": "api/bus-lines/update-status/{busLineId}",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -299,6 +403,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "MetroSystem.Controllers.BusLineController",
     "Method": "GetBusLineByName",
     "RelativePath": "api/bus-lines/{busLineName}",
@@ -471,12 +576,25 @@
         "IsRequired": true
       }
     ],
+=======
+    "ContainingType": "MetroSystem.Controllers.FeedbackController",
+    "Method": "GetAllFeedbacks",
+    "RelativePath": "api/feedback/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "ReturnTypes": []
   },
   {
     "ContainingType": "MetroSystem.Controllers.FeedbackController",
     "Method": "CreateFeedback",
+<<<<<<< HEAD
     "RelativePath": "api/feedback",
+=======
+    "RelativePath": "api/feedback/create",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -491,6 +609,7 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.FeedbackController",
+<<<<<<< HEAD
     "Method": "GetAllFeedbacks",
     "RelativePath": "api/feedback",
     "HttpMethod": "GET",
@@ -503,6 +622,10 @@
     "ContainingType": "MetroSystem.Controllers.FeedbackController",
     "Method": "UpdateFeedback",
     "RelativePath": "api/feedback/{feedbackId}",
+=======
+    "Method": "UpdateFeedback",
+    "RelativePath": "api/feedback/update/{feedbackId}",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -532,6 +655,7 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroStationController",
+<<<<<<< HEAD
     "Method": "CreateStation",
     "RelativePath": "api/MetroStation",
     "HttpMethod": "POST",
@@ -585,6 +709,8 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroStationController",
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "Method": "GetAllStations",
     "RelativePath": "api/MetroStation/all",
     "HttpMethod": "GET",
@@ -611,6 +737,25 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroStationController",
+<<<<<<< HEAD
+=======
+    "Method": "CreateStation",
+    "RelativePath": "api/MetroStation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.Enities.NewFolder.MetroStationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "Method": "GetNearestStationsByAddress",
     "RelativePath": "api/MetroStation/nearest-by-address",
     "HttpMethod": "GET",
@@ -626,6 +771,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "MetroSystem.Controllers.ScheduleController",
     "Method": "AddSchedule",
     "RelativePath": "api/schedules",
@@ -661,18 +807,31 @@
     "ContainingType": "MetroSystem.Controllers.ScheduleController",
     "Method": "UpdateSchedule",
     "RelativePath": "api/schedules/{scheduleId}",
+=======
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "UpdateStation",
+    "RelativePath": "api/MetroStation/update/{stationId}",
+>>>>>>> e644d97 (Adjust the Admin Pages)
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
         "Name": "scheduleId",
+=======
+        "Name": "stationId",
+>>>>>>> e644d97 (Adjust the Admin Pages)
         "Type": "System.String",
         "IsRequired": true
       },
       {
         "Name": "request",
+<<<<<<< HEAD
         "Type": "MetroSystem.Data.RequestModel.ScheduleModel.RequestUpdateSchedule",
+=======
+        "Type": "MetroSystem.Data.Enities.MetroStationMod.UpdateMetroStationDto",
+>>>>>>> e644d97 (Adjust the Admin Pages)
         "IsRequired": true
       }
     ],
@@ -693,5 +852,45 @@
       }
     ],
     "ReturnTypes": []
+<<<<<<< HEAD
+=======
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "AddSchedule",
+    "RelativePath": "api/schedules/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.ScheduleModel.RequestCreateSchedule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "UpdateSchedule",
+    "RelativePath": "api/schedules/update/{scheduleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scheduleId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.ScheduleModel.RequestUpdateSchedule",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+>>>>>>> e644d97 (Adjust the Admin Pages)
   }
 ]

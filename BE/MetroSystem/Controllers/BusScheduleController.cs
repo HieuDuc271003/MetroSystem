@@ -3,7 +3,10 @@ using MetroSystem.Data.RequestModel.BusScheduleModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+<<<<<<< HEAD
 using MetroSystem.Service.Service;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 
 namespace MetroSystem.Controllers
 {
@@ -18,8 +21,12 @@ namespace MetroSystem.Controllers
             _busScheduleService = busScheduleService;
         }
 
+<<<<<<< HEAD
         //[HttpPost("create")]
         [HttpPost]
+=======
+        [HttpPost("create")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
 
         public async Task<IActionResult> AddBusSchedule([FromBody] RequestCreateBusSchedule request)
@@ -37,8 +44,12 @@ namespace MetroSystem.Controllers
             return StatusCode(500, "Failed to create bus schedule.");
         }
 
+<<<<<<< HEAD
         //[HttpPut("update/{scheduleId}")]
         [HttpPut("{scheduleId}")]
+=======
+        [HttpPut("update/{scheduleId}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateBusSchedule(string scheduleId, [FromBody] RequestUpdateBusSchedule request)
         {
@@ -71,6 +82,7 @@ namespace MetroSystem.Controllers
             }
             return Ok(schedules);
         }
+<<<<<<< HEAD
 
         [HttpDelete("{id}")]
         [Authorize(Roles = "R3")]
@@ -81,5 +93,7 @@ namespace MetroSystem.Controllers
 
             return Ok(new { message = "Delete successfull!" });
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

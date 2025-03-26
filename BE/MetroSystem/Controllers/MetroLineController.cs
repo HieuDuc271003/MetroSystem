@@ -12,7 +12,10 @@ using MetroSystem.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using MetroSystem.Service.Service;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 
 namespace MetroSystem.Controllers
 {
@@ -44,8 +47,12 @@ namespace MetroSystem.Controllers
             return Ok("Metro line added successfully.");
         }
 
+<<<<<<< HEAD
         //[HttpPut("update-status/{lineId}")]
         [HttpPut("{lineId}/status")]
+=======
+        [HttpPut("update-status/{lineId}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateMetroLineStatus(string lineId, [FromBody] bool status)
         {
@@ -54,8 +61,12 @@ namespace MetroSystem.Controllers
             return Ok("Metro line status updated successfully.");
         }
 
+<<<<<<< HEAD
         //[HttpPut("update-line")]
         [HttpPut("{lineId}")]
+=======
+        [HttpPut("update-line")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateMetroLineDetails(string lineId, [FromBody] RequestUpdateMetroLine requestUpdateMetroLine)
         {
@@ -81,6 +92,7 @@ namespace MetroSystem.Controllers
             return Ok(metroLine);
         }
 
+<<<<<<< HEAD
         [HttpDelete("{id}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> DeleteMetroLine(string id)
@@ -91,6 +103,8 @@ namespace MetroSystem.Controllers
             return Ok(new { message = "Delete successfull!" });
         }
 
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 
     }
 }

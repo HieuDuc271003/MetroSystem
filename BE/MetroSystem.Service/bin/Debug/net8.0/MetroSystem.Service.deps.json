@@ -938,7 +938,11 @@
         },
         "runtime": {
           "MetroSystem.Data.dll": {
+<<<<<<< HEAD
             "assemblyVersion": "1.0.0.0",
+=======
+            "assemblyVersion": "1.0.0",
+>>>>>>> e644d97 (Adjust the Admin Pages)
             "fileVersion": "1.0.0.0"
           }
         }

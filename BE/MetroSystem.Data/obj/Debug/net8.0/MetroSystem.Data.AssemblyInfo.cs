@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetroSystem.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec5f17122f8098578890d1ce27591627c61e1f6")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2251f747bb1b33dbb4fba3903ac1d7d72f5c437")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
 [assembly: System.Reflection.AssemblyProductAttribute("MetroSystem.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetroSystem.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

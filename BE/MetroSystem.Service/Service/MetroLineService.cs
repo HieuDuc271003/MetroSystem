@@ -11,7 +11,10 @@ using MetroSystem.Data.Models;
 using MetroSystem.RequestModel.MetroLineModel;
 using MetroSystem.Data.RequestModel.MetroLineModel;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using MetroSystem.Data.Repositories;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 
 namespace MetroSystem.Service.Service
 {
@@ -92,10 +95,13 @@ namespace MetroSystem.Service.Service
             };
         }
 
+<<<<<<< HEAD
         public async Task<bool> DeleteMetroLineByIdAsync(string LineId)
         {
             return await _unitOfWork.MetroLine.DeleteMetroLineByIdAsync(LineId);
         }
 
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

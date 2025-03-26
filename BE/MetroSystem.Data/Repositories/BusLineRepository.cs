@@ -36,6 +36,7 @@ namespace MetroSystem.Data.Repositories
         {
             return await _context.BusLines.FirstOrDefaultAsync(b => b.BusLineName == busLineName);
         }
+<<<<<<< HEAD
         public async Task<bool> DeleteBusLineByIdAsync(string busLineId)
         {
             var busLine = await _context.BusLines.FindAsync(busLineId);
@@ -45,5 +46,7 @@ namespace MetroSystem.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

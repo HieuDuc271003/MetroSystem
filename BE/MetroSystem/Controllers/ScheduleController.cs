@@ -1,6 +1,9 @@
 ﻿using MetroSystem.Data.RequestModel.ScheduleModel;
 using MetroSystem.Service.Interface;
+<<<<<<< HEAD
 using MetroSystem.Service.Service;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -18,7 +21,11 @@ namespace MetroSystem.Controllers
             _scheduleService = scheduleService;
         }
 
+<<<<<<< HEAD
         [HttpPost]
+=======
+        [HttpPost("create")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> AddSchedule([FromBody] RequestCreateSchedule request)
         {
@@ -36,7 +43,11 @@ namespace MetroSystem.Controllers
             return Ok("Schedule created successfully.");
         }
 
+<<<<<<< HEAD
         [HttpPut("{scheduleId}")]
+=======
+        [HttpPut("update/{scheduleId}")]
+>>>>>>> e644d97 (Adjust the Admin Pages)
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> UpdateSchedule(string scheduleId, [FromBody] RequestUpdateSchedule request)
         {
@@ -71,6 +82,7 @@ namespace MetroSystem.Controllers
             return Ok(schedules);
         }
 
+<<<<<<< HEAD
         [HttpDelete("{id}")]
         [Authorize(Roles = "R3")]
         public async Task<IActionResult> DeleteSchedule(string id)
@@ -81,5 +93,7 @@ namespace MetroSystem.Controllers
             return Ok(new { message = "Delete successfull!" });
         }
 
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

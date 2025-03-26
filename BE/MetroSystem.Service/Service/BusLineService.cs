@@ -1,6 +1,9 @@
 ﻿using MetroSystem.Data.Interface;
 using MetroSystem.Data.Models;
+<<<<<<< HEAD
 using MetroSystem.Data.Repositories;
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
 using MetroSystem.Data.RequestModel.BusLineModel;
 using MetroSystem.Service.Interface;
 using System.Threading.Tasks;
@@ -81,9 +84,12 @@ namespace MetroSystem.Service.Service
                 Status = busLine.Status
             };
         }
+<<<<<<< HEAD
         public async Task<bool> DeleteBusLineByIdAsync(string busLineId)
         {
             return await _unitOfWork.BusLine.DeleteBusLineByIdAsync(busLineId);
         }
+=======
+>>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }
