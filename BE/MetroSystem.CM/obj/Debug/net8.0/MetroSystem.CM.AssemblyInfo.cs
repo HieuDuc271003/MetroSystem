@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MetroSystem.CM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e261a6e809eb394f2ef40adea8b08c0f4a60d43")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2251f747bb1b33dbb4fba3903ac1d7d72f5c437")]
->>>>>>> e644d97 (Adjust the Admin Pages)
 [assembly: System.Reflection.AssemblyProductAttribute("MetroSystem.CM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MetroSystem.CM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
