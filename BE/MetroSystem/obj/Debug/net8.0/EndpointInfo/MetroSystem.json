@@ -58,6 +58,37 @@
         }
       }
     },
+    "/api/admin/Newstaff": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateStaff"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateStaff"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateStaff"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/auth/login/google": {
       "post": {
         "tags": [
@@ -125,6 +156,37 @@
         "tags": [
           "Auth"
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -1075,6 +1137,16 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/schedules/{scheduleId}": {
@@ -1235,6 +1307,20 @@
         },
         "additionalProperties": false
       },
+      "LoginModel": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "MetroStationDto": {
         "type": "object",
         "properties": {
@@ -1360,6 +1446,24 @@
           "departureTime": {
             "type": "string",
             "format": "time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestCreateStaff": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -8,5 +8,7 @@ namespace MetroSystem.Service.Interface
     {
         Task<bool> SetUserStatusAsync(string email, bool status);
         Task<List<ResponseUserModel>> GetAllUsersAsync(); 
+        Task<ResponseUserModel> CreateStaffAsync(RequestCreateStaff request);
+
     }
 }

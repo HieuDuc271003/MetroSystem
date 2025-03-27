@@ -89,5 +89,24 @@ namespace MetroSystem.Service.Service
 
             return true;
         }
+        public async Task<(User user, string jwtToken, string refreshToken)> AuthenticateWithEmailAsync(string email, string password)
+        {
+            var user = await _authenticationRepository.GetByEmailAsync(email);
+            if (user == null || user.Password != password) // TODO: Hash password in production
+            {
+                return (null, null, null);
+            }
+
+            // ✅ Tạo token
+            var jwtToken = _tokenService.GenerateJwtToken(user);
+            var refreshToken = _tokenService.GenerateRefreshToken();
+
+            // ✅ Cập nhật Refresh Token vào database
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiry = DateTime.UtcNow.AddDays(7);
+            await _authenticationRepository.UpdateUserAsync(user);
+
+            return (user, jwtToken, refreshToken);
+        }
     }
 }

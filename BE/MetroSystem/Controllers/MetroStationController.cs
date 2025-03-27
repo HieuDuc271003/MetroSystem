@@ -66,12 +66,6 @@ namespace MetroSystem.Controllers
             return Ok(result.Station);
         }
 
-        //[HttpGet("nearest")]
-        //public async Task<IActionResult> GetNearestStations([FromQuery] double latitude, [FromQuery] double longitude)
-        //{
-        //    var stations = await _metroStationService.GetNearestStationsAsync(latitude, longitude);
-        //    return Ok(stations);
-        //}
 
         [HttpGet("nearest-by-address")]
         public async Task<IActionResult> GetNearestStationsByAddress([FromQuery] string address)

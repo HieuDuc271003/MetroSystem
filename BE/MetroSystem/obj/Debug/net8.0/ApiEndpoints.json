@@ -101,6 +101,22 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.AdminController",
+    "Method": "CreateStaff",
+    "RelativePath": "api/admin/Newstaff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MetroSystem.Data.RequestModel.ResponseUserModel.RequestCreateStaff",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.AdminController",
     "Method": "GetAllUsers",
     "RelativePath": "api/admin/users",
     "HttpMethod": "GET",
@@ -125,6 +141,22 @@
       {
         "Name": "email",
         "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "MetroSystem.Data.Enities.LoginModel",
         "IsRequired": true
       }
     ],
@@ -639,6 +671,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.ScheduleController",
+    "Method": "GetAllSchedules",
+    "RelativePath": "api/schedules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

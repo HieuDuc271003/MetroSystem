@@ -9,5 +9,8 @@ namespace MetroSystem.Service.Interface
         Task<bool> UpdateScheduleAsync(string scheduleId, RequestUpdateSchedule request);
         Task<List<ResponseScheduleModel>> GetSchedulesByStationNameAsync(string stationName);
         Task<bool> DeleteScheduleByIdAsync(string ScheduleId);
+
+        Task<List<ResponseScheduleModel>> GetAllSchedulesAsync();
+
     }
 }

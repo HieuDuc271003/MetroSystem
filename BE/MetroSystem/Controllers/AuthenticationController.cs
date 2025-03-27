@@ -103,6 +103,33 @@ namespace MetroSystem.Controllers
             return Ok(new { Message = "Đăng xuất thành công." });
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginModel model)
+        {
+            if (model == null || string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+            {
+                return BadRequest(new { Message = "Vui lòng nhập email và mật khẩu" });
+            }
 
+            var (user, jwtToken, refreshToken) = await _authenticationService.AuthenticateWithEmailAsync(model.Email, model.Password);
+            if (user == null)
+            {
+                return Unauthorized(new { Message = "Email hoặc mật khẩu không đúng" });
+            }
+
+            return Ok(new
+            {
+                Message = "Đăng nhập thành công",
+                User = new
+                {
+                    user.UserId,
+                    user.Name,
+                    user.Email,
+                    user.RoleId
+                },
+                Token = jwtToken,
+                RefreshToken = refreshToken
+            });
+        }
     }
 }

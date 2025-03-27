@@ -8,6 +8,9 @@ namespace MetroSystem.Data.Interface
     {
         Task UpdateStatusAsync(string email, bool status);
         Task<User> GetEmailIdAsync(string email);
-        Task<List<User>> GetAllUsersAsync(); 
+        Task<List<User>> GetAllUsersAsync();
+
+        Task AddUserAsync(User user);
+
     }
 }

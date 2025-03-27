@@ -64,5 +64,18 @@ namespace MetroSystem.Service.Service
         {
             return await _scheduleRepository.DeleteScheduleByIdAsync(ScheduleId);
         }
+
+        public async Task<List<ResponseScheduleModel>> GetAllSchedulesAsync()
+        {
+            var schedules = await _scheduleRepository.GetAllSchedulesAsync();
+            return schedules.Select(s => new ResponseScheduleModel
+            {
+                ScheduleId = s.ScheduleId,
+                LineName = s.Line.LineName,
+                StationName = s.Station.StationName,
+                ArrivalTime = s.ArrivalTime,
+                DepartureTime = s.DepartureTime
+            }).ToList();
+        }
     }
 }

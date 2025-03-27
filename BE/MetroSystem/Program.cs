@@ -11,6 +11,7 @@ using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using System.Text.Json.Serialization;
 using MetroSystem.Service.Service;
+using StackExchange.Redis;
 namespace MetroSystem
 {
     public class Program
@@ -85,6 +86,20 @@ namespace MetroSystem
             new string[] { }
         }
     });
+            });
+
+            builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+            {
+                var redisConfig = builder.Configuration.GetSection("Redis:ConnectionString").Value;
+                Console.WriteLine($"Redis Connection: {redisConfig}");
+                return ConnectionMultiplexer.Connect(redisConfig); 
+            });
+
+
+            builder.Services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = builder.Configuration["Redis:ConnectionString"];
+
             });
 
             // Cấu hình JWT

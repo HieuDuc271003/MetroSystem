@@ -81,5 +81,19 @@ namespace MetroSystem.Controllers
             return Ok(new { message = "Delete successfull!" });
         }
 
+        [HttpGet]
+        [Authorize(Roles = "R3")]
+        public async Task<IActionResult> GetAllSchedules()
+        {
+            var schedules = await _scheduleService.GetAllSchedulesAsync();
+            if (schedules == null || schedules.Count == 0)
+            {
+                return NotFound("No schedules found.");
+            }
+
+            return Ok(schedules);
+        }
+
+
     }
 }

@@ -10,5 +10,7 @@ namespace MetroSystem.Data.Interface
         Task<bool> UpdateScheduleAsync(Schedule schedule);
         Task<List<Schedule>> GetSchedulesByStationNameAsync(string stationName);
         Task<bool> DeleteScheduleByIdAsync(string ScheduleId);
+        Task<List<Schedule>> GetAllSchedulesAsync();
+
     }
 }
