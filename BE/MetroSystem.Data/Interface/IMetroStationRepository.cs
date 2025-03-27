@@ -15,10 +15,7 @@ namespace MetroSystem.Service.Interface
         Task<bool> SaveChangesAsync();
 
         Task<MetroStation> GetByIdAsync(string stationId);
-<<<<<<< HEAD
         Task<bool> DeleteMetroStationByIdAsync(string StationId);
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
 
 
     }

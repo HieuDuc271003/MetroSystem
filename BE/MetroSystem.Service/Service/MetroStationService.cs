@@ -2,10 +2,12 @@
 using MetroSystem.Data.Enities.NewFolder;
 using MetroSystem.Data.Models;
 using MetroSystem.Service.Interface;
+using Microsoft.Extensions.Caching.Distributed;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace MetroSystem.Service.Service
@@ -14,42 +16,77 @@ namespace MetroSystem.Service.Service
     {
         private readonly IMetroStationRepository _metroStationRepository;
         private readonly IGeocodingService _geocodingService;
+        private readonly IDistributedCache _cache;
 
-        public MetroStationService(IMetroStationRepository metroStationRepository, IGeocodingService geocodingService)
+        public MetroStationService(IMetroStationRepository metroStationRepository, IGeocodingService geocodingService, IDistributedCache cache)
         {
             _metroStationRepository = metroStationRepository;
             _geocodingService = geocodingService;   
+            _cache = cache;
         }
 
         public async Task<IEnumerable<MetroStationResponseDto>> GetAllStationsAsync()
         {
+            string cacheKey = "all_metro_stations";
+            var cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData)) // 🔹 Kiểm tra dữ liệu cache
+            {
+                return JsonSerializer.Deserialize<IEnumerable<MetroStationResponseDto>>(cachedData);
+            }
+
             var stations = await _metroStationRepository.GetAllAsync();
-            return stations.Select(station => new MetroStationResponseDto
+            var stationDtos = stations.Select(station => new MetroStationResponseDto
             {
                 StationId = station.StationId,
                 StationName = station.StationName,
                 LineId = station.LineId,
                 Location = station.Location,
                 Status = (bool)station.Status
-            });
+            }).ToList();
+            var cacheOptions = new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
+            };
+
+            await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(stationDtos), cacheOptions);
+
+            return stationDtos;
         }
 
         public async Task<(bool IsSuccess, string Message, MetroStationResponseDto Station)> GetStationByNameAsync(string stationName) // 🔹 Đổi từ GetByIdAsync thành GetByStationNameAsync
         {
+            string cacheKey = $"metro_station_{stationName}";
+            var cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData)) // 🔹 Kiểm tra dữ liệu cache
+            {
+                return (true, "Retrieved from cache.", JsonSerializer.Deserialize<MetroStationResponseDto>(cachedData));
+            }
+
             var station = await _metroStationRepository.GetByStationNameAsync(stationName);
             if (station == null)
             {
                 return (false, "Metro station not found.", null);
             }
 
-            return (true, "Metro station retrieved successfully.", new MetroStationResponseDto
+            var stationDto = new MetroStationResponseDto
             {
                 StationId = station.StationId,
                 StationName = station.StationName,
                 LineId = station.LineId,
                 Location = station.Location,
                 Status = (bool)station.Status
-            });
+            };
+            // 🔹 Lưu vào cache với thời gian sống là 10 phút
+            var cacheOptions = new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
+            };
+
+            await _cache.SetStringAsync(cacheKey, JsonSerializer.Serialize(stationDto), cacheOptions);
+
+            return (true, "Metro station retrieved successfully.", stationDto);
         }
 
         public async Task<(bool IsSuccess, string Message, MetroStationResponseDto Station)> CreateStationAsync(MetroStationDto request)
@@ -68,6 +105,7 @@ namespace MetroSystem.Service.Service
                 await _metroStationRepository.AddAsync(newStation);
                 await _metroStationRepository.SaveChangesAsync();
 
+                await _cache.RemoveAsync("all_metro_stations");
                 return (true, "Metro station added successfully.", new MetroStationResponseDto
                 {
                     StationId = newStation.StationId,
@@ -97,6 +135,9 @@ namespace MetroSystem.Service.Service
             station.Status = request.Status ?? station.Status;
 
             await _metroStationRepository.SaveChangesAsync();
+            await _cache.RemoveAsync("all_metro_stations");
+            await _cache.RemoveAsync($"metro_station_{station.StationName}");
+
 
             return (true, "Metro station updated successfully.", new MetroStationResponseDto
             {
@@ -164,13 +205,11 @@ namespace MetroSystem.Service.Service
         {
             return degrees * (Math.PI / 180);
         }
-<<<<<<< HEAD
 
         public async Task<bool> DeleteMetroStationByIdAsync(string StationId)
         {
             return await _metroStationRepository.DeleteMetroStationByIdAsync(StationId);
+
         }
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

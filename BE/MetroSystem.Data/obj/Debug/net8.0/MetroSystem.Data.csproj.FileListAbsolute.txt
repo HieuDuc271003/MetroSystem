@@ -102,3 +102,18 @@ D:\New folder\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\refint\MetroSyste
 D:\New folder\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.pdb
 D:\New folder\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.genruntimeconfig.cache
 D:\New folder\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\ref\MetroSystem.Data.dll
+D:\Main\MetroSystem\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.deps.json
+D:\Main\MetroSystem\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.runtimeconfig.json
+D:\Main\MetroSystem\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.dll
+D:\Main\MetroSystem\BE\MetroSystem.Data\bin\Debug\net8.0\MetroSystem.Data.pdb
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.csproj.AssemblyReference.cache
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.AssemblyInfoInputs.cache
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.AssemblyInfo.cs
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.csproj.CoreCompileInputs.cache
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.sourcelink.json
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.dll
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\refint\MetroSystem.Data.dll
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.pdb
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\MetroSystem.Data.genruntimeconfig.cache
+D:\Main\MetroSystem\BE\MetroSystem.Data\obj\Debug\net8.0\ref\MetroSystem.Data.dll

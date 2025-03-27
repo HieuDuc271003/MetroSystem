@@ -17,10 +17,7 @@ namespace MetroSystem.Service.Interface
         Task<bool> UpdateMetroLineDetailsAsync(string lineId, RequestUpdateMetroLine requestUpdateMetroLine);
         Task<IEnumerable<ResponseMetroLineModel>> GetAllMetroLinesAsync();
         Task<ResponseMetroLineModel?> GetMetroLineByNameAsync(string lineName);
-<<<<<<< HEAD
         Task<bool> DeleteMetroLineByIdAsync(string LineId);
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
 
     }
 }

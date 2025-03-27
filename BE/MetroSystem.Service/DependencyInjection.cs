@@ -22,6 +22,7 @@ namespace MetroSystem.Data
             service.AddScoped<IBookmarkService, BookmarkService>();
             service.AddScoped<IScheduleService, ScheduleService>();
             service.AddHttpClient<IGeocodingService, GeocodingService>();
+            service.AddScoped<IRedisService, RedisService>();
             return service;
         }
     }

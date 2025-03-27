@@ -5,16 +5,11 @@
     "version": "v1"
   },
   "paths": {
-<<<<<<< HEAD
     "/api/admin/users/{email}/status": {
-=======
-    "/api/admin/Update-User-Status": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "put": {
         "tags": [
           "Admin"
         ],
-<<<<<<< HEAD
         "parameters": [
           {
             "name": "email",
@@ -25,8 +20,6 @@
             }
           }
         ],
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
         "requestBody": {
           "content": {
             "application/json": {
@@ -53,7 +46,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/admin/users": {
       "get": {
         "tags": [
@@ -66,10 +58,38 @@
         }
       }
     },
+    "/api/admin/Newstaff": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateStaff"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateStaff"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestCreateStaff"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/auth/login/google": {
-=======
-    "/api/auth/google-login": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "Auth"
@@ -100,11 +120,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/auth/token/refresh": {
-=======
-    "/api/auth/refresh-token": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "Auth"
@@ -147,11 +163,38 @@
         }
       }
     },
-<<<<<<< HEAD
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/bookmark": {
-=======
-    "/api/bookmark/add": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "Bookmark"
@@ -182,11 +225,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/bookmark/bookmarks": {
-=======
-    "/api/bookmark/get": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "get": {
         "tags": [
           "Bookmark"
@@ -198,11 +237,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/bookmark/{stationId}": {
-=======
-    "/api/bookmark/delete/{stationId}": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "delete": {
         "tags": [
           "Bookmark"
@@ -224,11 +259,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/bus-lines": {
-=======
-    "/api/bus-lines/create": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "BusLine"
@@ -257,94 +288,7 @@
             "description": "OK"
           }
         }
-<<<<<<< HEAD
       },
-=======
-      }
-    },
-    "/api/bus-lines/update-status/{busLineId}": {
-      "put": {
-        "tags": [
-          "BusLine"
-        ],
-        "parameters": [
-          {
-            "name": "busLineId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "boolean"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "boolean"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "type": "boolean"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/bus-lines/update": {
-      "put": {
-        "tags": [
-          "BusLine"
-        ],
-        "parameters": [
-          {
-            "name": "busLineId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RequestUpdateBusLine"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/RequestUpdateBusLine"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/RequestUpdateBusLine"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/bus-lines/get-all": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "get": {
         "tags": [
           "BusLine"
@@ -354,7 +298,6 @@
             "description": "OK"
           }
         }
-<<<<<<< HEAD
       },
       "delete": {
         "tags": [
@@ -459,11 +402,6 @@
       }
     },
     "/api/bus-lines/{busLineName}": {
-=======
-      }
-    },
-    "/api/bus-lines/get-by-name/{busLineName}": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "get": {
         "tags": [
           "BusLine"
@@ -485,7 +423,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/BusSchedule": {
       "post": {
         "tags": [
@@ -760,9 +697,6 @@
       }
     },
     "/api/feedback": {
-=======
-    "/api/feedback/create": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "Feedback"
@@ -791,13 +725,7 @@
             "description": "OK"
           }
         }
-<<<<<<< HEAD
       },
-=======
-      }
-    },
-    "/api/feedback/all": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "get": {
         "tags": [
           "Feedback"
@@ -821,11 +749,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/feedback/{feedbackId}": {
-=======
-    "/api/feedback/update/{feedbackId}": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "put": {
         "tags": [
           "Feedback"
@@ -897,11 +821,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/add-new-metro-lines/{lineId}/status": {
-=======
-    "/api/add-new-metro-lines/update-status/{lineId}": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "put": {
         "tags": [
           "MetroLine"
@@ -942,11 +862,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/add-new-metro-lines/{lineId}": {
-=======
-    "/api/add-new-metro-lines/update-line": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "put": {
         "tags": [
           "MetroLine"
@@ -954,12 +870,8 @@
         "parameters": [
           {
             "name": "lineId",
-<<<<<<< HEAD
             "in": "path",
             "required": true,
-=======
-            "in": "query",
->>>>>>> e644d97 (Adjust the Admin Pages)
             "schema": {
               "type": "string"
             }
@@ -1025,7 +937,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/add-new-metro-lines/{id}": {
       "delete": {
         "tags": [
@@ -1048,8 +959,6 @@
         }
       }
     },
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     "/api/MetroStation/all": {
       "get": {
         "tags": [
@@ -1084,11 +993,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/MetroStation": {
-=======
-    "/api/MetroStation/create": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "MetroStation"
@@ -1119,11 +1024,7 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/MetroStation/{stationId}": {
-=======
-    "/api/MetroStation/update/{stationId}": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "put": {
         "tags": [
           "MetroStation"
@@ -1185,7 +1086,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "/api/MetroStation/{id}": {
       "delete": {
         "tags": [
@@ -1209,9 +1109,6 @@
       }
     },
     "/api/schedules": {
-=======
-    "/api/schedules/create": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "post": {
         "tags": [
           "Schedule"
@@ -1240,13 +1137,19 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
-<<<<<<< HEAD
     "/api/schedules/{scheduleId}": {
-=======
-    "/api/schedules/update/{scheduleId}": {
->>>>>>> e644d97 (Adjust the Admin Pages)
       "put": {
         "tags": [
           "Schedule"
@@ -1308,7 +1211,6 @@
           }
         }
       }
-<<<<<<< HEAD
     },
     "/api/schedules/{id}": {
       "delete": {
@@ -1331,8 +1233,6 @@
           }
         }
       }
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
   },
   "components": {
@@ -1407,6 +1307,20 @@
         },
         "additionalProperties": false
       },
+      "LoginModel": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "MetroStationDto": {
         "type": "object",
         "properties": {
@@ -1456,7 +1370,6 @@
         },
         "additionalProperties": false
       },
-<<<<<<< HEAD
       "RequestCreateBusSchedule": {
         "type": "object",
         "properties": {
@@ -1497,8 +1410,6 @@
         },
         "additionalProperties": false
       },
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
       "RequestCreateMetroLine": {
         "required": [
           "distance",
@@ -1539,6 +1450,24 @@
         },
         "additionalProperties": false
       },
+      "RequestCreateStaff": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "RequestUpdateBusLine": {
         "type": "object",
         "properties": {
@@ -1553,7 +1482,6 @@
         },
         "additionalProperties": false
       },
-<<<<<<< HEAD
       "RequestUpdateBusSchedule": {
         "type": "object",
         "properties": {
@@ -1598,8 +1526,6 @@
         },
         "additionalProperties": false
       },
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
       "RequestUpdateMetroLine": {
         "type": "object",
         "properties": {

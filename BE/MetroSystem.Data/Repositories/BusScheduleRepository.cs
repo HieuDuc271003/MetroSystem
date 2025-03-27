@@ -45,7 +45,6 @@ namespace MetroSystem.Data.Repositories
                 .Where(b => b.BusStation.BusStationName == stationName)
                 .ToListAsync();
         }
-<<<<<<< HEAD
         public async Task<bool> DeleteBusLineScheduleByIdAsync(string ScheduleId)
         {
             var busLineSchedule = await _context.BusSchedules.FindAsync(ScheduleId);
@@ -55,7 +54,5 @@ namespace MetroSystem.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

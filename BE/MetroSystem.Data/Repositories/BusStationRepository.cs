@@ -28,7 +28,6 @@ namespace MetroSystem.Data.Repositories
             return await _context.BusStations.FindAsync(stationId);
         }
 
-<<<<<<< HEAD
         public async Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status)
         {
             var station = await _context.BusStations.FindAsync(busStationId);
@@ -41,10 +40,6 @@ namespace MetroSystem.Data.Repositories
         public async Task<bool> UpdateBusStationAsync(BusStation busStation)
         {
 
-=======
-        public async Task<bool> UpdateBusStationAsync(BusStation busStation)
-        {
->>>>>>> e644d97 (Adjust the Admin Pages)
             _context.BusStations.Update(busStation);
             return await _context.SaveChangesAsync() > 0;
         }
@@ -55,7 +50,6 @@ namespace MetroSystem.Data.Repositories
                 .Where(bs => bs.BusStationName == stationName)
                 .ToListAsync();
         }
-<<<<<<< HEAD
         public async Task<bool> DeleteBusStationByIdAsync(string BusStationId)
         {
             var busStation = await _context.BusStations.FindAsync(BusStationId);
@@ -65,8 +59,6 @@ namespace MetroSystem.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
 
     }
 }

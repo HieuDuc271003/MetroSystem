@@ -15,5 +15,7 @@ namespace MetroSystem.Data.Interface
         Task AddAsync(User user);
 
         Task<User> GetByUserIdAsync(string userId);
+
+        Task UpdateUserAsync(User user);
     }
 }

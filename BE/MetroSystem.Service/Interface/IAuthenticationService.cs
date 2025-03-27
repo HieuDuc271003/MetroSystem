@@ -15,6 +15,8 @@ namespace MetroSystem.Service.Interface
     {
         Task<(User, string, string)> AuthenticateWithGoogleAsync(string firebaseUid, string email, string name);
         Task<bool> LogoutAsync(string userId);
+
+        Task<(User user, string jwtToken, string refreshToken)> AuthenticateWithEmailAsync(string email, string password);
     }
 }
  
