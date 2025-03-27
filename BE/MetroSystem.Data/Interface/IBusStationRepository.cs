@@ -12,12 +12,8 @@ namespace MetroSystem.Data.Interface
         Task<bool> AddBusStationAsync(BusStation busStation);
         Task<BusStation> GetBusStationByIdAsync(string stationId);
         Task<bool> UpdateBusStationAsync(BusStation busStation);
-<<<<<<< HEAD
         Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status);
         Task<List<BusStation>> GetBusStationsByNameAsync(string stationName);
         Task<bool> DeleteBusStationByIdAsync(string BusStationId);
-=======
-        Task<List<BusStation>> GetBusStationsByNameAsync(string stationName);
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

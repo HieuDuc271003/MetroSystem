@@ -44,7 +44,6 @@ namespace MetroSystem.Data.Repositories
         {
             return await _context.MetroStations.FindAsync(stationId);
         }
-<<<<<<< HEAD
         public async Task<bool> DeleteMetroStationByIdAsync(string StationId)
         {
             var metroStation = await _context.MetroStations.FindAsync(StationId);
@@ -54,7 +53,5 @@ namespace MetroSystem.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

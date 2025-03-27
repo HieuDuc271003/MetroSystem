@@ -71,7 +71,6 @@ namespace MetroSystem.Service.Service
                 DayType = s.DayType
             }).ToList();
         }
-<<<<<<< HEAD
 
         public async Task<bool> DeleteBusLineScheduleByIdAsync(string ScheduleId)
         {
@@ -80,7 +79,5 @@ namespace MetroSystem.Service.Service
 
 
 
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }

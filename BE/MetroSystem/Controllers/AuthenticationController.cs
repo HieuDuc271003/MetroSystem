@@ -22,12 +22,8 @@ namespace MetroSystem.Controllers
             _tokenService = tokenService;
         }
 
-<<<<<<< HEAD
         //[HttpPost("google-login")]
         [HttpPost("login/google")]
-=======
-        [HttpPost("google-login")]
->>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> GoogleLogin([FromBody] AuthenticationModel request)
         {
             try
@@ -70,12 +66,8 @@ namespace MetroSystem.Controllers
             }
         }
 
-<<<<<<< HEAD
         //[HttpPost("refresh-token")]
         [HttpPost("token/refresh")]
-=======
-        [HttpPost("refresh-token")]
->>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenModel model)
         {
             if (model == null || string.IsNullOrEmpty(model.RefreshToken))
@@ -111,6 +103,33 @@ namespace MetroSystem.Controllers
             return Ok(new { Message = "Đăng xuất thành công." });
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginModel model)
+        {
+            if (model == null || string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+            {
+                return BadRequest(new { Message = "Vui lòng nhập email và mật khẩu" });
+            }
 
+            var (user, jwtToken, refreshToken) = await _authenticationService.AuthenticateWithEmailAsync(model.Email, model.Password);
+            if (user == null)
+            {
+                return Unauthorized(new { Message = "Email hoặc mật khẩu không đúng" });
+            }
+
+            return Ok(new
+            {
+                Message = "Đăng nhập thành công",
+                User = new
+                {
+                    user.UserId,
+                    user.Name,
+                    user.Email,
+                    user.RoleId
+                },
+                Token = jwtToken,
+                RefreshToken = refreshToken
+            });
+        }
     }
 }

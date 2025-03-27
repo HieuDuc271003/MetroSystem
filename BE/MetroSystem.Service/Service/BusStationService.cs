@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 ﻿using MetroSystem.Data;
 using MetroSystem.Data.Interface;
-=======
-﻿using MetroSystem.Data.Interface;
->>>>>>> e644d97 (Adjust the Admin Pages)
 using MetroSystem.Data.Models;
 using MetroSystem.Data.RequestModel.BusStationModel;
 using MetroSystem.Service.Interface;
@@ -35,7 +31,6 @@ namespace MetroSystem.Service.Service
             return await _busStationRepository.AddBusStationAsync(newStation);
         }
 
-<<<<<<< HEAD
         public async Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status)
         {
             var existingStation = await _busStationRepository.GetBusStationByIdAsync(busStationId);
@@ -45,8 +40,6 @@ namespace MetroSystem.Service.Service
             return await _busStationRepository.UpdateBusStationAsync(existingStation);
         }
 
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
         public async Task<bool> UpdateBusStationAsync(string busStationId, RequestUpdateBusStation request)
         {
             var existingStation = await _busStationRepository.GetBusStationByIdAsync(busStationId);
@@ -71,13 +64,10 @@ namespace MetroSystem.Service.Service
                 Status = s.Status
             }).ToList();
         }
-<<<<<<< HEAD
 
         public async Task<bool> DeleteBusStationByIdAsync(string BusStationId)
         {
             return await _busStationRepository.DeleteBusStationByIdAsync(BusStationId);
         }
-=======
->>>>>>> e644d97 (Adjust the Admin Pages)
     }
 }
