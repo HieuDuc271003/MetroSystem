@@ -21,7 +21,14 @@ namespace MetroSystem.Data.Repositories
 
         public async Task<IEnumerable<MetroStation>> GetAllAsync()
         {
-            return await _context.MetroStations.ToListAsync();
+            var stations = await _context.MetroStations.ToListAsync();
+
+            foreach (var station in stations)
+            {
+                Console.WriteLine($"Station: {station.StationName}, Lat: {station.Latitude}, Long: {station.Longitude}");
+            }
+
+            return stations;
         }
 
         public async Task<MetroStation> GetByStationNameAsync(string stationName) // 🔹 Đổi từ GetByIdAsync thành GetByStationNameAsync

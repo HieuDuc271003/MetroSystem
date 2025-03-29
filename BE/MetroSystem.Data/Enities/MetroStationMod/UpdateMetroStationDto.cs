@@ -11,5 +11,9 @@ namespace MetroSystem.Data.Enities.MetroStationMod
         public string StationName { get; set; } = null!;
         public string LineId { get; set; } = null!;
         public bool? Status { get; set; }
+
+        public double ? Latitude { get; set; }
+
+        public double? Longitude { get; set; }
     }
 }

@@ -48,6 +48,8 @@ namespace MetroSystem.Service.Service
                 StationName = station.StationName,
                 LineId = station.LineId,
                 Location = station.Location,
+                Latitude = station.Latitude,
+                Longitude = station.Longitude,
                 Status = (bool)station.Status
             }).ToList();
             var cacheOptions = new DistributedCacheEntryOptions
@@ -82,6 +84,8 @@ namespace MetroSystem.Service.Service
                 StationName = station.StationName,
                 LineId = station.LineId,
                 Location = station.Location,
+                Latitude = station.Latitude,
+                Longitude = station.Longitude,
                 Status = (bool)station.Status
             };
             // 🔹 Lưu vào cache với thời gian sống là 10 phút
@@ -143,6 +147,8 @@ namespace MetroSystem.Service.Service
             station.StationName = request.StationName ?? station.StationName;
             station.LineId = request.LineId ?? station.LineId;
             station.Status = request.Status ?? station.Status;
+            station.Latitude = request.Latitude ?? station.Latitude;
+            station.Longitude = request.Longitude ?? station.Longitude;
 
             await _metroStationRepository.SaveChangesAsync();
             await _cache.RemoveAsync("all_metro_stations");
@@ -155,6 +161,8 @@ namespace MetroSystem.Service.Service
                 StationName = station.StationName,
                 LineId = station.LineId,
                 Location = station.Location,
+                Latitude = station.Latitude,
+                Longitude = station.Longitude,
                 Status = (bool)station.Status
             });
         }
