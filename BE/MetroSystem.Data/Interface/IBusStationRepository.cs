@@ -15,5 +15,6 @@ namespace MetroSystem.Data.Interface
         Task<bool> UpdateBusStationStatusAsync(string busStationId, bool status);
         Task<List<BusStation>> GetBusStationsByNameAsync(string stationName);
         Task<bool> DeleteBusStationByIdAsync(string BusStationId);
+        Task<List<BusStation>> GetAllAsync();
     }
 }

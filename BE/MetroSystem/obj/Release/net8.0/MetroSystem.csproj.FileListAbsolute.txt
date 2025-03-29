@@ -486,3 +486,8 @@ D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\refint\MetroSystem.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\MetroSystem.pdb
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\MetroSystem.genruntimeconfig.cache
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\ref\MetroSystem.dll
+D:\Main\MetroSystem\BE\MetroSystem\bin\Release\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\Main\MetroSystem\BE\MetroSystem\bin\Release\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Main\MetroSystem\BE\MetroSystem\bin\Release\net8.0\Microsoft.Extensions.Options.dll
+D:\Main\MetroSystem\BE\MetroSystem\bin\Release\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\Main\MetroSystem\BE\MetroSystem\bin\Release\net8.0\StackExchange.Redis.dll

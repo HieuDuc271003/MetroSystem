@@ -13,7 +13,12 @@ public partial class BusStation
 
     public string Location { get; set; }
 
+    public double? Latitude { get; set; }  // Chuyển sang kiểu double
+
+    public double? Longitude { get; set; } // Chuyển sang kiểu double
+
     public bool? Status { get; set; }
+
 
     public virtual ICollection<BusSchedule> BusSchedules { get; set; } = new List<BusSchedule>();
 

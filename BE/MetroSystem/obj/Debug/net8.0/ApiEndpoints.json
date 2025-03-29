@@ -643,6 +643,22 @@
   },
   {
     "ContainingType": "MetroSystem.Controllers.MetroStationController",
+    "Method": "GetNearestBusStation",
+    "RelativePath": "api/MetroStation/nearest-bus-station",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MetroSystem.Controllers.MetroStationController",
     "Method": "GetNearestStationsByAddress",
     "RelativePath": "api/MetroStation/nearest-by-address",
     "HttpMethod": "GET",
