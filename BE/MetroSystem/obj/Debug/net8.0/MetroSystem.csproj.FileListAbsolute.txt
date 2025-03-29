@@ -336,7 +336,6 @@ D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\refint\MetroSystem.dll
 D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.pdb
 D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\MetroSystem.genruntimeconfig.cache
 D:\New folder\MetroSystem\BE\MetroSystem\obj\Debug\net8.0\ref\MetroSystem.dll
-D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\serviceAccount.json
 D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.staticwebassets.endpoints.json
 D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\MetroSystem.exe
@@ -455,3 +454,8 @@ D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\StackExchange.Redis.dll
 D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Main\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem\bin\Debug\net8.0\StackExchange.Redis.dll
