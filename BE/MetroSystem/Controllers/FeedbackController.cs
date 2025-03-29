@@ -19,7 +19,7 @@ namespace MetroSystem.Controllers
 
         //[HttpPost("create")]
         [HttpPost]
-        [Authorize] // Cần xác thực
+        [Authorize(Roles = "R2")]
         public async Task<IActionResult> CreateFeedback([FromBody] FeedbackDto feedbackDto)
         {
             if (feedbackDto == null)
