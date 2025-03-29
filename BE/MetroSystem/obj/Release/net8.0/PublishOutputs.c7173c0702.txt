@@ -26,6 +26,7 @@ D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Entit
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -34,6 +35,8 @@ D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Exten
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.FileProviders.Physical.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Options.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -48,6 +51,8 @@ D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenA
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Pipelines.Sockets.Unofficial.dll
+D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\StackExchange.Redis.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Main\MetroSystem\BE\MetroSystem\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

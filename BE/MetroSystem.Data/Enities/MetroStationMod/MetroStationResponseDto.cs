@@ -12,6 +12,8 @@ namespace MetroSystem.Data.Enities.NewFolder
         public string StationName { get; set; } = null!;
         public string LineId { get; set; } = null!;
         public string Location { get; set; } = null!;
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
         public bool Status { get; set; }
     }
 

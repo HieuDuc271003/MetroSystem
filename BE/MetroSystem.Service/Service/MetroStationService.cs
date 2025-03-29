@@ -1,6 +1,8 @@
 ﻿using MetroSystem.Data.Enities.MetroStationMod;
 using MetroSystem.Data.Enities.NewFolder;
+using MetroSystem.Data.Interface;
 using MetroSystem.Data.Models;
+using MetroSystem.Data.Repositories;
 using MetroSystem.Service.Interface;
 using Microsoft.Extensions.Caching.Distributed;
 using System;
@@ -17,12 +19,16 @@ namespace MetroSystem.Service.Service
         private readonly IMetroStationRepository _metroStationRepository;
         private readonly IGeocodingService _geocodingService;
         private readonly IDistributedCache _cache;
+        private readonly IBusStationMetroRepository _busMetroRepository;
+        private readonly IBusStationRepository _busStationRepository;
 
-        public MetroStationService(IMetroStationRepository metroStationRepository, IGeocodingService geocodingService, IDistributedCache cache)
+        public MetroStationService(IMetroStationRepository metroStationRepository, IGeocodingService geocodingService, IDistributedCache cache, IBusStationMetroRepository busMetroRepository, IBusStationRepository busStationRepository)
         {
             _metroStationRepository = metroStationRepository;
             _geocodingService = geocodingService;   
             _cache = cache;
+            _busMetroRepository = busMetroRepository;
+            _busStationRepository = busStationRepository;
         }
 
         public async Task<IEnumerable<MetroStationResponseDto>> GetAllStationsAsync()
@@ -99,6 +105,8 @@ namespace MetroSystem.Service.Service
                     StationName = request.StationName,
                     LineId = request.LineId,
                     Location = request.Location,
+                    Latitude = request.Latitude,
+                    Longitude = request.Longitude,
                     Status = request.Status
                 };
 
@@ -112,6 +120,8 @@ namespace MetroSystem.Service.Service
                     StationName = newStation.StationName,
                     LineId = newStation.LineId,
                     Location = newStation.Location,
+                    Latitude= newStation.Latitude,
+                    Longitude= newStation.Longitude,
                     Status = (bool)newStation.Status
                 });
             }
@@ -180,6 +190,54 @@ namespace MetroSystem.Service.Service
                 .ToList();
 
             return nearestStations;
+        }
+
+        public async Task<MetroBusStationDto> GetNearestBusStationAsync(string stationName)
+        {
+            // Lấy thông tin ga metro
+            var metroStation = await _metroStationRepository.GetByStationNameAsync(stationName);
+            if (metroStation == null) return null;
+
+            Console.WriteLine($"Selected Metro Station: {metroStation.StationName}, Lat: {metroStation.Latitude}, Lng: {metroStation.Longitude}");
+
+            // Lấy danh sách trạm xe buýt
+            var busStations = await _busStationRepository.GetAllAsync();
+            if (!busStations.Any()) return null;
+
+            // Tính khoảng cách và tìm trạm xe buýt gần nhất
+            var nearestBusStation = busStations
+                .Select(bus => new
+                {
+                    BusStation = bus,
+                    Distance = CalculateDistance(metroStation.Latitude, metroStation.Longitude, bus.Latitude ?? 0, bus.Longitude ?? 0)
+                })
+                .OrderBy(x => x.Distance)
+                .FirstOrDefault();
+
+            if (nearestBusStation == null) return null;
+
+            Console.WriteLine($"Nearest Bus Station to {stationName}: {nearestBusStation.BusStation.BusStationName}, Distance: {nearestBusStation.Distance} km");
+
+            // Tạo bản ghi mới và lưu vào database
+            var busMetroRecord = new BusStationMetroStation
+            {
+                Id = Guid.NewGuid().ToString(),
+                BusStationId = nearestBusStation.BusStation.BusStationId,
+                MetroStationId = metroStation.StationId,
+                Distance = nearestBusStation.Distance
+            };
+
+            await _busMetroRepository.AddAsync(busMetroRecord);
+
+            // Trả về DTO
+            return new MetroBusStationDto
+            {
+                MetroStation = metroStation.StationName,
+                BusStation = nearestBusStation.BusStation.BusStationName,
+                Latitude = nearestBusStation.BusStation.Latitude ?? 0,
+                Longitude = nearestBusStation.BusStation.Longitude ?? 0,
+                Distance = nearestBusStation.Distance
+            };
         }
 
         private double CalculateDistance(double lat1, double lon1, double lat2, double lon2)

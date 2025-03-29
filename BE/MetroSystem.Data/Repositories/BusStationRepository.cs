@@ -59,6 +59,10 @@ namespace MetroSystem.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+        public async Task<List<BusStation>> GetAllAsync()
+        {
+            return await _context.BusStations.ToListAsync();
+        }
 
     }
 }

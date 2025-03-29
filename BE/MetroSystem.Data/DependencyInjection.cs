@@ -20,6 +20,7 @@ namespace MetroSystem.Data
             service.AddScoped<IFeedbackRepository, FeedbackRepository>();
             service.AddScoped<IBookmarkRepository, BookmarkRepository>();   
             service.AddScoped<IScheduleRepository, ScheduleRepository>();
+            service.AddScoped<IBusStationMetroRepository, BusStationMetroRepository>();
             return service;
         }
     }

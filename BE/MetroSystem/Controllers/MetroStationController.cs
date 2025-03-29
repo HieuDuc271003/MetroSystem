@@ -83,5 +83,18 @@ namespace MetroSystem.Controllers
 
             return Ok(new { message = "Delete successfull!" });
         }
+
+        [HttpGet("nearest-bus-station")]
+        public async Task<IActionResult> GetNearestBusStation([FromQuery] string stationName)
+        {
+            var result = await _metroStationService.GetNearestBusStationAsync(stationName);
+            if (result == null)
+            {
+                return NotFound($"No nearest bus station found for metro station '{stationName}'.");
+            }
+
+            return Ok(result);
+        }
+
     }
 }

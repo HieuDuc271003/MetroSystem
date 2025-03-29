@@ -22,3 +22,16 @@ D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\Met
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\refint\MetroSystem.CM.dll
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.pdb
 D:\Cac Ki Hoc\Spring25\SWD392\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\ref\MetroSystem.CM.dll
+D:\Main\MetroSystem\BE\MetroSystem.CM\bin\Debug\net8.0\MetroSystem.CM.deps.json
+D:\Main\MetroSystem\BE\MetroSystem.CM\bin\Debug\net8.0\MetroSystem.CM.dll
+D:\Main\MetroSystem\BE\MetroSystem.CM\bin\Debug\net8.0\MetroSystem.CM.pdb
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.csproj.AssemblyReference.cache
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.AssemblyInfoInputs.cache
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.AssemblyInfo.cs
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.csproj.CoreCompileInputs.cache
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.sourcelink.json
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.dll
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\refint\MetroSystem.CM.dll
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\MetroSystem.CM.pdb
+D:\Main\MetroSystem\BE\MetroSystem.CM\obj\Debug\net8.0\ref\MetroSystem.CM.dll

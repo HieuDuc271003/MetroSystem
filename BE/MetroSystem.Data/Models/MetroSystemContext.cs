@@ -155,13 +155,17 @@ public partial class MetroSystemContext : DbContext
                 .HasMaxLength(100);
             entity.Property(e => e.Location).HasMaxLength(255);
             entity.Property(e => e.Status).HasDefaultValue(true);
+            entity.Property(e => e.Latitude)
+        .HasColumnType("float");
+            entity.Property(e => e.Longitude)
+       .HasColumnType("float");
         });
 
         modelBuilder.Entity<BusStationMetroStation>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__BusStati__3214EC2793A08CEB");
 
-            entity.ToTable("BusStation_MetroStation");
+            entity.ToTable("BusStationMetroStation");
 
             entity.Property(e => e.Id)
                 .HasMaxLength(50)

@@ -26,6 +26,8 @@ namespace MetroSystem.Service.Service
                 BusStationId = Guid.NewGuid().ToString(),
                 BusStationName = request.BusStationName,
                 Location = request.Location,
+                Latitude = request.Latitude,
+                Longitude = request.Longitude,  
                 Status = true
             };
             return await _busStationRepository.AddBusStationAsync(newStation);

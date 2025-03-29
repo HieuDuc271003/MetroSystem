@@ -1108,6 +1108,27 @@
         }
       }
     },
+    "/api/MetroStation/nearest-bus-station": {
+      "get": {
+        "tags": [
+          "MetroStation"
+        ],
+        "parameters": [
+          {
+            "name": "stationName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/schedules": {
       "post": {
         "tags": [
@@ -1336,6 +1357,14 @@
             "type": "string",
             "nullable": true
           },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
           "status": {
             "type": "boolean"
           }
@@ -1405,6 +1434,16 @@
           },
           "location": {
             "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double",
             "nullable": true
           }
         },
